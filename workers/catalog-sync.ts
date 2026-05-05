@@ -18,7 +18,7 @@ async function runOnce() {
   const categories = catalog.categories.map((c) => ({
     slug: c.slug,
     name: c.name,
-    sort_order: c.sortOrder
+    sort_order: c.sortOrder [modified]
   }))
 
   const products = catalog.products.map((p) => ({
@@ -63,7 +63,7 @@ async function runOnce() {
       supabase.from("categories").upsert(categories, { onConflict: "slug" }),
       supabase.from("products").upsert(products, { onConflict: "id" }),
       supabase.from("journal_posts").upsert(journalPosts, { onConflict: "id" }),
-      supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" }) [modified]
+      supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
     ])
 
     for (const res of upserts) {

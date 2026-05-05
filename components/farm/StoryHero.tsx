@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -80,7 +78,7 @@ export function StoryHero() {
             aria-hidden="true"
           />
           <div className="absolute inset-0 flex items-center justify-between p-2">
-            <button
+            <button [modified]
               type="button"
               onClick={goPrev}
               aria-label="Previous slide"

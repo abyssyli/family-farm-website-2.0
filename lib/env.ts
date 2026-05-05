@@ -7,12 +7,10 @@ export function getPublicEnv() {
   const skincareUrl =
     configuredSkincareUrl &&
     configuredSkincareUrl !== "https://beakergold.com" &&
-    configuredSkincareUrl !== "https://beakergold.com/" &&
+    configuredSkincareUrl !== "https://beakergold.com/" && [modified]
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
       : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
 }
-
-// optimize code detail

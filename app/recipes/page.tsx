@@ -17,7 +17,7 @@ export default async function RecipesPage() {
           Delicious ways to enjoy our farm-fresh ingredients at home.
         </p>
       </div>
- [modified]
+
       {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
@@ -30,7 +30,7 @@ export default async function RecipesPage() {
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105" [modified]
                   />
                 </div>
                 <CardBody>

@@ -6,7 +6,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
 
-export function Modal({
+export function Modal({ [modified]
   open,
   title,
   children,
@@ -56,7 +56,7 @@ export function Modal({
             Close
           </button>
         </div>
-        <div className="px-6 py-5">{children}</div> [modified]
+        <div className="px-6 py-5">{children}</div>
       </div>
     </div>
   )

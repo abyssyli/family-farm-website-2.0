@@ -72,7 +72,7 @@ export default async function RecipeDetailPage({
                     <p className="mt-0.5 leading-relaxed">{step}</p>
                   </li>
                 ))}
-              </ol> [modified]
+              </ol>
             </CardBody>
           </Card>
         </div>
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+// optimize code detail

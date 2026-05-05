@@ -11,7 +11,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
-    "test:ui": "playwright test --ui", [modified]
+    "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },
   "dependencies": {
@@ -35,3 +35,5 @@
     "typescript": "^5.4.5"
   }
 }
+
+// task project adjust

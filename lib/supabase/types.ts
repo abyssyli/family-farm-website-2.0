@@ -363,4 +363,4 @@ export type Database = {
   }
 }
 
-/* daily modify record */
+# minor content update

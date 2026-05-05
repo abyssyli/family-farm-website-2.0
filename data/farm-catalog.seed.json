@@ -134,7 +134,7 @@
       "isActive": true
     },
     {
-      "id": "eggs-chicks",
+      "id": "eggs-chicks", [modified]
       "categorySlug": "eggs",
       "slug": "baby-chicks",
       "name": "Baby Chicks",
@@ -236,7 +236,7 @@
     },
     {
       "id": "woodcraft-stool",
-      "categorySlug": "woodcraft", [modified]
+      "categorySlug": "woodcraft",
       "slug": "handmade-stool",
       "name": "Thomas's Handmade Stool",
       "description": "A sturdy little stool with clean lines—great as a step, seat, or plant stand.",

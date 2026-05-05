@@ -27,7 +27,7 @@ export default async function AccountPage() {
         </CardBody>
       </Card>
 
-      <OrderTracker />
+      <OrderTracker /> [modified]
 
       <AddressManager />
 
@@ -35,6 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-
-
-// optimize code detail

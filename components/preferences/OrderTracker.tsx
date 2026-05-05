@@ -6,7 +6,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
 
-type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & { [modified]
+type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & {
   products: { name: string } | null
 }
 
@@ -30,7 +30,7 @@ export function OrderTracker() {
       setInquiries(data as Inquiry[])
     }
   }
-
+ [modified]
   const getStatusColor = (status: string) => {
     switch (status) {
       case "pending":

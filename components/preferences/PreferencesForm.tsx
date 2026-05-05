@@ -11,7 +11,7 @@ export function PreferencesForm({
   categories: Array<{ slug: string; name: string }>
 }) {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
-  const [userId, setUserId] = useState<string | null>(null)
+  const [userId, setUserId] = useState<string | null>(null) [modified]
   const [selected, setSelected] = useState<string[]>([])
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

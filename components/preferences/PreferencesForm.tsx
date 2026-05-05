@@ -11,7 +11,7 @@ export function PreferencesForm({
   categories: Array<{ slug: string; name: string }>
 }) {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
-  const [userId, setUserId] = useState<string | null>(null) [modified]
+  const [userId, setUserId] = useState<string | null>(null)
   const [selected, setSelected] = useState<string[]>([])
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
@@ -32,7 +32,7 @@ export function PreferencesForm({
 
   async function save() {
     if (!supabase || !userId) return
-    setStatus("saving")
+    setStatus("saving") [modified]
     await supabase.from("user_preferences").upsert({
       user_id: userId,
       preferred_categories: selected

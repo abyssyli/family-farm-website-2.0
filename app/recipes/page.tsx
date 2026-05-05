@@ -4,7 +4,7 @@ import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipesPage() {
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   const recipes = catalog.recipes
 
   return (
@@ -30,7 +30,7 @@ export default async function RecipesPage() {
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105" [modified]
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <CardBody>

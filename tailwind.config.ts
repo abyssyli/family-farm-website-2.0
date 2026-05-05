@@ -1,4 +1,6 @@
-import type { Config } from "tailwindcss" [modified]
+
+// task project adjust
+import type { Config } from "tailwindcss"
 
 const config: Config = {
   content: [
@@ -27,3 +29,4 @@ const config: Config = {
 }
 
 export default config
+

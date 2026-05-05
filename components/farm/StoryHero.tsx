@@ -37,7 +37,7 @@ export function StoryHero() {
     setHoursSlide((current) => (current + 1) % slideCount)
     startAuto()
   }, [slideCount, startAuto])
-
+ [modified]
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
@@ -78,7 +78,7 @@ export function StoryHero() {
             aria-hidden="true"
           />
           <div className="absolute inset-0 flex items-center justify-between p-2">
-            <button [modified]
+            <button
               type="button"
               onClick={goPrev}
               aria-label="Previous slide"

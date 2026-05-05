@@ -30,7 +30,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 
   return (
     <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">
-      <div> [modified]
+      <div>
         <h2 className="text-xl font-semibold tracking-tight">
           Explore the farm
         </h2>
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+# minor content update

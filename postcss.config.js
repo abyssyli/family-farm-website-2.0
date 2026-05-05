@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* minor adjust */
 module.exports = {
   plugins: {
     tailwindcss: {},

@@ -12,4 +12,4 @@ export default function NotFound() {
 }
 
 
-/* daily modify record */
+# minor content update

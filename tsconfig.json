@@ -17,7 +17,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
+    "plugins": [ [modified]
       {
         "name": "next"
       }
@@ -39,5 +39,3 @@
     "node_modules"
   ]
 }
-
-/* daily modify record */

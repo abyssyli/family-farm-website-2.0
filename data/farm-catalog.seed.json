@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -134,7 +136,7 @@
       "isActive": true
     },
     {
-      "id": "eggs-chicks", [modified]
+      "id": "eggs-chicks",
       "categorySlug": "eggs",
       "slug": "baby-chicks",
       "name": "Baby Chicks",

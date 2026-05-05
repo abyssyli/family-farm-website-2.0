@@ -92,7 +92,7 @@ export function CommentSection({
         {comments.length === 0 ? (
           <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
         ) : (
-          comments.map((comment) => (
+          comments.map((comment) => ( [modified]
             <div key={comment.id} className="flex flex-col gap-2 rounded-2xl bg-zinc-50/50 p-4">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-zinc-900">
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-/* daily modify record */

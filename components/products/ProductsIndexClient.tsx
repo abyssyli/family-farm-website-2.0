@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Link from "next/link"
@@ -38,7 +36,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [supabase])
 
   useEffect(() => {
-    if (!supabase) return
+    if (!supabase) return [modified]
     const channel = supabase
       .channel("catalog-changes")
       .on(

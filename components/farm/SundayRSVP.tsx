@@ -7,7 +7,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function SundayRSVP() {
   const { supabase, session } = useSupabaseAuth()
-  const [rsvp, setRsvp] = useState<any>(null) [modified]
+  const [rsvp, setRsvp] = useState<any>(null)
   const [adultCount, setAdultCount] = useState(1)
   const [childCount, setChildCount] = useState(0)
   const [notes, setNotes] = useState("")
@@ -107,7 +107,7 @@ export function SundayRSVP() {
               Special Notes (Dietary needs, etc.)
               <textarea
                 value={notes}
-                onChange={(e) => setNotes(e.target.value)}
+                onChange={(e) => setNotes(e.target.value)} [modified]
                 rows={2}
                 placeholder="Optional..."
                 className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"

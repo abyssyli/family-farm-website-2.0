@@ -22,6 +22,4 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
-
-
-// task project adjust
+ [modified]

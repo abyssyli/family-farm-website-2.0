@@ -17,13 +17,13 @@ export function Card({
       )}
     >
       {children}
-    </div> [modified]
+    </div>
   )
 }
 
 export function CardHeader({
   title,
-  subtitle
+  subtitle [modified]
 }: {
   title: string
   subtitle?: string | null

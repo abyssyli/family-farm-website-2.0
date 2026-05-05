@@ -78,7 +78,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
     )
-  } [modified]
+  }
 
   return (
     <div className="flex flex-col gap-8">
@@ -96,7 +96,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
-        ) : null}
+        ) : null} [modified]
       </div>
 
       <SundayRSVP />

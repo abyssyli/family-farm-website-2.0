@@ -1,3 +1,5 @@
+
+// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -12,7 +14,7 @@
       "slug": "zucchini-pancakes",
       "name": "Zucchini pancakes",
       "description": "Every Sunday, Paula's farm holds a grand family gathering with various types of delicious food. These are also available for pre-order and sale here when needed. Savory zucchini pancakes, a family gathering favorite.",
-      "imagePath": "/photos/eat1.jpg", [modified]
+      "imagePath": "/photos/eat1.jpg",
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },

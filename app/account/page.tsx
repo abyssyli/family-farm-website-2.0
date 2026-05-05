@@ -14,7 +14,7 @@ export default async function AccountPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
-        </h1>
+        </h1> [modified]
         <p className="mt-2 text-sm text-zinc-700">
           Sign in to manage your addresses, preferences, and track inquiries.
         </p>
@@ -35,6 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-
-
-// task project adjust

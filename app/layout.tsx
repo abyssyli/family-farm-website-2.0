@@ -66,4 +66,4 @@ export default function RootLayout({
   )
 }
 
-/* minor adjust */
+# minor content update

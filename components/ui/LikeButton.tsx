@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -39,7 +41,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   }
 
   async function toggleLike() {
-    if (!supabase || !session || isUpdating) return [modified]
+    if (!supabase || !session || isUpdating) return
     setIsUpdating(true)
 
     if (isLiked) {

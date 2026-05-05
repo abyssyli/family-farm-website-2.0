@@ -1,10 +1,8 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
 import { useMemo, useState } from "react"
-import { FarmRegionCard } from "./FarmRegionCard"
+import { FarmRegionCard } from "./FarmRegionCard" [modified]
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 function cn(...parts: Array<string | false | null | undefined>) {

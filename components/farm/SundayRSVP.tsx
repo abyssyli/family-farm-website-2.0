@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -27,7 +29,7 @@ export function SundayRSVP() {
   async function fetchRSVP() {
     if (!supabase || !session) return
     const { data, error } = await supabase
-      .from("sunday_rsvps") [modified]
+      .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)
       .eq("event_date", dateStr)

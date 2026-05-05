@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 "use client"
 
 import { useState } from "react"

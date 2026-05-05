@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect } from "react"
+import { useEffect } from "react" [modified]
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
@@ -61,6 +61,3 @@ export function Modal({
     </div>
   )
 }
-
-
-/* minor adjust */

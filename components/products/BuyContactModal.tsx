@@ -101,7 +101,7 @@ export function BuyContactModal({
                 className="text-xs text-farm-700 hover:underline"
               >
                 Manage addresses
-              </Link> [modified]
+              </Link>
             </div>
             {addresses.length > 0 ? (
               <select
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+// task project adjust

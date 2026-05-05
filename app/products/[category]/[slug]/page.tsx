@@ -4,9 +4,9 @@ import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
-export default async function ProductDetailPage({
+export default async function ProductDetailPage({ [modified]
   params
-}: { [modified]
+}: {
   params: { category: string; slug: string }
 }) {
   if (params.category === "skincare") {

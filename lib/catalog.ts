@@ -69,7 +69,7 @@ export async function getCatalog(): Promise<Catalog> {
         ? imagePath
         : "/photos/chicken.jpg"
     }
-    if (slug === "woodshop") {
+    if (slug === "woodshop") { [modified]
       return imagePath && imagePath.includes("/photos/Wooden") ? imagePath : "/photos/Wooden1.jpg"
     }
     return imagePath
@@ -181,6 +181,6 @@ export async function getCatalog(): Promise<Catalog> {
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions, recipes })
 }
 
-export function isExternalProduct(product: CatalogProduct) { [modified]
+export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }

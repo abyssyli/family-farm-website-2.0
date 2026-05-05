@@ -90,7 +90,7 @@ export function CommentSection({
 
       <div className="flex flex-col gap-6">
         {comments.length === 0 ? (
-          <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p> [modified]
+          <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
         ) : (
           comments.map((comment) => (
             <div key={comment.id} className="flex flex-col gap-2 rounded-2xl bg-zinc-50/50 p-4">
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+// optimize code detail

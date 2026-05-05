@@ -193,7 +193,7 @@ export function AddressManager() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             {addresses.map((address) => (
-              <div
+              <div [modified]
                 key={address.id}
                 className="flex flex-col gap-2 rounded-2xl border border-zinc-200 p-4 transition hover:shadow-md"
               >
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// update log: auto edit 01

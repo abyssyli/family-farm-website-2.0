@@ -10,7 +10,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 export function ProductDetail({
   product,
   categoryName,
-  primaryAction [modified]
+  primaryAction
 }: {
   product: CatalogProduct
   categoryName: string
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+// optimize code detail

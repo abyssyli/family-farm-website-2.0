@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect } from "react"
@@ -62,5 +64,3 @@ export function Modal({
   )
 }
 
-
-// task project adjust

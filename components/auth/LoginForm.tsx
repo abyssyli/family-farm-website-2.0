@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -29,7 +27,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       return
     }
     setStatus("sent")
-    onSuccess?.()
+    onSuccess?.() [modified]
   }
 
   if (error) {

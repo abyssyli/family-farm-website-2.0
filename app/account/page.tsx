@@ -30,8 +30,11 @@ export default async function AccountPage() {
       <OrderTracker />
 
       <AddressManager />
- [modified]
+
       <PreferencesForm categories={categories} />
     </div>
   )
 }
+
+
+/* minor adjust */

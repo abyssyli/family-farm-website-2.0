@@ -22,4 +22,4 @@ export function ProductGrid({
 }
 
 
-// task project adjust
+/* minor adjust */

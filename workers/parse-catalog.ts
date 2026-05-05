@@ -11,7 +11,7 @@ export async function loadCatalogFromSource(): Promise<{
     if (!res.ok) {
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
-    const json = await res.json()
+    const json = await res.json() [modified]
     const catalog = CatalogSchema.parse(json)
     return { catalog, sourceLabel: sourceUrl }
   }
@@ -22,4 +22,3 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
- [modified]

@@ -1,3 +1,5 @@
+
+// optimize code detail
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+1 (806) 290-4949"
@@ -10,7 +12,7 @@ export function getPublicEnv() {
     configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
-      : defaultSkincareUrl [modified]
+      : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
 }

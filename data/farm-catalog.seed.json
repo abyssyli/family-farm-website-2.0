@@ -1,3 +1,5 @@
+
+// task project adjust
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -303,5 +305,3 @@
     }
   ]
 }
-
-/* daily modify record */

@@ -4,10 +4,10 @@ import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
-  return ( [modified]
+  return (
     <Card className="overflow-hidden">
       {region.imagePath ? (
-        <div className="relative h-56 w-full sm:h-64">
+        <div className="relative h-56 w-full sm:h-64"> [modified]
           <Image
             src={region.imagePath}
             alt={region.title}

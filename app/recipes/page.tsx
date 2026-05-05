@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link" [modified]
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
@@ -40,7 +40,7 @@ export default async function RecipesPage() {
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
                   </p>
-                  <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700"> [modified]
+                  <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
                     View Recipe →
                   </p>
                 </CardBody>

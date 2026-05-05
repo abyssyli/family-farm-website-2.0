@@ -34,7 +34,7 @@ export function PreferencesForm({
     if (!supabase || !userId) return
     setStatus("saving")
     await supabase.from("user_preferences").upsert({
-      user_id: userId, [modified]
+      user_id: userId,
       preferred_categories: selected
     })
     setStatus("saved")
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+# minor content update

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -15,7 +17,7 @@ export function ErrorState({
         <div className="flex flex-col gap-3">
           <div>
             <h2 className="text-lg font-semibold text-red-900">{title}</h2>
-            <p className="mt-1 text-sm text-red-800">{message}</p> [modified]
+            <p className="mt-1 text-sm text-red-800">{message}</p>
           </div>
           {action ? <div>{action}</div> : null}
         </div>
@@ -23,3 +25,4 @@ export function ErrorState({
     </Card>
   )
 }
+

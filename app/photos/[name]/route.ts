@@ -5,7 +5,7 @@ import { NextResponse } from "next/server"
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
-    case ".jpeg":
+    case ".jpeg": [modified]
       return "image/jpeg"
     case ".png":
       return "image/png"
@@ -41,6 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
-
-// update log: auto edit 01

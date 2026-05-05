@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -44,7 +46,7 @@ export function CommentSection({
     if (!supabase || !session || !newComment.trim()) return
 
     setIsSubmitting(true)
-    const { error } = await supabase.from("comments").insert({ [modified]
+    const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
       content: newComment.trim(),
       product_id: productId || null,

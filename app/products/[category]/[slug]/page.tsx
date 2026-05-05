@@ -32,4 +32,4 @@ export default async function ProductDetailPage({
   )
 }
 
-// task project adjust
+// optimize code detail

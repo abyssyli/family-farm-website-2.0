@@ -30,7 +30,7 @@ export function ProductCard({
         <p className="mt-1 line-clamp-2 text-sm text-zinc-600">
           {product.description}
         </p>
-        <div className="mt-4 flex items-center justify-between"> [modified]
+        <div className="mt-4 flex items-center justify-between">
           <p className="text-sm font-medium text-zinc-900">
             {product.priceHint}
           </p>
@@ -60,3 +60,6 @@ export function ProductCard({
     </Card>
   )
 }
+
+
+# minor content update

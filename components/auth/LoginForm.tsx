@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState } from "react" [modified]
 import { Button } from "@/components/ui/Button"
 import { ErrorState } from "@/components/ui/ErrorState"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
@@ -15,7 +15,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
-    if (!supabase) return [modified]
+    if (!supabase) return
     setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({
       email,

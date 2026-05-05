@@ -12,7 +12,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       </h3>
       {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
-      ) : null}
+      ) : null} [modified]
       {post.publishedAt ? (
         <p className="mt-4 text-xs text-zinc-600">
           {new Date(post.publishedAt).toLocaleDateString()}
@@ -21,6 +21,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
-
-
-// task project adjust

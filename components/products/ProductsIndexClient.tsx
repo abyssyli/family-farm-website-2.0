@@ -34,7 +34,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       }
     })
   }, [supabase])
-
+ [modified]
   useEffect(() => {
     if (!supabase) return
     const channel = supabase
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// task project adjust

@@ -41,7 +41,7 @@
       "categorySlug": "food",
       "slug": "grilled-steak",
       "name": "Grilled steak",
-      "description": "Perfectly grilled steak, served during our family gatherings.",
+      "description": "Perfectly grilled steak, served during our family gatherings.", [modified]
       "imagePath": "/photos/eat4.jpg",
       "imagePaths": ["/photos/eat4.jpg", "/photos/eat5.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",
@@ -101,7 +101,7 @@
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },
-    { [modified]
+    {
       "id": "food-spam-fried-rice",
       "categorySlug": "food",
       "slug": "spam-fried-rice",

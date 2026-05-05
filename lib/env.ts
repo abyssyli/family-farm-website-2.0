@@ -12,5 +12,7 @@ export function getPublicEnv() {
       ? configuredSkincareUrl
       : defaultSkincareUrl
 
-  return { contactPhone, skincareUrl } [modified]
+  return { contactPhone, skincareUrl }
 }
+
+/* minor adjust */

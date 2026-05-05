@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -27,7 +29,7 @@ export function PreferencesForm({
         .eq("user_id", id)
         .maybeSingle()
       setSelected(pref?.preferred_categories ?? [])
-    }) [modified]
+    })
   }, [supabase])
 
   async function save() {
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

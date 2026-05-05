@@ -1,3 +1,5 @@
+
+// optimize code detail
 export type Json =
   | string
   | number
@@ -134,7 +136,7 @@ export type Database = {
           preferred_categories?: string[]
           updated_at?: string
         }
-        Update: { [modified]
+        Update: {
           user_id?: string
           preferred_categories?: string[]
           updated_at?: string

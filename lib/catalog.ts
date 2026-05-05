@@ -185,4 +185,4 @@ export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
 
-// task project adjust
+/* daily modify record */

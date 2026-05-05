@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect } from "react"
@@ -20,7 +18,7 @@ export function Modal({
   children: React.ReactNode
   onClose: () => void
   className?: string
-}) {
+}) { [modified]
   useEffect(() => {
     if (!open) return
     const onKeyDown = (e: KeyboardEvent) => {
@@ -63,4 +61,3 @@ export function Modal({
     </div>
   )
 }
-

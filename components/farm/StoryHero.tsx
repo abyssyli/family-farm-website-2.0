@@ -48,7 +48,7 @@ export function StoryHero() {
           A warm marketplace built around our family and the land we care for.
         </h1>
         <p className="mt-4 max-w-prose text-base text-zinc-700">
-          Paula is a mom of 10 and grandma to 11. She founded the Rushing [modified]
+          Paula is a mom of 10 and grandma to 11. She founded the Rushing
           homeschool and runs Paula’s farm business with a full-house kind of
           warmth. Chicken and eggs come straight from the coop, woodcraft comes
           from the family shop, and Lisa’s skincare connects to our natural, small-batch
@@ -133,7 +133,7 @@ export function StoryHero() {
           height={900}
           className="h-[320px] w-full object-cover sm:h-[420px]"
           priority
-        />
+        /> [modified]
       </div>
     </section>
   )

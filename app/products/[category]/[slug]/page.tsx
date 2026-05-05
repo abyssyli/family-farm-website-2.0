@@ -6,7 +6,7 @@ import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductDetailPage({
   params
-}: { [modified]
+}: {
   params: { category: string; slug: string }
 }) {
   if (params.category === "skincare") {
@@ -31,3 +31,5 @@ export default async function ProductDetailPage({
     />
   )
 }
+
+// update log: auto edit 01

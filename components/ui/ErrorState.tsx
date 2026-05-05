@@ -3,7 +3,7 @@ import { Card, CardBody } from "./Card"
 export function ErrorState({
   title,
   message,
-  action
+  action [modified]
 }: {
   title: string
   message: string
@@ -23,4 +23,3 @@ export function ErrorState({
     </Card>
   )
 }
- [modified]

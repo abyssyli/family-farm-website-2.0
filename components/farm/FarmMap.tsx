@@ -61,7 +61,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                       : "bg-white text-zinc-900 ring-zinc-200 hover:bg-zinc-50"
                   )}
                   style={{ left: `${r.x}%`, top: `${r.y}%` }}
-                  onClick={() => setActiveSlug(r.slug)}
+                  onClick={() => setActiveSlug(r.slug)} [modified]
                 >
                   {r.title}
                 </button>
@@ -73,7 +73,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 
       <div className="lg:mt-12">
         {active ? <FarmRegionCard region={active} /> : null}
-        <div className="mt-6 grid gap-4"> [modified]
+        <div className="mt-6 grid gap-4">
           {sorted
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)

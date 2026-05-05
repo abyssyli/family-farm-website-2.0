@@ -160,4 +160,4 @@ export function ProductDetail({
 
 
 
-/* minor adjust */
+# minor content update

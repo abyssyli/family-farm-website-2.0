@@ -84,7 +84,7 @@ export function CommentSection({
         <div className="rounded-2xl bg-zinc-50 p-6 text-center">
           <p className="text-sm text-zinc-600">
             Please sign in to leave a comment.
-          </p>
+          </p> [modified]
         </div>
       )}
 
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-// task project adjust

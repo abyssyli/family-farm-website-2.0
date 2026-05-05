@@ -15,7 +15,7 @@ export type Database = {
         Update: { slug?: string; name?: string; sort_order?: number }
         Relationships: []
       }
-      products: { [modified]
+      products: {
         Row: {
           id: string
           category_slug: string
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+// update log: auto edit 01

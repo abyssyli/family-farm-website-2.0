@@ -48,7 +48,7 @@ export function ProductDetail({
                 />
               </div>
 
-              {images.length > 1 && (
+              {images.length > 1 && ( [modified]
                 <>
                   <div className="absolute inset-y-0 left-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100">
                     <button
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// optimize code detail

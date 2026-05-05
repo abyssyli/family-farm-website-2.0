@@ -8,11 +8,11 @@ import { getCatalog } from "@/lib/catalog"
 
 export default async function JournalPostPage({
   params
-}: { [modified]
+}: {
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
-  const post = catalog.journalPosts.find((p) => p.slug === params.slug)
+  const post = catalog.journalPosts.find((p) => p.slug === params.slug) [modified]
   if (!post) notFound()
 
   return (

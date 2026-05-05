@@ -22,7 +22,7 @@ export default async function RecipeDetailPage({
             Farm Recipes
           </Link>
         </p>
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {recipe.title}
         </h1>
         <p className="mt-2 text-base text-zinc-700">
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+/* minor adjust */

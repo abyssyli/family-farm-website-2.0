@@ -42,7 +42,7 @@ export function StoryHero() {
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          Texas family farm · Chicken and Eggs · Woodcraft · Skincare [modified]
+          Texas family farm · Chicken and Eggs · Woodcraft · Skincare
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
           A warm marketplace built around our family and the land we care for.
@@ -95,7 +95,7 @@ export function StoryHero() {
                   d="M12.78 15.53a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 0 1 0-1.06l5-5a.75.75 0 1 1 1.06 1.06L8.31 10l4.47 4.47a.75.75 0 0 1 0 1.06Z"
                   clipRule="evenodd"
                 />
-              </svg>
+              </svg> [modified]
             </button>
             <button
               type="button"

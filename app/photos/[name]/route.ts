@@ -1,5 +1,3 @@
-
-# minor content update
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -20,7 +18,7 @@ function contentTypeFromExt(ext: string) {
   }
 }
 
-export async function GET(
+export async function GET( [modified]
   _request: Request,
   { params }: { params: { name: string } }
 ) {
@@ -43,4 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

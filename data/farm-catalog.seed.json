@@ -1,3 +1,5 @@
+
+/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -24,7 +26,7 @@
       "description": "Traditional savory eggs marbled with tea and spices.",
       "imagePath": "/photos/eat2.jpg",
       "priceHint": "Sunday Gathering · Pre-order available",
-      "isActive": true [modified]
+      "isActive": true
     },
     {
       "id": "food-sausage-potato-pancakes",

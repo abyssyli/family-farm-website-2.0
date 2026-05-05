@@ -130,4 +130,4 @@ export function SundayRSVP() {
   )
 }
 
-// update log: auto edit 01
+/* minor adjust */

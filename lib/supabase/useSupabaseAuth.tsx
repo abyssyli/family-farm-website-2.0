@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -30,7 +28,6 @@ export function useSupabaseAuth() {
       data.subscription.unsubscribe()
     }
   }, [supabase])
-
+ [modified]
   return { supabase, session, ready }
 }
-

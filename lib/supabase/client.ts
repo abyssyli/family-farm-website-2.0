@@ -9,4 +9,4 @@ export function createBrowserSupabaseClient() {
 }
 
 
-# minor content update
+/* minor adjust */

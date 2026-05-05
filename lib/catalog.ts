@@ -1,5 +1,3 @@
-
-# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -77,7 +75,7 @@ export async function getCatalog(): Promise<Catalog> {
     return imagePath
   }
 
-  const dbCategories = categoriesRes.data.map((c) => ({
+  const dbCategories = categoriesRes.data.map((c) => ({ [modified]
     slug: c.slug,
     name: c.name,
     sortOrder: c.sort_order

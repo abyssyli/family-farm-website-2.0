@@ -4,5 +4,8 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"]
   }
 }
- [modified]
+
 export default nextConfig
+
+
+/* daily modify record */

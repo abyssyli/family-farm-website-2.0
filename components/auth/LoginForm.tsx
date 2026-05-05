@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useState } from "react"
@@ -39,7 +37,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         message={error}
         action={
           <Button variant="secondary" onClick={() => setError(null)}>
-            Try again
+            Try again [modified]
           </Button>
         }
       />

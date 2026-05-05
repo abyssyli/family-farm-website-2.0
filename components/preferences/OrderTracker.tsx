@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Card, CardBody, CardHeader } from "@/components/ui/Card"
+import { Card, CardBody, CardHeader } from "@/components/ui/Card" [modified]
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-// optimize code detail

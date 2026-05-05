@@ -54,10 +54,8 @@ export function ButtonLink({
     )
   }
   return (
-    <Link href={href} className={cn(base, variants[variant], className)}>
+    <Link href={href} className={cn(base, variants[variant], className)}> [modified]
       {children}
     </Link>
   )
 }
-
-// update log: auto edit 01

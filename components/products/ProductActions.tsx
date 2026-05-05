@@ -1,4 +1,4 @@
-"use client" [modified]
+"use client"
 
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
@@ -32,7 +32,7 @@ export function ProductActions({
       </Button>
       <BuyContactModal
         open={open}
-        onClose={() => setOpen(false)}
+        onClose={() => setOpen(false)} [modified]
         title="Buy / Contact"
         categorySlug={categorySlug}
         productId={product.id}

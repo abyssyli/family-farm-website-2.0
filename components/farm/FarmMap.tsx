@@ -69,7 +69,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
             })}
           </div>
         </div>
-      </div>
+      </div> [modified]
 
       <div className="lg:mt-12">
         {active ? <FarmRegionCard region={active} /> : null}
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-# minor content update

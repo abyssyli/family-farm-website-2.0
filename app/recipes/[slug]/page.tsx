@@ -81,10 +81,8 @@ export default async function RecipeDetailPage({
       <div className="mt-4">
         <ButtonLink href="/recipes" variant="ghost">
           ← Back to recipes
-        </ButtonLink>
+        </ButtonLink> [modified]
       </div>
     </div>
   )
 }
-
-/* daily modify record */

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -43,7 +41,7 @@ export function AddressManager() {
     }
   }
 
-  async function handleSave() {
+  async function handleSave() { [modified]
     if (!supabase || !session) return
 
     if (editingId) {

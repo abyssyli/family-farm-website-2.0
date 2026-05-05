@@ -99,7 +99,7 @@ export function ProductDetail({
                 </>
               )}
             </>
-          ) : ( [modified]
+          ) : (
             <div className="flex h-[360px] items-center justify-center text-sm text-zinc-500 sm:h-[440px]">
               No image
             </div>
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+/* daily modify record */

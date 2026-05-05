@@ -1,3 +1,5 @@
+
+/* daily modify record */
 export type Json =
   | string
   | number
@@ -89,7 +91,7 @@ export type Database = {
         Relationships: []
       }
       farm_regions: {
-        Row: { [modified]
+        Row: {
           id: string
           slug: string
           title: string

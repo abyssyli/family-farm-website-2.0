@@ -64,7 +64,7 @@
       "slug": "dumplings",
       "name": "Dumplings",
       "description": "Hand-folded dumplings with savory fillings.",
-      "imagePath": "/photos/eat8.jpg",
+      "imagePath": "/photos/eat8.jpg", [modified]
       "imagePaths": ["/photos/eat8.jpg", "/photos/eat9.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
@@ -303,5 +303,3 @@
     }
   ]
 }
-
-# minor content update

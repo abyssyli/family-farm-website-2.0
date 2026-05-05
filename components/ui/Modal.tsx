@@ -60,7 +60,4 @@ export function Modal({
       </div>
     </div>
   )
-}
-
-
-// update log: auto edit 01
+} [modified]

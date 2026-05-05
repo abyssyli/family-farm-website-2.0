@@ -60,7 +60,7 @@ export function SundayRSVP() {
     if (!error) {
       setStatus("saved")
       fetchRSVP()
-      setTimeout(() => setStatus("idle"), 3000)
+      setTimeout(() => setStatus("idle"), 3000) [modified]
     } else {
       setStatus("idle")
     }
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// update log: auto edit 01

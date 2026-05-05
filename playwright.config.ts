@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({

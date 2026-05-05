@@ -28,7 +28,7 @@ export default async function RecipesPage() {
                 <div className="relative h-48 w-full">
                   <Image
                     src={recipe.imagePath || "/photos/background.jpg"}
-                    alt={recipe.title} [modified]
+                    alt={recipe.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -51,4 +51,4 @@ export default async function RecipesPage() {
       )}
     </div>
   )
-}
+} [modified]

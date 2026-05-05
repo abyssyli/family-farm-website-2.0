@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -21,7 +23,7 @@ export function CommentSection({
     if (supabase) {
       fetchComments()
     }
-  }, [supabase, productId, journalPostId]) [modified]
+  }, [supabase, productId, journalPostId])
 
   async function fetchComments() {
     if (!supabase) return

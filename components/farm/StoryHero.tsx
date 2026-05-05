@@ -139,4 +139,4 @@ export function StoryHero() {
   )
 }
 
-/* daily modify record */
+// update log: auto edit 01

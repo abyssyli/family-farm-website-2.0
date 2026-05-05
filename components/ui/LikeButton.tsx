@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -45,7 +43,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     setIsUpdating(true)
 
     if (isLiked) {
-      await supabase
+      await supabase [modified]
         .from("likes")
         .delete()
         .eq("journal_post_id", journalPostId)

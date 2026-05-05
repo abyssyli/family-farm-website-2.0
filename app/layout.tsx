@@ -7,7 +7,7 @@ import { UserMenu } from "@/components/auth/UserMenu"
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",
   description:
-    "Explore chicken and eggs, handmade woodcraft, and Lisa’s skincare—rooted in a Texas family farm story." [modified]
+    "Explore chicken and eggs, handmade woodcraft, and Lisa’s skincare—rooted in a Texas family farm story."
 }
 
 export default function RootLayout({
@@ -65,3 +65,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+/* minor adjust */

@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -41,5 +43,3 @@ export function ProductActions({
     </>
   )
 }
-
-/* daily modify record */

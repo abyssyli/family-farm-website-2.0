@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// task project adjust
 module.exports = {
   plugins: {
     tailwindcss: {},

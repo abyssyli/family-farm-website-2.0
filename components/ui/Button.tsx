@@ -23,7 +23,7 @@ export const Button = forwardRef<
   return (
     <button
       ref={ref}
-      className={cn(base, variants[variant], className)} [modified]
+      className={cn(base, variants[variant], className)}
       {...props}
     />
   )
@@ -59,3 +59,5 @@ export function ButtonLink({
     </Link>
   )
 }
+
+/* minor adjust */

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -30,7 +32,7 @@ export function AddressManager() {
     }
   }, [supabase, session])
 
-  async function fetchAddresses() { [modified]
+  async function fetchAddresses() {
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("user_addresses")

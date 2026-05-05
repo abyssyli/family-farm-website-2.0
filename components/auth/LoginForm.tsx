@@ -26,13 +26,13 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       setStatus("idle")
       return
     }
-    setStatus("sent") [modified]
+    setStatus("sent")
     onSuccess?.()
   }
 
   if (error) {
     return (
-      <ErrorState
+      <ErrorState [modified]
         title="Sign-in failed"
         message={error}
         action={

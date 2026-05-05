@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES2022", [modified]
     "lib": [
       "DOM",
       "DOM.Iterable",
@@ -39,5 +39,3 @@
     "node_modules"
   ]
 }
-
-// optimize code detail

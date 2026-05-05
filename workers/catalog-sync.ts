@@ -52,7 +52,7 @@ async function runOnce() {
     description: r.description,
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
-    cta_href: r.ctaHref, [modified]
+    cta_href: r.ctaHref,
     x: r.x,
     y: r.y
   }))
@@ -84,7 +84,7 @@ async function runOnce() {
     await supabase.from("sync_runs").insert({
       status: "error",
       source: sourceLabel,
-      message
+      message [modified]
     })
     throw e
   }

@@ -1,5 +1,7 @@
+
+/* minor adjust */
 import { createClient } from "@supabase/supabase-js"
-import { getSupabasePublicConfig } from "./shared" [modified]
+import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"
 
 export function createBrowserSupabaseClient() {
@@ -7,3 +9,4 @@ export function createBrowserSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
+

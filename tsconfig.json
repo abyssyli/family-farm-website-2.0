@@ -1,5 +1,5 @@
 {
-  "compilerOptions": { [modified]
+  "compilerOptions": {
     "target": "ES2022",
     "lib": [
       "DOM",
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+/* minor adjust */

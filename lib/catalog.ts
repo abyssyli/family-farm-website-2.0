@@ -1,5 +1,3 @@
-
-# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -57,7 +55,7 @@ export async function getCatalog(): Promise<Catalog> {
       "hen-spotlight": "/photos/chicken1.jpg",
       "coop-morning": "/photos/chicken2.jpg",
       "baby-chicks": "/photos/0.jpg"
-    }
+    } [modified]
 
     const fallback = fallbackBySlug[slug]
     if (!fallback) return imagePath

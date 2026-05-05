@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
-export function EmptyState({
-  title, [modified]
+export function EmptyState({ [modified]
+  title,
   message,
   action
 }: {

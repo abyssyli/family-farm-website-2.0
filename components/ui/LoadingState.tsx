@@ -1,5 +1,3 @@
-
-# minor content update
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -15,3 +13,5 @@ export function LoadingState({ label }: { label: string }) {
   )
 }
 
+
+/* daily modify record */

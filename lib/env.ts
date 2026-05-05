@@ -15,4 +15,4 @@ export function getPublicEnv() {
   return { contactPhone, skincareUrl }
 }
 
-# minor content update
+// task project adjust

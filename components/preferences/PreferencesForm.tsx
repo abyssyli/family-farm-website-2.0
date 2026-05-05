@@ -6,7 +6,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 
 export function PreferencesForm({
-  categories
+  categories [modified]
 }: {
   categories: Array<{ slug: string; name: string }>
 }) {
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

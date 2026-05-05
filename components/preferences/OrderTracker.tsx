@@ -26,7 +26,7 @@ export function OrderTracker() {
       .from("inquiries")
       .select("*, products(name)")
       .order("created_at", { ascending: false })
-    if (!error && data) {
+    if (!error && data) { [modified]
       setInquiries(data as Inquiry[])
     }
   }
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-/* daily modify record */

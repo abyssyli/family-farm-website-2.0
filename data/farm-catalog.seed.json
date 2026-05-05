@@ -166,7 +166,7 @@
       "imagePath": "/photos/egg2.jpg",
       "priceHint": "Text to arrange",
       "externalUrl": null,
-      "isActive": true [modified]
+      "isActive": true
     },
     {
       "id": "eggs-coop-visit",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+# minor content update

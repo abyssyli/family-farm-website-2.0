@@ -78,7 +78,7 @@ export default async function RecipeDetailPage({
         </div>
       </div>
 
-      <div className="mt-4"> [modified]
+      <div className="mt-4">
         <ButtonLink href="/recipes" variant="ghost">
           ← Back to recipes
         </ButtonLink>
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+# minor content update

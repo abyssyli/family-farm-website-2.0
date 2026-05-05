@@ -32,4 +32,6 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
       </div>
     </Card>
   )
-} [modified]
+}
+
+// optimize code detail

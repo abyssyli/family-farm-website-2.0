@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -34,7 +32,7 @@ export function CommentSection({
     
     if (productId) query = query.eq("product_id", productId)
     if (journalPostId) query = query.eq("journal_post_id", journalPostId)
-
+ [modified]
     const { data, error } = await query
     if (!error && data) {
       setComments(data)

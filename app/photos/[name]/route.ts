@@ -19,7 +19,7 @@ function contentTypeFromExt(ext: string) {
 }
 
 export async function GET(
-  _request: Request, [modified]
+  _request: Request,
   { params }: { params: { name: string } }
 ) {
   const name = params.name
@@ -41,3 +41,6 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+// task project adjust

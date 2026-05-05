@@ -1,5 +1,3 @@
-
-// task project adjust
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -34,7 +32,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
+    "**/*.tsx", [modified]
     ".next/types/**/*.ts"
   ],
   "exclude": [

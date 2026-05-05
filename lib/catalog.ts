@@ -1,3 +1,5 @@
+
+# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -161,7 +163,7 @@ export async function getCatalog(): Promise<Catalog> {
     }
   })
 
-  const regionsBySlug = new Map(seedCatalog.farmRegions.map((r) => [r.slug, r] as const)) [modified]
+  const regionsBySlug = new Map(seedCatalog.farmRegions.map((r) => [r.slug, r] as const))
   for (const r of dbFarmRegions) regionsBySlug.set(r.slug, r)
   const farmRegions = Array.from(regionsBySlug.values()).map((r) => ({
     ...r,

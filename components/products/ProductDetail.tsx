@@ -70,7 +70,7 @@ export function ProductDetail({
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100">
                     <button
-                      onClick={goNext} [modified]
+                      onClick={goNext}
                       className="flex h-9 w-9 items-center justify-center rounded-full bg-white/80 text-zinc-900 shadow-md backdrop-blur-sm hover:bg-white"
                     >
                       <svg
@@ -116,7 +116,7 @@ export function ProductDetail({
             </Link>
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-            {product.name}
+            {product.name} [modified]
           </h1>
           {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">

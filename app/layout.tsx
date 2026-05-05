@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -15,7 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  return ( [modified]
+  return (
     <html lang="en">
       <head>
         <meta name="format-detection" content="telephone=no" />

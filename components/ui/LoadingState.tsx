@@ -14,4 +14,4 @@ export function LoadingState({ label }: { label: string }) {
 }
 
 
-// task project adjust
+/* daily modify record */

@@ -12,7 +12,7 @@ export default async function RecipeDetailPage({
 }) {
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
-  if (!recipe) notFound() [modified]
+  if (!recipe) notFound()
 
   return (
     <div className="flex flex-col gap-8 pb-12">
@@ -72,7 +72,7 @@ export default async function RecipeDetailPage({
                     <p className="mt-0.5 leading-relaxed">{step}</p>
                   </li>
                 ))}
-              </ol>
+              </ol> [modified]
             </CardBody>
           </Card>
         </div>

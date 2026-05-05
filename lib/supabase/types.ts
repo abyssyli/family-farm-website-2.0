@@ -42,7 +42,7 @@ export type Database = {
           external_url?: string | null
           is_active?: boolean
           stock_quantity?: number | null
-          updated_at?: string [modified]
+          updated_at?: string
         }
         Update: {
           category_slug?: string
@@ -164,7 +164,7 @@ export type Database = {
           address_line1: string
           address_line2?: string | null
           city: string
-          state: string
+          state: string [modified]
           postal_code: string
           is_default?: boolean
           created_at?: string

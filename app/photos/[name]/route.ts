@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -34,10 +36,11 @@ export async function GET(
     return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),
-        "cache-control": "public, max-age=31536000, immutable" [modified]
+        "cache-control": "public, max-age=31536000, immutable"
       }
     })
   } catch {
     return new NextResponse("Not found", { status: 404 })
   }
 }
+

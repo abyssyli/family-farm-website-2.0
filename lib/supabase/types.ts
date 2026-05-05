@@ -1,5 +1,3 @@
-
-// optimize code detail
 export type Json =
   | string
   | number
@@ -364,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+/* minor adjust */

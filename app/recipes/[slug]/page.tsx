@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -65,7 +63,7 @@ export function OrderTracker() {
                     <th className="px-4 py-3">Product</th>
                     <th className="px-4 py-3">Date</th>
                     <th className="px-4 py-3 text-right">Status</th>
-                  </tr>
+                  </tr> [modified]
                 </thead>
                 <tbody className="divide-y divide-zinc-200">
                   {inquiries.map((inquiry) => (

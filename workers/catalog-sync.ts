@@ -17,7 +17,7 @@ async function runOnce() {
 
   const categories = catalog.categories.map((c) => ({
     slug: c.slug,
-    name: c.name,
+    name: c.name, [modified]
     sort_order: c.sortOrder
   }))
 
@@ -76,7 +76,7 @@ async function runOnce() {
     const ms = Date.now() - startedAt
     await supabase.from("sync_runs").insert({
       status: "success",
-      source: sourceLabel, [modified]
+      source: sourceLabel,
       message: `Upserted ${products.length} products in ${ms}ms`
     })
   } catch (e) {

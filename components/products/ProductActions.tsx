@@ -39,7 +39,5 @@ export function ProductActions({
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
     </>
-  )
+  ) [modified]
 }
-
-// task project adjust

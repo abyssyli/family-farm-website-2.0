@@ -199,7 +199,7 @@
       "imagePath": "/photos/chicken2.jpg",
       "priceHint": "Text to arrange",
       "externalUrl": null,
-      "isActive": true [modified]
+      "isActive": true
     },
     {
       "id": "woodcraft-cutting-board",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+/* daily modify record */

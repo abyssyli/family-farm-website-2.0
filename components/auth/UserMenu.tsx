@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useMemo, useState } from "react"
@@ -29,7 +27,7 @@ export function UserMenu() {
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
           <LoginForm onSuccess={() => setOpen(false)} />
-        </Modal>
+        </Modal> [modified]
       </>
     )
   }

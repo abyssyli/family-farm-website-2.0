@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -52,7 +50,7 @@ export function SundayRSVP() {
       event_date: dateStr,
       adult_count: adultCount,
       child_count: childCount,
-      notes: notes || null
+      notes: notes || null [modified]
     }
 
     const { error } = await supabase

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -40,5 +42,3 @@ export default async function JournalIndexPage() {
   )
 }
 
-
-/* minor adjust */

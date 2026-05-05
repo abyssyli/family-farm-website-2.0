@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link" [modified]
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
@@ -27,7 +27,7 @@ export default async function RecipesPage() {
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                 <div className="relative h-48 w-full">
                   <Image
-                    src={recipe.imagePath || "/photos/background.jpg"} [modified]
+                    src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"

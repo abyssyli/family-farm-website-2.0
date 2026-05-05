@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -25,7 +23,7 @@ export function useSupabaseAuth() {
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession)
     })
-    return () => {
+    return () => { [modified]
       active = false
       data.subscription.unsubscribe()
     }
@@ -33,4 +31,3 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-

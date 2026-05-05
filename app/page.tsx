@@ -8,7 +8,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function HomePage() {
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   const categories = catalog.categories
   const regions = catalog.farmRegions
   const { skincareUrl } = getPublicEnv()
@@ -109,5 +109,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-/* daily modify record */

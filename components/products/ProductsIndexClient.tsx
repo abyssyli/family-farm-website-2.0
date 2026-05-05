@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Link from "next/link"
@@ -12,7 +10,7 @@ import { SundayRSVP } from "@/components/farm/SundayRSVP"
 import { getPublicEnv } from "@/lib/env"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
-import type { Catalog } from "@/lib/catalog-schema"
+import type { Catalog } from "@/lib/catalog-schema" [modified]
 
 export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const router = useRouter()

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -59,5 +61,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-/* daily modify record */

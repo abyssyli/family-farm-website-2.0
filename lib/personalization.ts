@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined

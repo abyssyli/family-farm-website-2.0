@@ -36,7 +36,7 @@ export function BuyContactModal({
         .from("user_addresses")
         .select("*")
         .order("is_default", { ascending: false })
-        .then(({ data }) => { [modified]
+        .then(({ data }) => {
           if (data) {
             setAddresses(data)
             const defaultAddr = data.find((a) => a.is_default)
@@ -152,7 +152,7 @@ export function BuyContactModal({
           <Button type="button" onClick={() => window.open(smsHref)}>
             Open text message
           </Button>
-          <Button
+          <Button [modified]
             variant="secondary"
             type="button"
             onClick={async () => {

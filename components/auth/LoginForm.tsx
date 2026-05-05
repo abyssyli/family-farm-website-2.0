@@ -45,7 +45,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="flex flex-col gap-3">
+    <form onSubmit={onSubmit} className="flex flex-col gap-3"> [modified]
       <label className="text-sm font-medium">
         Email
         <input
@@ -69,7 +69,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       {!isConfigured ? (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
           <p className="font-medium">Login is not enabled yet.</p>
-          <p className="mt-1"> [modified]
+          <p className="mt-1">
             Add <span className="font-mono">NEXT_PUBLIC_SUPABASE_URL</span> and{" "}
             <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "}
             <span className="font-mono">.env.local</span>, then restart{" "}

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -22,4 +24,5 @@ export function EmptyState({
       </CardBody>
     </Card>
   )
-} [modified]
+}
+

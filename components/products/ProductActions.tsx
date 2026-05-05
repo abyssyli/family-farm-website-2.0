@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
-import { BuyContactModal } from "./BuyContactModal"
+import { BuyContactModal } from "./BuyContactModal" [modified]
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-# minor content update

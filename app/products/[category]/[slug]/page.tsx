@@ -4,7 +4,7 @@ import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
-export default async function ProductDetailPage({ [modified]
+export default async function ProductDetailPage({
   params
 }: {
   params: { category: string; slug: string }
@@ -31,3 +31,5 @@ export default async function ProductDetailPage({ [modified]
     />
   )
 }
+
+// task project adjust

@@ -11,6 +11,6 @@ export function getPublicEnv() {
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
       : defaultSkincareUrl
-
-  return { contactPhone, skincareUrl } [modified]
+ [modified]
+  return { contactPhone, skincareUrl }
 }

@@ -1,8 +1,10 @@
+
+// optimize code detail
 "use client"
 
 import Image from "next/image"
 import { useMemo, useState } from "react"
-import { FarmRegionCard } from "./FarmRegionCard" [modified]
+import { FarmRegionCard } from "./FarmRegionCard"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 function cn(...parts: Array<string | false | null | undefined>) {

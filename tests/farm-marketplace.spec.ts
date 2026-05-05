@@ -17,7 +17,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByText(/Call or text Paula/i)).toBeVisible()
   await expect(page.getByText(/\+1 \(806\) 290-4949/)).toBeVisible()
 })
- [modified]
+
 test("skincare category points to BeakerGold", async ({ page }) => {
   await page.goto("/products")
   const href = await page
@@ -27,3 +27,5 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
+
+# minor content update

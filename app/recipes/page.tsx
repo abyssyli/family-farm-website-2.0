@@ -21,7 +21,7 @@ export default async function RecipesPage() {
       {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"> [modified]
           {recipes.map((recipe) => (
             <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-# minor content update

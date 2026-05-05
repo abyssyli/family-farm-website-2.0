@@ -12,7 +12,7 @@ import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
 import type { Catalog } from "@/lib/catalog-schema"
 
-export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
+export function ProductsIndexClient({ catalog }: { catalog: Catalog }) { [modified]
   const router = useRouter()
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const { skincareUrl } = getPublicEnv()
@@ -96,7 +96,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
-        ) : null} [modified]
+        ) : null}
       </div>
 
       <SundayRSVP />

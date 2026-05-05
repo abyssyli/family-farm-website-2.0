@@ -228,7 +228,7 @@ export type Database = {
             referencedColumns: ["id"]
           }
         ]
-      } [modified]
+      }
       sunday_rsvps: {
         Row: {
           id: string
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+// optimize code detail

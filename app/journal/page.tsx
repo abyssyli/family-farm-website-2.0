@@ -6,7 +6,7 @@ import { ButtonLink } from "@/components/ui/Button"
 export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
-    const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0 [modified]
+    const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return db - da
   })
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+// update log: auto edit 01

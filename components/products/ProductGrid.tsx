@@ -6,7 +6,7 @@ export function ProductGrid({
   categorySlug
 }: {
   products: CatalogProduct[]
-  categorySlug: string
+  categorySlug: string [modified]
 }) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -20,6 +20,3 @@ export function ProductGrid({
     </div>
   )
 }
-
-
-// task project adjust

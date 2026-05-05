@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -17,7 +15,7 @@ export function AddressManager() {
   const [isAdding, setIsAdding] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
-    phone: "",
+    phone: "", [modified]
     address_line1: "",
     address_line2: "",
     city: "",

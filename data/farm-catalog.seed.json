@@ -1,5 +1,3 @@
-
-// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -163,7 +161,7 @@
       "id": "eggs-weekly-reserve",
       "categorySlug": "eggs",
       "slug": "weekly-egg-reserve",
-      "name": "Weekly Egg Reserve",
+      "name": "Weekly Egg Reserve", [modified]
       "description": "Prefer a regular pickup? Tell us how many dozen you want each week and we’ll do our best to set them aside.",
       "imagePath": "/photos/egg2.jpg",
       "priceHint": "Text to arrange",

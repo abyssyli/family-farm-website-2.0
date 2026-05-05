@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { [modified]
+  images: {
     formats: ["image/avif", "image/webp"]
-  }
+  } [modified]
 }
 
 export default nextConfig

@@ -1,5 +1,5 @@
 import { Card, CardBody } from "./Card"
- [modified]
+
 export function ErrorState({
   title,
   message,
@@ -14,7 +14,7 @@ export function ErrorState({
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>
-            <h2 className="text-lg font-semibold text-red-900">{title}</h2>
+            <h2 className="text-lg font-semibold text-red-900">{title}</h2> [modified]
             <p className="mt-1 text-sm text-red-800">{message}</p>
           </div>
           {action ? <div>{action}</div> : null}

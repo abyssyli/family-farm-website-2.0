@@ -1,5 +1,3 @@
-
-// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -22,7 +20,6 @@ export function ErrorState({
           {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
-    </Card>
+    </Card> [modified]
   )
 }
-

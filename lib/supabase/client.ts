@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"
@@ -8,5 +10,3 @@ export function createBrowserSupabaseClient() {
   return createClient<Database>(url, anonKey)
 }
 
-
-// optimize code detail

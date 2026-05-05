@@ -87,4 +87,4 @@ export default async function RecipeDetailPage({
   )
 }
 
-// update log: auto edit 01
+# minor content update

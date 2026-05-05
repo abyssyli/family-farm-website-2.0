@@ -87,4 +87,4 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   )
 }
 
-# minor content update
+/* minor adjust */

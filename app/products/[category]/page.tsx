@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -20,7 +22,7 @@ export default async function ProductCategoryPage({
 
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 
-  return ( [modified]
+  return (
     <div className="flex flex-col gap-8">
       <div>
         <p className="text-sm font-medium text-farm-800">

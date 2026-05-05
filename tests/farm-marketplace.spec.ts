@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -19,7 +17,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByText(/Call or text Paula/i)).toBeVisible()
   await expect(page.getByText(/\+1 \(806\) 290-4949/)).toBeVisible()
 })
-
+ [modified]
 test("skincare category points to BeakerGold", async ({ page }) => {
   await page.goto("/products")
   const href = await page

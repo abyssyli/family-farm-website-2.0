@@ -29,4 +29,4 @@ const config: Config = {
 export default config
 
 
-// optimize code detail
+/* minor adjust */

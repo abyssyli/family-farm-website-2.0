@@ -12,7 +12,7 @@ export default async function JournalPostPage({
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
-  const post = catalog.journalPosts.find((p) => p.slug === params.slug) [modified]
+  const post = catalog.journalPosts.find((p) => p.slug === params.slug)
   if (!post) notFound()
 
   return (
@@ -29,7 +29,7 @@ export default async function JournalPostPage({
           </h1>
           <LikeButton journalPostId={post.id} />
         </div>
-        {post.publishedAt ? (
+        {post.publishedAt ? ( [modified]
           <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>

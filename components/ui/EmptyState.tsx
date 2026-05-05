@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
-  title, [modified]
+  title,
   message,
   action
 }: {
@@ -23,3 +23,6 @@ export function EmptyState({
     </Card>
   )
 }
+
+
+# minor content update

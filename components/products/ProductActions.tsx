@@ -29,7 +29,7 @@ export function ProductActions({
     <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
-      </Button> [modified]
+      </Button>
       <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}
@@ -41,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+# minor content update

@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -83,7 +81,7 @@ export function PreferencesForm({
                       className="h-4 w-4 accent-farm-700"
                     />
                     <span className="font-medium">{c.name}</span>
-                  </label>
+                  </label> [modified]
                 )
               })}
             </div>
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

@@ -1,5 +1,3 @@
-
-# minor content update
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -152,7 +150,7 @@ export function BuyContactModal({
 
         <div className="flex flex-wrap gap-3">
           <Button type="button" onClick={() => window.open(smsHref)}>
-            Open text message
+            Open text message [modified]
           </Button>
           <Button
             variant="secondary"

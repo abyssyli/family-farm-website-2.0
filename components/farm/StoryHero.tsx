@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -13,7 +11,7 @@ export function StoryHero() {
   const timerRef = useRef<number | null>(null)
 
   const stopAuto = useCallback(() => {
-    if (timerRef.current === null) return
+    if (timerRef.current === null) return [modified]
     window.clearInterval(timerRef.current)
     timerRef.current = null
   }, [])

@@ -1,5 +1,3 @@
-
-# minor content update
 export type Json =
   | string
   | number
@@ -291,7 +289,7 @@ export type Database = {
           created_at: string
         }
         Insert: {
-          id?: string
+          id?: string [modified]
           user_id: string
           journal_post_id?: string | null
           created_at?: string

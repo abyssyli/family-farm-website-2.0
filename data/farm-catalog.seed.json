@@ -61,7 +61,7 @@
     {
       "id": "food-dumplings",
       "categorySlug": "food",
-      "slug": "dumplings", [modified]
+      "slug": "dumplings",
       "name": "Dumplings",
       "description": "Hand-folded dumplings with savory fillings.",
       "imagePath": "/photos/eat8.jpg",
@@ -95,7 +95,7 @@
       "categorySlug": "food",
       "slug": "ramen",
       "name": "Ramen",
-      "description": "Authentic ramen with rich broth and fresh noodles.",
+      "description": "Authentic ramen with rich broth and fresh noodles.", [modified]
       "imagePath": "/photos/eat14.jpg",
       "imagePaths": ["/photos/eat14.jpg", "/photos/eat15.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",

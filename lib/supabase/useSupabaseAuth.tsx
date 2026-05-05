@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -34,3 +32,5 @@ export function useSupabaseAuth() {
   return { supabase, session, ready }
 }
 
+
+/* daily modify record */

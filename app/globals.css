@@ -8,5 +8,8 @@ body {
 }
 
 body {
-  @apply bg-farm-50 text-zinc-900; [modified]
+  @apply bg-farm-50 text-zinc-900;
 }
+
+
+/* daily modify record */

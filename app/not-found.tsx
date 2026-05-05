@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
@@ -11,5 +13,3 @@ export default function NotFound() {
   )
 }
 
-
-// update log: auto edit 01

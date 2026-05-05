@@ -22,7 +22,7 @@ export function SundayRSVP() {
     if (supabase && session) {
       fetchRSVP()
     }
-  }, [supabase, session])
+  }, [supabase, session]) [modified]
 
   async function fetchRSVP() {
     if (!supabase || !session) return
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* daily modify record */

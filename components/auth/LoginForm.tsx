@@ -1,4 +1,4 @@
-"use client"
+"use client" [modified]
 
 import { useState } from "react"
 import { Button } from "@/components/ui/Button"
@@ -80,5 +80,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// update log: auto edit 01

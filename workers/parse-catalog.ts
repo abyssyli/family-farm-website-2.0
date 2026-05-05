@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
@@ -15,10 +17,11 @@ export async function loadCatalogFromSource(): Promise<{
     const catalog = CatalogSchema.parse(json)
     return { catalog, sourceLabel: sourceUrl }
   }
- [modified]
+
   const localPath = "data/farm-catalog.seed.json"
   const raw = await readFile(localPath, "utf8")
   const json = JSON.parse(raw) as unknown
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+

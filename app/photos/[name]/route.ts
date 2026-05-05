@@ -1,3 +1,5 @@
+
+// task project adjust
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -13,7 +15,7 @@ function contentTypeFromExt(ext: string) {
       return "image/webp"
     case ".gif":
       return "image/gif"
-    default: [modified]
+    default:
       return "application/octet-stream"
   }
 }
@@ -41,3 +43,4 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+

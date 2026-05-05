@@ -2,7 +2,7 @@ import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
 import { ButtonLink } from "@/components/ui/Button"
-
+ [modified]
 export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
@@ -10,7 +10,7 @@ export default async function JournalIndexPage() {
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return db - da
   })
- [modified]
+
   if (posts.length === 0) {
     return (
       <EmptyState

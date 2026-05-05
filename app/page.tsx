@@ -86,7 +86,7 @@ export default async function HomePage() {
                 <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                   <div className="relative h-40 w-full">
                     <Image
-                      src={recipe.imagePath || "/photos/background.jpg"}
+                      src={recipe.imagePath || "/photos/background.jpg"} [modified]
                       alt={recipe.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -109,5 +109,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-// task project adjust

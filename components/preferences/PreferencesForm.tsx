@@ -38,7 +38,7 @@ export function PreferencesForm({
       preferred_categories: selected
     })
     setStatus("saved")
-    window.setTimeout(() => setStatus("idle"), 1200)
+    window.setTimeout(() => setStatus("idle"), 1200) [modified]
   }
 
   return (
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// task project adjust

@@ -1,6 +1,6 @@
 "use client"
 
-import Image from "next/image" [modified]
+import Image from "next/image"
 import { useMemo, useState } from "react"
 import { FarmRegionCard } from "./FarmRegionCard"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
@@ -12,7 +12,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   const sorted = useMemo(
     () => [...regions].sort((a, b) => a.title.localeCompare(b.title)),
-    [regions]
+    [regions] [modified]
   )
   const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
   const active = useMemo(

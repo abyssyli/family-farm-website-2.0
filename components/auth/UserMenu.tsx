@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useMemo, useState } from "react"
@@ -55,5 +57,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// optimize code detail

@@ -8,7 +8,7 @@ export function Card({
 }: {
   children: React.ReactNode
   className?: string
-}) { [modified]
+}) {
   return (
     <div
       className={cn(
@@ -39,3 +39,6 @@ export function CardHeader({
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
+
+
+// update log: auto edit 01

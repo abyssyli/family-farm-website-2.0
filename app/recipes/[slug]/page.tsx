@@ -3,7 +3,7 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
-import { getCatalog } from "@/lib/catalog" [modified]
+import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipeDetailPage({
   params
@@ -49,7 +49,7 @@ export default async function RecipeDetailPage({
             <CardBody>
               <ul className="flex flex-col gap-2">
                 {recipe.ingredients.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm text-zinc-700">
+                  <li key={i} className="flex gap-3 text-sm text-zinc-700"> [modified]
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-farm-100 text-[10px] font-bold text-farm-700">
                       {i + 1}
                     </span>

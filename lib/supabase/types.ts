@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 export type Json =
   | string
   | number

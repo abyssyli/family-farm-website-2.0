@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -30,3 +28,5 @@ const config: Config = {
 
 export default config
 
+
+// update log: auto edit 01

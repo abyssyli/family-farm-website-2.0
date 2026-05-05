@@ -1,3 +1,5 @@
+
+// task project adjust
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -18,7 +20,7 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      { [modified]
+      {
         "name": "next"
       }
     ],

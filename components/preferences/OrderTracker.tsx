@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -68,7 +66,7 @@ export function OrderTracker() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-zinc-200">
-                  {inquiries.map((inquiry) => (
+                  {inquiries.map((inquiry) => ( [modified]
                     <tr key={inquiry.id} className="hover:bg-zinc-50/50">
                       <td className="px-4 py-3">
                         {inquiry.products?.name || "Deleted Product"}

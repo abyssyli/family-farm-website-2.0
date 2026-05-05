@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -7,7 +9,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function ProductCategoryPage({
   params
 }: {
-  params: { category: string } [modified]
+  params: { category: string }
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()

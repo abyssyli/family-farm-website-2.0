@@ -1,7 +1,9 @@
+
+// task project adjust
 import Link from "next/link"
 import { forwardRef } from "react"
 
-type Variant = "primary" | "secondary" | "ghost" [modified]
+type Variant = "primary" | "secondary" | "ghost"
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")

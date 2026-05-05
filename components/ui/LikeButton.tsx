@@ -51,7 +51,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     } else {
       await supabase.from("likes").insert({
         journal_post_id: journalPostId,
-        user_id: session.user.id
+        user_id: session.user.id [modified]
       })
     }
 
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-// update log: auto edit 01

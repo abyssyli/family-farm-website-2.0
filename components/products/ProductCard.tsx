@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -11,7 +9,7 @@ export function ProductCard({
 }: {
   product: CatalogProduct
   href: string
-}) {
+}) { [modified]
   return (
     <Card className="overflow-hidden">
       {product.imagePath ? (
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

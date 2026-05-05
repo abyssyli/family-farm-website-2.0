@@ -120,7 +120,7 @@ export function SundayRSVP() {
               {rsvp && (
                 <p className="text-xs text-farm-700 font-medium">
                   ✓ You are registered for this Sunday!
-                </p>
+                </p> [modified]
               )}
             </div>
           </div>
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// update log: auto edit 01

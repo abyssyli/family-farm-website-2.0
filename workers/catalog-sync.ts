@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -21,7 +23,7 @@ async function runOnce() {
     sort_order: c.sortOrder
   }))
 
-  const products = catalog.products.map((p) => ({ [modified]
+  const products = catalog.products.map((p) => ({
     id: p.id,
     category_slug: p.categorySlug,
     slug: p.slug,
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

@@ -1,3 +1,5 @@
+
+# minor content update
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -10,7 +12,7 @@ function contentTypeFromExt(ext: string) {
     case ".png":
       return "image/png"
     case ".webp":
-      return "image/webp" [modified]
+      return "image/webp"
     case ".gif":
       return "image/gif"
     default:
@@ -41,3 +43,4 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Link from "next/link"
@@ -134,7 +132,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     Browse {category.name} →
                   </Link>
                 )}
-              </div>
+              </div> [modified]
             </Card>
           )
         })}

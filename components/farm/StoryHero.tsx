@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -36,7 +34,7 @@ export function StoryHero() {
   }, [slideCount, startAuto])
 
   const goNext = useCallback(() => {
-    setHoursSlide((current) => (current + 1) % slideCount)
+    setHoursSlide((current) => (current + 1) % slideCount) [modified]
     startAuto()
   }, [slideCount, startAuto])
 

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
-
+ [modified]
 export default async function RecipeDetailPage({
   params
 }: {
@@ -79,7 +79,7 @@ export default async function RecipeDetailPage({
       </div>
 
       <div className="mt-4">
-        <ButtonLink href="/recipes" variant="ghost"> [modified]
+        <ButtonLink href="/recipes" variant="ghost">
           ← Back to recipes
         </ButtonLink>
       </div>

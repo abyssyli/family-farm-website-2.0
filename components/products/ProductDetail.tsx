@@ -115,7 +115,7 @@ export function ProductDetail({
               {categoryName}
             </Link>
           </p>
-          <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}
           </h1>
           {product.description ? (
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+// update log: auto edit 01

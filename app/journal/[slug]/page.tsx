@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"

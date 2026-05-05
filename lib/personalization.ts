@@ -13,4 +13,4 @@ export function sortCategorySlugsByPreference(
 }
 
 
-/* minor adjust */
+// task project adjust

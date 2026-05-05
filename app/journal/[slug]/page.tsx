@@ -34,7 +34,7 @@ export default async function JournalPostPage({
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
-      </div> [modified]
+      </div>
 
       <Card>
         <CardBody>
@@ -54,3 +54,6 @@ export default async function JournalPostPage({
     </div>
   )
 }
+
+
+# minor content update

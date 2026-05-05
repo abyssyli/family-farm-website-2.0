@@ -63,7 +63,7 @@ export function PreferencesForm({
               {categories.map((c) => {
                 const checked = selected.includes(c.slug)
                 return (
-                  <label [modified]
+                  <label
                     key={c.slug}
                     className="flex items-center gap-3 rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm"
                   >
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+/* daily modify record */

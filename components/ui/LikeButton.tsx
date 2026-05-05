@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -50,7 +48,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         .delete()
         .eq("journal_post_id", journalPostId)
         .eq("user_id", session.user.id)
-    } else {
+    } else { [modified]
       await supabase.from("likes").insert({
         journal_post_id: journalPostId,
         user_id: session.user.id

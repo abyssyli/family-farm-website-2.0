@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -72,7 +74,7 @@ export default async function HomePage() {
               <h2 className="text-xl font-semibold tracking-tight">
                 Farm Recipes
               </h2>
-              <p className="mt-2 text-sm text-zinc-700"> [modified]
+              <p className="mt-2 text-sm text-zinc-700">
                 Delicious ways to use our farm-fresh ingredients.
               </p>
             </div>

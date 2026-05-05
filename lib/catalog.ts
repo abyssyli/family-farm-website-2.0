@@ -4,7 +4,7 @@ import { createServerSupabaseClient } from "./supabase/server"
 
 export function getSeedCatalog(): Catalog {
   return CatalogSchema.parse(seedJson)
-} [modified]
+}
 
 export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()
@@ -161,7 +161,7 @@ export async function getCatalog(): Promise<Catalog> {
     }
   })
 
-  const regionsBySlug = new Map(seedCatalog.farmRegions.map((r) => [r.slug, r] as const))
+  const regionsBySlug = new Map(seedCatalog.farmRegions.map((r) => [r.slug, r] as const)) [modified]
   for (const r of dbFarmRegions) regionsBySlug.set(r.slug, r)
   const farmRegions = Array.from(regionsBySlug.values()).map((r) => ({
     ...r,

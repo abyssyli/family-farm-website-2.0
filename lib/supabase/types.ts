@@ -1,5 +1,3 @@
-
-/* daily modify record */
 export type Json =
   | string
   | number
@@ -44,7 +42,7 @@ export type Database = {
           external_url?: string | null
           is_active?: boolean
           stock_quantity?: number | null
-          updated_at?: string
+          updated_at?: string [modified]
         }
         Update: {
           category_slug?: string

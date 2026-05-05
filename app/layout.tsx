@@ -15,7 +15,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  return (
+  return ( [modified]
     <html lang="en">
       <head>
         <meta name="format-detection" content="telephone=no" />
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-# minor content update

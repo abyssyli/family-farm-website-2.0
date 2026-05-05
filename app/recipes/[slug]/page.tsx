@@ -12,7 +12,7 @@ export default async function RecipeDetailPage({
 }) {
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
-  if (!recipe) notFound()
+  if (!recipe) notFound() [modified]
 
   return (
     <div className="flex flex-col gap-8 pb-12">
@@ -86,5 +86,3 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
-
-// update log: auto edit 01

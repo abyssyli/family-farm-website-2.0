@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -51,7 +53,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     } else {
       await supabase.from("likes").insert({
         journal_post_id: journalPostId,
-        user_id: session.user.id [modified]
+        user_id: session.user.id
       })
     }
 

@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -34,7 +36,7 @@ export function StoryHero() {
   }, [slideCount, startAuto])
 
   const goNext = useCallback(() => {
-    setHoursSlide((current) => (current + 1) % slideCount) [modified]
+    setHoursSlide((current) => (current + 1) % slideCount)
     startAuto()
   }, [slideCount, startAuto])
 

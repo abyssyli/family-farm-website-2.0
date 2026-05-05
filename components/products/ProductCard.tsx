@@ -9,7 +9,7 @@ export function ProductCard({
 }: {
   product: CatalogProduct
   href: string
-}) { [modified]
+}) {
   return (
     <Card className="overflow-hidden">
       {product.imagePath ? (
@@ -60,3 +60,6 @@ export function ProductCard({
     </Card>
   )
 }
+
+
+# minor content update

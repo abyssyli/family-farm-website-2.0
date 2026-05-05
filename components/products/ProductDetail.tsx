@@ -72,7 +72,7 @@ export function ProductDetail({
                     <button
                       onClick={goNext}
                       className="flex h-9 w-9 items-center justify-center rounded-full bg-white/80 text-zinc-900 shadow-md backdrop-blur-sm hover:bg-white"
-                    >
+                    > [modified]
                       <svg
                         viewBox="0 0 20 20"
                         fill="currentColor"
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// update log: auto edit 01

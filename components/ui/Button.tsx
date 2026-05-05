@@ -1,5 +1,3 @@
-
-// task project adjust
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -47,7 +45,7 @@ export function ButtonLink({
     return (
       <a
         href={href}
-        target="_blank"
+        target="_blank" [modified]
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >

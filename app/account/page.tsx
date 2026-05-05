@@ -31,10 +31,7 @@ export default async function AccountPage() {
 
       <AddressManager />
 
-      <PreferencesForm categories={categories} />
+      <PreferencesForm categories={categories} /> [modified]
     </div>
   )
 }
-
-
-// update log: auto edit 01

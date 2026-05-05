@@ -7,7 +7,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
+      colors: { [modified]
         farm: {
           50: "#f7f7f2",
           100: "#eef0e3",
@@ -27,6 +27,3 @@ const config: Config = {
 }
 
 export default config
-
-
-// update log: auto edit 01

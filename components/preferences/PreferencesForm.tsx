@@ -47,7 +47,7 @@ export function PreferencesForm({
         title="Preferences"
         subtitle="Choose what you want to see first when browsing products."
       />
-      <CardBody>
+      <CardBody> [modified]
         {!supabase ? (
           <p className="text-sm text-zinc-700">
             Supabase isn’t configured in this environment. Add env vars to enable
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// task project adjust

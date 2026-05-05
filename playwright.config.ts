@@ -1,6 +1,6 @@
 import { defineConfig } from "@playwright/test"
 
-export default defineConfig({
+export default defineConfig({ [modified]
   testDir: "./tests",
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
@@ -12,6 +12,3 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-
-
-/* minor adjust */

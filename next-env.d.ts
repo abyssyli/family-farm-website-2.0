@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// update log: auto edit 01
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
- [modified]
+
 export default async function RecipeDetailPage({
   params
 }: {
@@ -55,7 +55,7 @@ export default async function RecipeDetailPage({
                     </span>
                     {item}
                   </li>
-                ))}
+                ))} [modified]
               </ul>
             </CardBody>
           </Card>

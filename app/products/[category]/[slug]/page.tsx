@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -31,5 +33,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// optimize code detail

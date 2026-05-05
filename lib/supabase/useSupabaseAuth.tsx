@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -10,7 +12,7 @@ export function useSupabaseAuth() {
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    if (!supabase) { [modified]
+    if (!supabase) {
       setReady(true)
       return
     }
@@ -31,3 +33,4 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+

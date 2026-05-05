@@ -21,7 +21,7 @@ export function OrderTracker() {
   }, [supabase, session])
 
   async function fetchInquiries() {
-    if (!supabase || !session) return
+    if (!supabase || !session) return [modified]
     const { data, error } = await supabase
       .from("inquiries")
       .select("*, products(name)")
@@ -40,7 +40,7 @@ export function OrderTracker() {
       case "completed":
         return "bg-green-100 text-green-700 border-green-200"
       case "cancelled":
-        return "bg-red-100 text-red-700 border-red-200" [modified]
+        return "bg-red-100 text-red-700 border-red-200"
       default:
         return "bg-zinc-100 text-zinc-700 border-zinc-200"
     }

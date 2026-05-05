@@ -9,7 +9,7 @@ export default async function JournalIndexPage() {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return db - da
-  })
+  }) [modified]
 
   if (posts.length === 0) {
     return (
@@ -39,6 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-
-
-// task project adjust

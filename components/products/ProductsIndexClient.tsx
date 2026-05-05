@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import Link from "next/link"
@@ -109,7 +111,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             .length
           const isSkincare = slug === "skincare"
           return (
-            <Card key={slug} className="p-6"> [modified]
+            <Card key={slug} className="p-6">
               <h2 className="text-base font-semibold">{category.name}</h2>
               <p className="mt-2 text-sm text-zinc-700">
                 {count} item{count === 1 ? "" : "s"}

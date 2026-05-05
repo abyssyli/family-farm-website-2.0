@@ -90,7 +90,7 @@ async function runOnce() {
   }
 }
 
-async function main() { [modified]
+async function main() {
   const once = process.env.SYNC_ONCE?.trim() === "1"
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// optimize code detail

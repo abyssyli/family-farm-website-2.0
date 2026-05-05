@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -118,7 +120,7 @@ export function ProductDetail({
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}
           </h1>
-          {product.description ? ( [modified]
+          {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
             </p>
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

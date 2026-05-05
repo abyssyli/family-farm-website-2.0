@@ -96,7 +96,7 @@ export type Database = {
           description: string | null
           image_path: string | null
           cta_label: string | null
-          cta_href: string | null
+          cta_href: string | null [modified]
           x: number
           y: number
         }
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-# minor content update

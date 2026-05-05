@@ -1,5 +1,7 @@
+
+/* daily modify record */
 import { test, expect } from "@playwright/test"
- [modified]
+
 test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()

@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation"
+import { notFound, redirect } from "next/navigation" [modified]
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
@@ -28,6 +28,6 @@ export default async function ProductDetailPage({
       product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
-    /> [modified]
+    />
   )
 }

@@ -46,7 +46,7 @@ export function StoryHero() {
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
           A warm marketplace built around our family and the land we care for.
-        </h1> [modified]
+        </h1>
         <p className="mt-4 max-w-prose text-base text-zinc-700">
           Paula is a mom of 10 and grandma to 11. She founded the Rushing
           homeschool and runs Paula’s farm business with a full-house kind of
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// optimize code detail

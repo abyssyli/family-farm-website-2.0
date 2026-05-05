@@ -52,11 +52,11 @@ export function ProductCard({
           <Link
             href={href}
             className="text-sm font-medium text-farm-800 hover:text-farm-900"
-          > [modified]
+          >
             View details →
           </Link>
         </div>
       </div>
-    </Card>
+    </Card> [modified]
   )
 }

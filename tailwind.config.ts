@@ -29,4 +29,4 @@ const config: Config = {
 export default config
 
 
-/* minor adjust */
+// update log: auto edit 01

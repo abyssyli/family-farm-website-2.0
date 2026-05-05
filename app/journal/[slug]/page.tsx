@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -17,7 +19,7 @@ export default async function JournalPostPage({
 
   return (
     <div className="flex flex-col gap-6">
-      <div> [modified]
+      <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/journal" className="hover:underline">
             Farm Journal
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

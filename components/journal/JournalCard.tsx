@@ -23,4 +23,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 }
 
 
-// update log: auto edit 01
+/* daily modify record */

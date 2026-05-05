@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -171,7 +173,7 @@ export function BuyContactModal({
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}
           </Button>
-        </div> [modified]
+        </div>
       </div>
     </Modal>
   )

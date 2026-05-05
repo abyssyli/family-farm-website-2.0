@@ -160,4 +160,4 @@ export function ProductDetail({
 
 
 
-/* daily modify record */
+// update log: auto edit 01

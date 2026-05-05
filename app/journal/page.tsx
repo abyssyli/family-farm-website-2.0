@@ -1,3 +1,5 @@
+
+// task project adjust
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -28,7 +30,7 @@ export default async function JournalIndexPage() {
           Farm Journal
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Small stories from the farm, the shop, and the family. [modified]
+          Small stories from the farm, the shop, and the family.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -39,3 +41,4 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+

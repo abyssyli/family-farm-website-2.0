@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -43,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+// task project adjust

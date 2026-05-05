@@ -67,7 +67,7 @@ async function runOnce() {
     ])
 
     for (const res of upserts) {
-      if (res.error) { [modified]
+      if (res.error) {
         console.error("Upsert error details:", JSON.stringify(res.error, null, 2))
         throw res.error
       }
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+/* daily modify record */

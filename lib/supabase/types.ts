@@ -205,7 +205,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          user_id?: string | null
+          user_id?: string | null [modified]
           product_id?: string | null
           category_slug?: string
           address_id?: string | null
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// optimize code detail

@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -19,7 +21,7 @@ export default async function HomePage() {
       <FarmMap regions={regions} />
 
       <section className="mt-2">
-        <div className="flex items-end justify-between gap-6"> [modified]
+        <div className="flex items-end justify-between gap-6">
           <div>
             <h2 className="text-xl font-semibold tracking-tight">
               Shop by category

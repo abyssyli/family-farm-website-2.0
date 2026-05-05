@@ -14,7 +14,7 @@ export function Modal({
   className
 }: {
   open: boolean
-  title: string
+  title: string [modified]
   children: React.ReactNode
   onClose: () => void
   className?: string
@@ -61,6 +61,3 @@ export function Modal({
     </div>
   )
 }
-
-
-# minor content update

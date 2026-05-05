@@ -1,6 +1,6 @@
 import { Card, CardBody } from "./Card"
 
-export function LoadingState({ label }: { label: string }) { [modified]
+export function LoadingState({ label }: { label: string }) {
   return (
     <Card>
       <CardBody>
@@ -12,3 +12,6 @@ export function LoadingState({ label }: { label: string }) { [modified]
     </Card>
   )
 }
+
+
+/* minor adjust */

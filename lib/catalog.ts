@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -47,7 +45,7 @@ export async function getCatalog(): Promise<Catalog> {
 
   const normalizeWoodcraftName = (slug: string, name: string) => {
     return slug === "handmade-stool" ? "Thomas's Handmade Stool" : name
-  }
+  } [modified]
 
   const normalizeEggsImagePath = (slug: string, imagePath: string | null) => {
     const fallbackBySlug: Record<string, string> = {

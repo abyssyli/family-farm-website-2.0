@@ -114,7 +114,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
               <p className="mt-2 text-sm text-zinc-700">
                 {count} item{count === 1 ? "" : "s"}
               </p>
-              <div className="mt-5"> [modified]
+              <div className="mt-5">
                 {isSkincare ? (
                   <a
                     href={skincareUrl}
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+/* minor adjust */

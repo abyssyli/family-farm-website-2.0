@@ -26,7 +26,7 @@ export function SundayRSVP() {
 
   async function fetchRSVP() {
     if (!supabase || !session) return
-    const { data, error } = await supabase
+    const { data, error } = await supabase [modified]
       .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)
@@ -95,7 +95,7 @@ export function SundayRSVP() {
                 Children
                 <input
                   type="number"
-                  min={0} [modified]
+                  min={0}
                   max={20}
                   value={childCount}
                   onChange={(e) => setChildCount(parseInt(e.target.value) || 0)}

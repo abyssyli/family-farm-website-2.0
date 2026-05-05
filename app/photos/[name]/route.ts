@@ -1,5 +1,3 @@
-
-# minor content update
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -33,7 +31,7 @@ export async function GET(
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)
-    return new NextResponse(bytes, {
+    return new NextResponse(bytes, { [modified]
       headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
@@ -43,4 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

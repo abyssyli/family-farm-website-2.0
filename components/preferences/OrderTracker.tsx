@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -54,7 +52,7 @@ export function OrderTracker() {
     <Card>
       <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." />
       <CardBody>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4"> [modified]
           {inquiries.length === 0 ? (
             <p className="text-sm text-zinc-500 italic">No inquiries found yet.</p>
           ) : (

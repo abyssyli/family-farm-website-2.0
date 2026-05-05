@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -15,7 +13,7 @@ export function ProductActions({
   product: CatalogProduct
   categorySlug: string
 }) {
-  const { skincareUrl } = getPublicEnv()
+  const { skincareUrl } = getPublicEnv() [modified]
   const [open, setOpen] = useState(false)
 
   if (product.externalUrl) {

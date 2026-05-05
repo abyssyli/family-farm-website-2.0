@@ -43,7 +43,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     setIsUpdating(true)
 
     if (isLiked) {
-      await supabase [modified]
+      await supabase
         .from("likes")
         .delete()
         .eq("journal_post_id", journalPostId)
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+// task project adjust

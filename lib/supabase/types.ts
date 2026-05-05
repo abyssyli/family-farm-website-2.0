@@ -1,5 +1,5 @@
 
-// task project adjust
+/* minor adjust */
 export type Json =
   | string
   | number

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Link from "next/link"
@@ -130,7 +132,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                   >
                     Browse {category.name} →
-                  </Link> [modified]
+                  </Link>
                 )}
               </div>
             </Card>

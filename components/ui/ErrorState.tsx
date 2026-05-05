@@ -1,3 +1,5 @@
+
+// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -7,7 +9,7 @@ export function ErrorState({
 }: {
   title: string
   message: string
-  action?: React.ReactNode [modified]
+  action?: React.ReactNode
 }) {
   return (
     <Card className="border-red-200">
@@ -23,3 +25,4 @@ export function ErrorState({
     </Card>
   )
 }
+

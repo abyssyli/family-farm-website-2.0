@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -60,7 +62,7 @@ export function SundayRSVP() {
     if (!error) {
       setStatus("saved")
       fetchRSVP()
-      setTimeout(() => setStatus("idle"), 3000) [modified]
+      setTimeout(() => setStatus("idle"), 3000)
     } else {
       setStatus("idle")
     }

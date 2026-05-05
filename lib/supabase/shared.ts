@@ -9,4 +9,4 @@ export function getSupabaseServiceRoleKey() {
 }
 
 
-// optimize code detail
+// update log: auto edit 01

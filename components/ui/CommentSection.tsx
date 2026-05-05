@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -68,7 +66,7 @@ export function CommentSection({
           Share your experience with this {productId ? "dish" : "story"}.
         </p>
       </div>
-
+ [modified]
       {session ? (
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <textarea

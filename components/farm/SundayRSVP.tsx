@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -30,7 +32,7 @@ export function SundayRSVP() {
       .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)
-      .eq("event_date", dateStr) [modified]
+      .eq("event_date", dateStr)
       .single()
     
     if (!error && data) {

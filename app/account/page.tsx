@@ -7,7 +7,7 @@ import { UserMenu } from "@/components/auth/UserMenu"
 
 export default async function AccountPage() {
   const catalog = await getCatalog()
-  const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
+  const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name })) [modified]
 
   return (
     <div className="flex flex-col gap-6 pb-12">
@@ -15,7 +15,7 @@ export default async function AccountPage() {
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>
-        <p className="mt-2 text-sm text-zinc-700"> [modified]
+        <p className="mt-2 text-sm text-zinc-700">
           Sign in to manage your addresses, preferences, and track inquiries.
         </p>
       </div>

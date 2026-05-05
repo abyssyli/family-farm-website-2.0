@@ -66,7 +66,7 @@ async function runOnce() {
       supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
     ])
 
-    for (const res of upserts) { [modified]
+    for (const res of upserts) {
       if (res.error) {
         console.error("Upsert error details:", JSON.stringify(res.error, null, 2))
         throw res.error
@@ -103,7 +103,7 @@ async function main() {
     try {
       await runOnce()
     } catch (e) {
-      const message = e instanceof Error ? e.message : String(e)
+      const message = e instanceof Error ? e.message : String(e) [modified]
       console.error(message)
     }
     await sleep(intervalMs)

@@ -5,7 +5,7 @@ import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
-import { getPublicEnv } from "@/lib/env"
+import { getPublicEnv } from "@/lib/env" [modified]
 
 export default async function HomePage() {
   const catalog = await getCatalog()
@@ -109,5 +109,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-# minor content update

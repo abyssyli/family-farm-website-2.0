@@ -14,7 +14,7 @@ export default async function JournalIndexPage() {
   if (posts.length === 0) {
     return (
       <EmptyState
-        title="No journal posts yet" [modified]
+        title="No journal posts yet"
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+/* daily modify record */

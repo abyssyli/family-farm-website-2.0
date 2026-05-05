@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -131,7 +129,7 @@ export function ProductDetail({
             </p>
           ) : null}
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
-            <p
+            <p [modified]
               className={`mt-2 text-xs font-bold uppercase tracking-wider ${
                 product.stockQuantity > 0 ? "text-farm-700" : "text-red-600"
               }`}
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 export type Json =
   | string
   | number

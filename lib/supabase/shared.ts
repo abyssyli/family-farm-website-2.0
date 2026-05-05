@@ -1,6 +1,6 @@
-export function getSupabasePublicConfig() {
+export function getSupabasePublicConfig() { [modified]
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim()
-  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() [modified]
+  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim()
   return { url, anonKey }
 }
 

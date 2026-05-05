@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useMemo, useState } from "react"
@@ -48,7 +50,7 @@ export function UserMenu() {
         onClick={() => {
           if (!supabase) return
           supabase.auth.signOut()
-        }} [modified]
+        }}
       >
         Sign out
       </Button>

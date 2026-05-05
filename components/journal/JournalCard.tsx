@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
@@ -17,10 +15,9 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       ) : null}
       {post.publishedAt ? (
         <p className="mt-4 text-xs text-zinc-600">
-          {new Date(post.publishedAt).toLocaleDateString()}
+          {new Date(post.publishedAt).toLocaleDateString()} [modified]
         </p>
       ) : null}
     </Card>
   )
 }
-

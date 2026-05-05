@@ -24,7 +24,7 @@ export async function GET(
 ) {
   const name = params.name
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
-    return new NextResponse("Not found", { status: 404 }) [modified]
+    return new NextResponse("Not found", { status: 404 })
   }
 
   try {
@@ -41,3 +41,6 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+// update log: auto edit 01

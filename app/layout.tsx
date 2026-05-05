@@ -1,5 +1,3 @@
-
-# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -60,7 +58,7 @@ export default function RootLayout({
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
-            </div>
+            </div> [modified]
           </footer>
         </div>
       </body>

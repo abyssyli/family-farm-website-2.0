@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
-
+ [modified]
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
@@ -17,7 +17,7 @@ function contentTypeFromExt(ext: string) {
       return "application/octet-stream"
   }
 }
- [modified]
+
 export async function GET(
   _request: Request,
   { params }: { params: { name: string } }

@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {

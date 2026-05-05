@@ -19,7 +19,7 @@ export default async function ProductDetailPage({
   if (!category) notFound()
 
   const product = catalog.products.find(
-    (p) => p.categorySlug === category.slug && p.slug === params.slug
+    (p) => p.categorySlug === category.slug && p.slug === params.slug [modified]
   )
   if (!product) notFound()
 
@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-/* daily modify record */

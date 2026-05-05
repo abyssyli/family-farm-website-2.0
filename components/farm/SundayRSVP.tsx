@@ -95,7 +95,7 @@ export function SundayRSVP() {
                 Children
                 <input
                   type="number"
-                  min={0}
+                  min={0} [modified]
                   max={20}
                   value={childCount}
                   onChange={(e) => setChildCount(parseInt(e.target.value) || 0)}
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-# minor content update

@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -14,7 +16,7 @@ export function OrderTracker() {
   const { supabase, session } = useSupabaseAuth()
   const [inquiries, setInquiries] = useState<Inquiry[]>([])
 
-  useEffect(() => { [modified]
+  useEffect(() => {
     if (supabase && session) {
       fetchInquiries()
     }

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
-
+ [modified]
 export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
   const [open, setOpen] = useState(false)
@@ -55,5 +55,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-/* daily modify record */

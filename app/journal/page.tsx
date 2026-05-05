@@ -3,7 +3,7 @@ import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
 import { ButtonLink } from "@/components/ui/Button"
 
-export default async function JournalIndexPage() { [modified]
+export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
@@ -28,7 +28,7 @@ export default async function JournalIndexPage() { [modified]
           Farm Journal
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Small stories from the farm, the shop, and the family.
+          Small stories from the farm, the shop, and the family. [modified]
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

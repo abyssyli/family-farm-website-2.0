@@ -19,7 +19,7 @@ export default async function HomePage() {
       <FarmMap regions={regions} />
 
       <section className="mt-2">
-        <div className="flex items-end justify-between gap-6">
+        <div className="flex items-end justify-between gap-6"> [modified]
           <div>
             <h2 className="text-xl font-semibold tracking-tight">
               Shop by category
@@ -78,7 +78,7 @@ export default async function HomePage() {
             </div>
             <ButtonLink href="/recipes" variant="secondary" className="shrink-0">
               See all recipes
-            </ButtonLink> [modified]
+            </ButtonLink>
           </div>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {catalog.recipes.slice(0, 3).map((recipe) => (

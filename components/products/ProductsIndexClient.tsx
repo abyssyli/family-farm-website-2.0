@@ -42,7 +42,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       .on(
         "postgres_changes",
         { event: "*", schema: "public", table: "products" },
-        () => { [modified]
+        () => {
           setLastUpdate(new Date())
           router.refresh()
         }
@@ -114,7 +114,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
               <p className="mt-2 text-sm text-zinc-700">
                 {count} item{count === 1 ? "" : "s"}
               </p>
-              <div className="mt-5">
+              <div className="mt-5"> [modified]
                 {isSkincare ? (
                   <a
                     href={skincareUrl}

@@ -46,7 +46,7 @@ export default async function JournalPostPage({
 
       <CommentSection journalPostId={post.id} />
 
-      <div> [modified]
+      <div>
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal
         </ButtonLink>
@@ -54,3 +54,6 @@ export default async function JournalPostPage({
     </div>
   )
 }
+
+
+/* daily modify record */

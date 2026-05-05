@@ -48,7 +48,7 @@ export function ButtonLink({
         target="_blank"
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
-      > [modified]
+      >
         {children}
       </a>
     )
@@ -59,3 +59,5 @@ export function ButtonLink({
     </Link>
   )
 }
+
+// optimize code detail

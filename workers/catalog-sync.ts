@@ -44,7 +44,7 @@ async function runOnce() {
     published_at: j.publishedAt,
     updated_at: new Date().toISOString()
   }))
- [modified]
+
   const farmRegions = catalog.farmRegions.map((r) => ({
     id: r.id,
     slug: r.slug,
@@ -67,7 +67,7 @@ async function runOnce() {
     ])
 
     for (const res of upserts) {
-      if (res.error) {
+      if (res.error) { [modified]
         console.error("Upsert error details:", JSON.stringify(res.error, null, 2))
         throw res.error
       }

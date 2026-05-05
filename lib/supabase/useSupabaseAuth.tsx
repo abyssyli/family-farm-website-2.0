@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
 import { createBrowserSupabaseClient } from "./client"
@@ -14,7 +14,7 @@ export function useSupabaseAuth() {
       setReady(true)
       return
     }
-    let active = true [modified]
+    let active = true
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return
       setSession(data.session ?? null)

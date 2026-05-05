@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -33,7 +31,7 @@ export function BuyContactModal({
   const [selectedAddressId, setSelectedAddressId] = useState<string | null>(null)
 
   useEffect(() => {
-    if (supabase && session && open) {
+    if (supabase && session && open) { [modified]
       supabase
         .from("user_addresses")
         .select("*")

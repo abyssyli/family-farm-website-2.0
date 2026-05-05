@@ -83,7 +83,7 @@ async function runOnce() {
     const message = e instanceof Error ? e.message : "Unknown error"
     await supabase.from("sync_runs").insert({
       status: "error",
-      source: sourceLabel,
+      source: sourceLabel, [modified]
       message
     })
     throw e
@@ -115,6 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-
-
-// update log: auto edit 01

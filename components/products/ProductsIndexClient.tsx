@@ -103,7 +103,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {orderedCategorySlugs.map((slug) => {
-          const category = categoryBySlug.get(slug) [modified]
+          const category = categoryBySlug.get(slug)
           if (!category) return null
           const count = catalog.products.filter((p) => p.categorySlug === slug)
             .length
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// update log: auto edit 01

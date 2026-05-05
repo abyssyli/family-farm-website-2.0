@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -39,7 +37,7 @@ export const FarmRegionSchema = z.object({
   imagePath: z.string().nullable().optional().default(null),
   ctaLabel: z.string().nullable().optional().default(null),
   ctaHref: z.string().nullable().optional().default(null),
-  x: z.number().min(0).max(100),
+  x: z.number().min(0).max(100), [modified]
   y: z.number().min(0).max(100)
 })
 
@@ -67,4 +65,3 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
-

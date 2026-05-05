@@ -13,7 +13,7 @@ export type Database = {
         Row: { id: string; slug: string; name: string; sort_order: number }
         Insert: { id?: string; slug: string; name: string; sort_order?: number }
         Update: { slug?: string; name?: string; sort_order?: number }
-        Relationships: []
+        Relationships: [] [modified]
       }
       products: {
         Row: {
@@ -182,7 +182,7 @@ export type Database = {
           updated_at?: string
         }
         Relationships: []
-      } [modified]
+      }
       inquiries: {
         Row: {
           id: string

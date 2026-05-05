@@ -20,7 +20,7 @@ export default async function JournalPostPage({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/journal" className="hover:underline">
-            Farm Journal
+            Farm Journal [modified]
           </Link>
         </p>
         <div className="mt-2 flex items-start justify-between gap-4">
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-// optimize code detail

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -8,7 +10,7 @@ import Link from "next/link"
 
 type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & {
   products: { name: string } | null
-} [modified]
+}
 
 export function OrderTracker() {
   const { supabase, session } = useSupabaseAuth()

@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 "use client"
 
 import Image from "next/image"

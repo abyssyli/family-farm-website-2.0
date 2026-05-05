@@ -8,7 +8,7 @@ export function ErrorState({
   title: string
   message: string
   action?: React.ReactNode
-}) { [modified]
+}) {
   return (
     <Card className="border-red-200">
       <CardBody>
@@ -23,3 +23,6 @@ export function ErrorState({
     </Card>
   )
 }
+
+
+// optimize code detail

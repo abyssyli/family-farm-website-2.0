@@ -14,7 +14,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
-    setError(null)
+    setError(null) [modified]
     if (!supabase) return
     setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({
@@ -48,7 +48,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
       <label className="text-sm font-medium">
         Email
-        <input [modified]
+        <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"

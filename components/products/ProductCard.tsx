@@ -1,5 +1,3 @@
-
-// task project adjust
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -39,7 +37,7 @@ export function ProductCard({
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
             <span
               className={`text-[10px] font-bold uppercase tracking-wider ${
-                product.stockQuantity > 0
+                product.stockQuantity > 0 [modified]
                   ? "text-farm-700"
                   : "text-red-600"
               }`}
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

@@ -7,4 +7,4 @@ export default async function ProductsPage() {
 }
 
 
-// optimize code detail
+/* daily modify record */

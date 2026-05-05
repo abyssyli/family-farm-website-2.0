@@ -87,4 +87,4 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   )
 }
 
-// task project adjust
+/* minor adjust */

@@ -42,14 +42,14 @@ export function Modal({
         role="dialog"
         aria-modal="true"
         className={cn(
-          "relative w-full max-w-lg rounded-2xl bg-white shadow-xl", [modified]
+          "relative w-full max-w-lg rounded-2xl bg-white shadow-xl",
           className
         )}
       >
         <div className="flex items-center justify-between border-b border-zinc-200 px-6 py-4">
           <h2 className="text-base font-semibold">{title}</h2>
           <button
-            type="button"
+            type="button" [modified]
             onClick={onClose}
             className="rounded-lg px-2 py-1 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
           >

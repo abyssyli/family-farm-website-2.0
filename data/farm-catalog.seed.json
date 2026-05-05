@@ -243,7 +243,7 @@
       "imagePath": "/photos/Wooden.jpg",
       "priceHint": "Limited batches · Local pickup",
       "externalUrl": null,
-      "isActive": true [modified]
+      "isActive": true
     },
     {
       "id": "skincare-body-butter",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+// update log: auto edit 01

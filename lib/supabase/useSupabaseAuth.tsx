@@ -1,9 +1,11 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
 import { createBrowserSupabaseClient } from "./client"
- [modified]
+
 export function useSupabaseAuth() {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [session, setSession] = useState<Session | null>(null)
@@ -31,3 +33,4 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+

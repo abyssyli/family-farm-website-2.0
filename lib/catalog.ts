@@ -74,7 +74,7 @@ export async function getCatalog(): Promise<Catalog> {
     }
     return imagePath
   }
- [modified]
+
   const dbCategories = categoriesRes.data.map((c) => ({
     slug: c.slug,
     name: c.name,
@@ -177,7 +177,7 @@ export async function getCatalog(): Promise<Catalog> {
     instructions: r.instructions,
     imagePath: r.image_path
   }))
-
+ [modified]
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions, recipes })
 }
 

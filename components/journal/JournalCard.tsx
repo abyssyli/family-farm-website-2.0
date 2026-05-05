@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
@@ -8,7 +10,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
-        </Link> [modified]
+        </Link>
       </h3>
       {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
@@ -21,3 +23,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+

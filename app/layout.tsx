@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -44,7 +42,7 @@ export default function RootLayout({
                     sizes="24px"
                   />
                 </span>
-                <span>Products</span>
+                <span>Products</span> [modified]
               </Link>
               <Link href="/journal" className="hover:text-farm-700">
                 Journal

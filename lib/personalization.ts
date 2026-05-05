@@ -1,5 +1,3 @@
-
-# minor content update
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
@@ -9,8 +7,7 @@ export function sortCategorySlugsByPreference(
   return [...categorySlugs].sort((a, b) => {
     const ra = rank.has(a) ? rank.get(a)! : Number.POSITIVE_INFINITY
     const rb = rank.has(b) ? rank.get(b)! : Number.POSITIVE_INFINITY
-    if (ra !== rb) return ra - rb
+    if (ra !== rb) return ra - rb [modified]
     return a.localeCompare(b)
   })
 }
-

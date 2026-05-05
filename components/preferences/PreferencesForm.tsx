@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -101,10 +103,11 @@ export function PreferencesForm({
                 Drag ordering is coming later—selection order controls priority
                 for now.
               </p>
-            </div> [modified]
+            </div>
           </div>
         )}
       </CardBody>
     </Card>
   )
 }
+

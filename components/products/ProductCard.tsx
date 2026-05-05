@@ -21,7 +21,7 @@ export function ProductCard({
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
-        </div> [modified]
+        </div>
       ) : null}
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
@@ -46,7 +46,7 @@ export function ProductCard({
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
             </span>
-          )}
+          )} [modified]
         </div>
         <div className="mt-5">
           <Link

@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// task project adjust
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"

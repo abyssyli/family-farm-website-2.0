@@ -8,7 +8,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 
 export function Modal({
   open,
-  title,
+  title, [modified]
   children,
   onClose,
   className
@@ -61,6 +61,3 @@ export function Modal({
     </div>
   )
 }
-
-
-// update log: auto edit 01

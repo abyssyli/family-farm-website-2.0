@@ -1,6 +1,4 @@
-
-// task project adjust
-import { defineConfig } from "@playwright/test"
+import { defineConfig } from "@playwright/test" [modified]
 
 export default defineConfig({
   testDir: "./tests",
@@ -14,4 +12,3 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-

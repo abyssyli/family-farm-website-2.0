@@ -1,5 +1,3 @@
-
-/* daily modify record */
 export type Json =
   | string
   | number
@@ -21,7 +19,7 @@ export type Database = {
         Row: {
           id: string
           category_slug: string
-          slug: string
+          slug: string [modified]
           name: string
           description: string | null
           image_path: string | null

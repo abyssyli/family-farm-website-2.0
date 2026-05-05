@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Button, ButtonLink } from "@/components/ui/Button"
+import { Button, ButtonLink } from "@/components/ui/Button" [modified]
 import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
@@ -10,7 +10,7 @@ export function ProductActions({
   product,
   categorySlug
 }: {
-  product: CatalogProduct [modified]
+  product: CatalogProduct
   categorySlug: string
 }) {
   const { skincareUrl } = getPublicEnv()

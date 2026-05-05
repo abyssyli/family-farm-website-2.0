@@ -55,7 +55,7 @@ export default async function RecipeDetailPage({
                     </span>
                     {item}
                   </li>
-                ))} [modified]
+                ))}
               </ul>
             </CardBody>
           </Card>
@@ -85,4 +85,4 @@ export default async function RecipeDetailPage({
       </div>
     </div>
   )
-}
+} [modified]

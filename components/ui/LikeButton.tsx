@@ -1,5 +1,5 @@
 
-// task project adjust
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"

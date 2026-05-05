@@ -23,7 +23,7 @@ export function OrderTracker() {
   async function fetchInquiries() {
     if (!supabase || !session) return
     const { data, error } = await supabase
-      .from("inquiries") [modified]
+      .from("inquiries")
       .select("*, products(name)")
       .order("created_at", { ascending: false })
     if (!error && data) {
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+# minor content update

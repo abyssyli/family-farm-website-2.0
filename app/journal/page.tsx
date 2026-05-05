@@ -21,7 +21,7 @@ export default async function JournalIndexPage() {
     )
   }
 
-  return ( [modified]
+  return (
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+// task project adjust

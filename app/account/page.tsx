@@ -23,7 +23,7 @@ export default async function AccountPage() {
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
-          <UserMenu />
+          <UserMenu /> [modified]
         </CardBody>
       </Card>
 
@@ -31,7 +31,7 @@ export default async function AccountPage() {
 
       <AddressManager />
 
-      <PreferencesForm categories={categories} /> [modified]
+      <PreferencesForm categories={categories} />
     </div>
   )
 }

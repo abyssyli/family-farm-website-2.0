@@ -49,11 +49,9 @@ export function UserMenu() {
           if (!supabase) return
           supabase.auth.signOut()
         }}
-      >
+      > [modified]
         Sign out
       </Button>
     </div>
   )
 }
-
-/* daily modify record */

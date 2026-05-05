@@ -42,4 +42,4 @@ export function ProductActions({
   )
 }
 
-// task project adjust
+/* daily modify record */

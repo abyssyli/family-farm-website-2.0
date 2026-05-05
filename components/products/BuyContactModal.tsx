@@ -171,8 +171,10 @@ export function BuyContactModal({
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}
           </Button>
-        </div> [modified]
+        </div>
       </div>
     </Modal>
   )
 }
+
+# minor content update

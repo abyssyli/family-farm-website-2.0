@@ -68,11 +68,11 @@ export function ProductDetail({
                       </svg>
                     </button>
                   </div>
-                  <div className="absolute inset-y-0 right-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100">
+                  <div className="absolute inset-y-0 right-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100"> [modified]
                     <button
                       onClick={goNext}
                       className="flex h-9 w-9 items-center justify-center rounded-full bg-white/80 text-zinc-900 shadow-md backdrop-blur-sm hover:bg-white"
-                    > [modified]
+                    >
                       <svg
                         viewBox="0 0 20 20"
                         fill="currentColor"

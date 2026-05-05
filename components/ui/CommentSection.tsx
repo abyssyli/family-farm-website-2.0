@@ -1,10 +1,12 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import Image from "next/image"
- [modified]
+
 export function CommentSection({
   productId,
   journalPostId

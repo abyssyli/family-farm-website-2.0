@@ -1,5 +1,5 @@
 {
-  "name": "paulas-farm-family-marketplace",
+  "name": "paulas-farm-family-marketplace", [modified]
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -32,6 +32,6 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "tsx": "^4.19.2",
-    "typescript": "^5.4.5" [modified]
+    "typescript": "^5.4.5"
   }
 }

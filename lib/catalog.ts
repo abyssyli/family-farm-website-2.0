@@ -35,7 +35,7 @@ export async function getCatalog(): Promise<Catalog> {
       "cutting-board": "/photos/Wooden1.jpg",
       "farmhouse-sign": "/photos/Wooden2.jpg",
       "wall-shelf": "/photos/Wooden3.jpg",
-      "handmade-stool": "/photos/Wooden.jpg"
+      "handmade-stool": "/photos/Wooden.jpg" [modified]
     }
 
     return imagePath && imagePath.includes("/photos/Wooden")
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-// optimize code detail

@@ -10,7 +10,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
           {post.title}
         </Link>
       </h3>
-      {post.excerpt ? (
+      {post.excerpt ? ( [modified]
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
       {post.publishedAt ? (
@@ -21,6 +21,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
-
-
-// update log: auto edit 01

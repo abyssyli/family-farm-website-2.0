@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -21,7 +19,7 @@ export function ProductDetail({
   const images =
     product.imagePaths && product.imagePaths.length > 0
       ? product.imagePaths
-      : product.imagePath
+      : product.imagePath [modified]
         ? [product.imagePath]
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

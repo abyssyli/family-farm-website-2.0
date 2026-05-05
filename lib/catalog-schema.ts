@@ -41,7 +41,7 @@ export const FarmRegionSchema = z.object({
   y: z.number().min(0).max(100)
 })
 
-export const RecipeSchema = z.object({ [modified]
+export const RecipeSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
   slug: z.string().min(1),
@@ -65,3 +65,6 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+
+
+/* minor adjust */

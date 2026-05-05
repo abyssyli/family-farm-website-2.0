@@ -56,4 +56,4 @@ export default async function JournalPostPage({
 }
 
 
-// update log: auto edit 01
+/* daily modify record */

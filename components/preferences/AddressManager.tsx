@@ -35,7 +35,7 @@ export function AddressManager() {
     const { data, error } = await supabase
       .from("user_addresses")
       .select("*")
-      .order("created_at", { ascending: false }) [modified]
+      .order("created_at", { ascending: false })
     if (!error && data) {
       setAddresses(data)
     }
@@ -67,7 +67,7 @@ export function AddressManager() {
       is_default: false
     })
     fetchAddresses()
-  }
+  } [modified]
 
   async function handleDelete(id: string) {
     if (!supabase) return

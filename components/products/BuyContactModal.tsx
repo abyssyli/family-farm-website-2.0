@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -78,7 +80,7 @@ export function BuyContactModal({
           We keep it simple. Call or text Paula to check availability and set up
           pickup.
         </p>
- [modified]
+
         <div className="grid gap-3 sm:grid-cols-2">
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
             <p className="text-sm font-medium">Phone</p>

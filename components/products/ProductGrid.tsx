@@ -22,4 +22,4 @@ export function ProductGrid({
 }
 
 
-# minor content update
+// optimize code detail

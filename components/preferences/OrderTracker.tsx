@@ -15,7 +15,7 @@ export function OrderTracker() {
   const [inquiries, setInquiries] = useState<Inquiry[]>([])
 
   useEffect(() => {
-    if (supabase && session) { [modified]
+    if (supabase && session) {
       fetchInquiries()
     }
   }, [supabase, session])
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+// update log: auto edit 01

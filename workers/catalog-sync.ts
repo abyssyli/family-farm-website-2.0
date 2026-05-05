@@ -2,7 +2,7 @@ import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
 function sleep(ms: number) {
-  return new Promise<void>((resolve) => setTimeout(resolve, ms))
+  return new Promise<void>((resolve) => setTimeout(resolve, ms)) [modified]
 }
 
 async function runOnce() {
@@ -11,7 +11,7 @@ async function runOnce() {
     throw new Error(
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
     )
-  } [modified]
+  }
 
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 

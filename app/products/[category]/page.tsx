@@ -30,10 +30,10 @@ export default async function ProductCategoryPage({
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
-        </h1> [modified]
+        </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Pick an item to see details and the best next step.
-        </p>
+        </p> [modified]
       </div>
 
       <ProductGrid products={products} categorySlug={category.slug} />

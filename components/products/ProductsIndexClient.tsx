@@ -11,13 +11,13 @@ import { getPublicEnv } from "@/lib/env"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
 import type { Catalog } from "@/lib/catalog-schema"
- [modified]
+
 export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const router = useRouter()
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const { skincareUrl } = getPublicEnv()
   const [preferred, setPreferred] = useState<string[] | null>(null)
-  const [lastUpdate, setLastUpdate] = useState<Date | null>(null)
+  const [lastUpdate, setLastUpdate] = useState<Date | null>(null) [modified]
 
   useEffect(() => {
     if (!supabase) return

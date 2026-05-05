@@ -1,5 +1,3 @@
-
-# minor content update
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -7,7 +5,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductCard({
   product,
-  href
+  href [modified]
 }: {
   product: CatalogProduct
   href: string
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

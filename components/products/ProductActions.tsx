@@ -12,7 +12,7 @@ export function ProductActions({
 }: {
   product: CatalogProduct
   categorySlug: string
-}) { [modified]
+}) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
 
@@ -28,7 +28,7 @@ export function ProductActions({
   return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>
-        Buy / Contact
+        Buy / Contact [modified]
       </Button>
       <BuyContactModal
         open={open}

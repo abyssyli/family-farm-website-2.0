@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -41,7 +39,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   }
 
   async function toggleLike() {
-    if (!supabase || !session || isUpdating) return
+    if (!supabase || !session || isUpdating) return [modified]
     setIsUpdating(true)
 
     if (isLiked) {

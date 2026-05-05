@@ -56,7 +56,7 @@ export function OrderTracker() {
           {inquiries.length === 0 ? (
             <p className="text-sm text-zinc-500 italic">No inquiries found yet.</p>
           ) : (
-            <div className="overflow-hidden rounded-2xl border border-zinc-200">
+            <div className="overflow-hidden rounded-2xl border border-zinc-200"> [modified]
               <table className="w-full text-left text-sm">
                 <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500">
                   <tr>
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-// update log: auto edit 01

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -67,7 +69,7 @@ export function AddressManager() {
       is_default: false
     })
     fetchAddresses()
-  } [modified]
+  }
 
   async function handleDelete(id: string) {
     if (!supabase) return

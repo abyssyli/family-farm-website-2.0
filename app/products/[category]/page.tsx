@@ -33,10 +33,12 @@ export default async function ProductCategoryPage({
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Pick an item to see details and the best next step.
-        </p> [modified]
+        </p>
       </div>
 
       <ProductGrid products={products} categorySlug={category.slug} />
     </div>
   )
 }
+
+/* minor adjust */

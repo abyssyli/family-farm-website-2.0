@@ -9,8 +9,8 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
         </Link>
-      </h3>
-      {post.excerpt ? ( [modified]
+      </h3> [modified]
+      {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
       {post.publishedAt ? (

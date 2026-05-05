@@ -13,7 +13,7 @@ export default async function ProductDetailPage({
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
   }
-
+ [modified]
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
@@ -21,7 +21,7 @@ export default async function ProductDetailPage({
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
-  if (!product) notFound() [modified]
+  if (!product) notFound()
 
   return (
     <ProductDetail

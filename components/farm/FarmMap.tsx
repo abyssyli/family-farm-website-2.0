@@ -14,7 +14,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     () => [...regions].sort((a, b) => a.title.localeCompare(b.title)),
     [regions]
   )
-  const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
+  const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null) [modified]
   const active = useMemo(
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

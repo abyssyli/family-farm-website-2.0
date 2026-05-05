@@ -17,7 +17,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const { skincareUrl } = getPublicEnv()
   const [preferred, setPreferred] = useState<string[] | null>(null)
-  const [lastUpdate, setLastUpdate] = useState<Date | null>(null) [modified]
+  const [lastUpdate, setLastUpdate] = useState<Date | null>(null)
 
   useEffect(() => {
     if (!supabase) return
@@ -25,7 +25,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       const userId = data.user?.id
       if (!userId) return
       const { data: pref } = await supabase
-        .from("user_preferences")
+        .from("user_preferences") [modified]
         .select("preferred_categories")
         .eq("user_id", userId)
         .maybeSingle()

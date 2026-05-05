@@ -1,12 +1,10 @@
-
-/* daily modify record */
 "use client"
 
 import { useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { ErrorState } from "@/components/ui/ErrorState"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
-
+ [modified]
 export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const { supabase } = useSupabaseAuth()
   const isConfigured = Boolean(supabase)

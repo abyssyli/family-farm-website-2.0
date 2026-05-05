@@ -4,7 +4,7 @@ import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { UserMenu } from "@/components/auth/UserMenu"
-
+ [modified]
 export default async function AccountPage() {
   const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
@@ -35,6 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-
-
-// optimize code detail

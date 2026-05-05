@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -52,7 +50,7 @@ export function BuyContactModal({
   const smsHref = useMemo(() => {
     const body = encodeURIComponent(message)
     const digits = contactPhone.replace(/[^\d+]/g, "")
-    return `sms:${digits}?&body=${body}`
+    return `sms:${digits}?&body=${body}` [modified]
   }, [contactPhone, message])
 
   async function saveInquiry() {

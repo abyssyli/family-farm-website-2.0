@@ -19,7 +19,7 @@ export function ProductDetail({
   const images =
     product.imagePaths && product.imagePaths.length > 0
       ? product.imagePaths
-      : product.imagePath [modified]
+      : product.imagePath
         ? [product.imagePath]
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
@@ -58,7 +58,7 @@ export function ProductDetail({
                       <svg
                         viewBox="0 0 20 20"
                         fill="currentColor"
-                        className="h-5 w-5"
+                        className="h-5 w-5" [modified]
                       >
                         <path
                           fillRule="evenodd"

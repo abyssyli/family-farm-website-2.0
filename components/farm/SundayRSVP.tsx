@@ -113,7 +113,7 @@ export function SundayRSVP() {
                 className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
               />
             </label>
-            <div className="flex items-center gap-4"> [modified]
+            <div className="flex items-center gap-4">
               <Button onClick={handleRSVP} disabled={status === "saving"}>
                 {status === "saved" ? "RSVP Updated!" : status === "saving" ? "Saving..." : rsvp ? "Update RSVP" : "Confirm RSVP"}
               </Button>
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+// task project adjust

@@ -46,7 +46,7 @@ export function SundayRSVP() {
     setStatus("saving")
 
     const rsvpData = {
-      user_id: session.user.id, [modified]
+      user_id: session.user.id,
       event_date: dateStr,
       adult_count: adultCount,
       child_count: childCount,
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* minor adjust */

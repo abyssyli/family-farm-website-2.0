@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -153,7 +155,7 @@ export type Database = {
           state: string
           postal_code: string
           is_default: boolean
-          created_at: string [modified]
+          created_at: string
           updated_at: string
         }
         Insert: {

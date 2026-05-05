@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -72,7 +70,7 @@ export function BuyContactModal({
     })
     setStatus("saved")
   }
-
+ [modified]
   return (
     <Modal open={open} title={title} onClose={onClose}>
       <div className="flex flex-col gap-4">

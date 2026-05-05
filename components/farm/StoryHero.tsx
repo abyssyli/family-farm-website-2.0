@@ -41,7 +41,7 @@ export function StoryHero() {
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
-        <p className="text-sm font-medium text-farm-800">
+        <p className="text-sm font-medium text-farm-800"> [modified]
           Texas family farm · Chicken and Eggs · Woodcraft · Skincare
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-// task project adjust

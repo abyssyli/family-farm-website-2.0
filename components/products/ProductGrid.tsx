@@ -15,8 +15,11 @@ export function ProductGrid({
           key={p.id}
           product={p}
           href={`/products/${categorySlug}/${p.slug}`}
-        /> [modified]
+        />
       ))}
     </div>
   )
 }
+
+
+/* minor adjust */

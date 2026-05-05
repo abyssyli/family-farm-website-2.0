@@ -98,7 +98,7 @@ export async function getCatalog(): Promise<Catalog> {
     externalUrl: p.external_url,
     isActive: p.is_active,
     stockQuantity: p.stock_quantity
-  })) [modified]
+  }))
 
   const journalPosts = journalRes.data.map((j) => ({
     id: j.id,
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+# minor content update

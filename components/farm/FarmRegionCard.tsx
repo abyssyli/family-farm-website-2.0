@@ -9,7 +9,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
       {region.imagePath ? (
         <div className="relative h-56 w-full sm:h-64">
           <Image
-            src={region.imagePath} [modified]
+            src={region.imagePath}
             alt={region.title}
             fill
             className="object-cover"
@@ -33,3 +33,5 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
+
+# minor content update

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useMemo, useState } from "react"
@@ -17,7 +19,7 @@ export function UserMenu() {
     return trimmed[0]?.toUpperCase() ?? "U"
   }, [email])
 
-  if (!ready) return null [modified]
+  if (!ready) return null
 
   if (!session) {
     return (

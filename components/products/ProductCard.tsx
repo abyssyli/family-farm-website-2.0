@@ -8,7 +8,7 @@ export function ProductCard({
   href
 }: {
   product: CatalogProduct
-  href: string
+  href: string [modified]
 }) {
   return (
     <Card className="overflow-hidden">
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

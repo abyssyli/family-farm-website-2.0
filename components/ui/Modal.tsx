@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect } from "react"
@@ -62,5 +60,4 @@ export function Modal({
       </div>
     </div>
   )
-}
-
+} [modified]

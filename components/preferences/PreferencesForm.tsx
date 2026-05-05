@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -72,7 +70,7 @@ export function PreferencesForm({
                     <input
                       type="checkbox"
                       checked={checked}
-                      onChange={(e) => {
+                      onChange={(e) => { [modified]
                         const next = e.target.checked
                         setSelected((prev) =>
                           next
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

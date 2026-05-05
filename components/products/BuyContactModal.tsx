@@ -57,7 +57,7 @@ export function BuyContactModal({
     if (!supabase) return
     if (session && !selectedAddressId) {
       alert("Please select or add an address first.")
-      return
+      return [modified]
     }
 
     setStatus("saving")
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// optimize code detail

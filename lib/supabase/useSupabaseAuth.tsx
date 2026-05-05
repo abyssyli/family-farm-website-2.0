@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -16,7 +14,7 @@ export function useSupabaseAuth() {
       setReady(true)
       return
     }
-    let active = true
+    let active = true [modified]
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return
       setSession(data.session ?? null)
@@ -33,4 +31,3 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-

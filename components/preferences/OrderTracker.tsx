@@ -14,7 +14,7 @@ export function OrderTracker() {
   const { supabase, session } = useSupabaseAuth()
   const [inquiries, setInquiries] = useState<Inquiry[]>([])
 
-  useEffect(() => {
+  useEffect(() => { [modified]
     if (supabase && session) {
       fetchInquiries()
     }
@@ -31,7 +31,7 @@ export function OrderTracker() {
     }
   }
 
-  const getStatusColor = (status: string) => { [modified]
+  const getStatusColor = (status: string) => {
     switch (status) {
       case "pending":
         return "bg-amber-100 text-amber-700 border-amber-200"

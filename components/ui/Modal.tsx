@@ -31,7 +31,7 @@ export function Modal({
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4"> [modified]
       <button
         type="button"
         aria-label="Close"
@@ -60,4 +60,4 @@ export function Modal({
       </div>
     </div>
   )
-} [modified]
+}

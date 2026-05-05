@@ -46,10 +46,10 @@ export default async function JournalPostPage({
 
       <CommentSection journalPostId={post.id} />
 
-      <div>
+      <div> [modified]
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal
-        </ButtonLink> [modified]
+        </ButtonLink>
       </div>
     </div>
   )

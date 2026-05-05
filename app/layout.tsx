@@ -1,7 +1,7 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/image" [modified]
 import { UserMenu } from "@/components/auth/UserMenu"
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children [modified]
+  children
 }: Readonly<{
   children: React.ReactNode
 }>) {

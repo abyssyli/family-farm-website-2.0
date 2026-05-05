@@ -21,7 +21,7 @@ export default async function ProductCategoryPage({
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8"> [modified]
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/products" className="hover:underline">
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// task project adjust

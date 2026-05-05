@@ -3,7 +3,7 @@ import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
-  const { url, anonKey } = getSupabasePublicConfig()
+  const { url, anonKey } = getSupabasePublicConfig() [modified]
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
@@ -14,6 +14,3 @@ export function createServiceRoleSupabaseClient() {
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
-
-
-// optimize code detail

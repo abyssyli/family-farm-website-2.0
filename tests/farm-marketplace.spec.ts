@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -18,7 +20,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByText(/\+1 \(806\) 290-4949/)).toBeVisible()
 })
 
-test("skincare category points to BeakerGold", async ({ page }) => { [modified]
+test("skincare category points to BeakerGold", async ({ page }) => {
   await page.goto("/products")
   const href = await page
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })

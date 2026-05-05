@@ -42,7 +42,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       .on(
         "postgres_changes",
         { event: "*", schema: "public", table: "products" },
-        () => {
+        () => { [modified]
           setLastUpdate(new Date())
           router.refresh()
         }
@@ -92,7 +92,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             pickup. Skincare ships via Lisa’s shop.
           </p>
         </div>
-        {lastUpdate ? ( [modified]
+        {lastUpdate ? (
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>

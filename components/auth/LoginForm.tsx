@@ -25,7 +25,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       setError(error.message)
       setStatus("idle")
       return
-    } [modified]
+    }
     setStatus("sent")
     onSuccess?.()
   }
@@ -80,3 +80,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+/* minor adjust */

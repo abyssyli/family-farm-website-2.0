@@ -1,5 +1,5 @@
 import { ButtonLink } from "@/components/ui/Button"
-import { EmptyState } from "@/components/ui/EmptyState"
+import { EmptyState } from "@/components/ui/EmptyState" [modified]
 
 export default function NotFound() {
   return (
@@ -10,4 +10,3 @@ export default function NotFound() {
     />
   )
 }
- [modified]

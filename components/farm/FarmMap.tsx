@@ -86,9 +86,11 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               >
                 <FarmRegionCard region={r} />
               </button>
-            ))} [modified]
+            ))}
         </div>
       </div>
     </section>
   )
 }
+
+/* minor adjust */

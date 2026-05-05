@@ -1,5 +1,3 @@
-
-// task project adjust
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -46,7 +44,7 @@ async function runOnce() {
     published_at: j.publishedAt,
     updated_at: new Date().toISOString()
   }))
-
+ [modified]
   const farmRegions = catalog.farmRegions.map((r) => ({
     id: r.id,
     slug: r.slug,
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

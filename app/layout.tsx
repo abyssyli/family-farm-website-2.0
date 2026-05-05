@@ -26,7 +26,7 @@ export default function RootLayout({
             <Link href="/" className="group inline-flex items-center gap-2">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-farm-700 text-white">
                 PF
-              </span>
+              </span> [modified]
               <span className="font-semibold tracking-tight">
                 Paula’s Farm Family Marketplace
               </span>
@@ -58,7 +58,7 @@ export default function RootLayout({
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
-            </div> [modified]
+            </div>
           </footer>
         </div>
       </body>

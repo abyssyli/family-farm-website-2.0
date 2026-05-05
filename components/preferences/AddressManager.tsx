@@ -189,7 +189,7 @@ export function AddressManager() {
                 </Button>
               </div>
             </div>
-          )}
+          )} [modified]
 
           <div className="grid gap-4 sm:grid-cols-2">
             {addresses.map((address) => (
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// optimize code detail

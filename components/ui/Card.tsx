@@ -3,7 +3,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 
 export function Card({
-  children, [modified]
+  children,
   className
 }: {
   children: React.ReactNode
@@ -26,7 +26,7 @@ export function CardHeader({
   subtitle
 }: {
   title: string
-  subtitle?: string | null
+  subtitle?: string | null [modified]
 }) {
   return (
     <div className="px-6 pt-6">

@@ -5,7 +5,7 @@
       "DOM",
       "DOM.Iterable",
       "ES2022"
-    ],
+    ], [modified]
     "allowJs": false,
     "skipLibCheck": true,
     "strict": true,
@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ], [modified]
+  ],
   "exclude": [
     "node_modules"
   ]

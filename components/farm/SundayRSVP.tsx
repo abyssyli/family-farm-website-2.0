@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -59,7 +57,7 @@ export function SundayRSVP() {
       .from("sunday_rsvps")
       .upsert(rsvpData, { onConflict: "user_id,event_date" })
 
-    if (!error) {
+    if (!error) { [modified]
       setStatus("saved")
       fetchRSVP()
       setTimeout(() => setStatus("idle"), 3000)

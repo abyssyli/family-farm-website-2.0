@@ -12,7 +12,7 @@ async function runOnce() {
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
     )
   }
-
+ [modified]
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 
   const categories = catalog.categories.map((c) => ({
@@ -103,7 +103,7 @@ async function main() {
     try {
       await runOnce()
     } catch (e) {
-      const message = e instanceof Error ? e.message : String(e) [modified]
+      const message = e instanceof Error ? e.message : String(e)
       console.error(message)
     }
     await sleep(intervalMs)

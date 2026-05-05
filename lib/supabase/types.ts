@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// task project adjust
 export type Json =
   | string
   | number

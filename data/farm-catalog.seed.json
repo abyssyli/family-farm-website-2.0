@@ -1,3 +1,5 @@
+
+// task project adjust
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -155,7 +157,7 @@
       "priceHint": "$5.00 · Local pickup",
       "externalUrl": null,
       "isActive": true,
-      "stockQuantity": 5 [modified]
+      "stockQuantity": 5
     },
     {
       "id": "eggs-weekly-reserve",

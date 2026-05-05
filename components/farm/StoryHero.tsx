@@ -99,7 +99,7 @@ export function StoryHero() {
             </button>
             <button
               type="button"
-              onClick={goNext}
+              onClick={goNext} [modified]
               aria-label="Next slide"
               className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-// optimize code detail

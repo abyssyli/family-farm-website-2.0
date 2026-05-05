@@ -25,7 +25,7 @@ export const JournalPostSchema = z.object({
   slug: z.string().min(1),
   title: z.string().min(1),
   excerpt: z.string().nullable().optional().default(null),
-  body: z.string().min(1),
+  body: z.string().min(1), [modified]
   publishedAt: z.string().datetime().nullable().optional().default(null)
 })
 
@@ -65,6 +65,3 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
-
-
-// task project adjust

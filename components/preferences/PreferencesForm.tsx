@@ -92,7 +92,7 @@ export function PreferencesForm({
                 disabled={status === "saving"}
               >
                 {status === "saved"
-                  ? "Saved"
+                  ? "Saved" [modified]
                   : status === "saving"
                     ? "Saving…"
                     : "Save preferences"}
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-/* daily modify record */

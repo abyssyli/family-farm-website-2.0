@@ -49,7 +49,7 @@ export function ButtonLink({
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >
-        {children}
+        {children} [modified]
       </a>
     )
   }
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-// update log: auto edit 01

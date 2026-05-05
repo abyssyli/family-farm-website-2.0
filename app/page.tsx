@@ -5,7 +5,7 @@ import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
-import { getPublicEnv } from "@/lib/env" [modified]
+import { getPublicEnv } from "@/lib/env"
 
 export default async function HomePage() {
   const catalog = await getCatalog()
@@ -95,7 +95,7 @@ export default async function HomePage() {
                   <div className="p-4">
                     <h3 className="text-sm font-semibold group-hover:text-farm-700">
                       {recipe.title}
-                    </h3>
+                    </h3> [modified]
                     <p className="mt-1 line-clamp-2 text-xs text-zinc-600">
                       {recipe.description}
                     </p>

@@ -60,7 +60,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       </label>
       <Button type="submit" disabled={!isConfigured || status === "sending"}>
         {status === "sending" ? "Sending…" : "Send magic link"}
-      </Button> [modified]
+      </Button>
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.
@@ -80,3 +80,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+/* daily modify record */

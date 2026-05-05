@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -15,3 +13,5 @@ export function LoadingState({ label }: { label: string }) {
   )
 }
 
+
+// optimize code detail

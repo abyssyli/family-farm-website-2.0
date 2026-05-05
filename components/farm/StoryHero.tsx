@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -72,7 +74,7 @@ export function StoryHero() {
               }`}
               priority={index === 0}
             />
-          ))} [modified]
+          ))}
           <div
             className="absolute inset-0 bg-gradient-to-r from-zinc-950/50 via-zinc-950/10 to-zinc-950/10"
             aria-hidden="true"

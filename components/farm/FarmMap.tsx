@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -94,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+// task project adjust

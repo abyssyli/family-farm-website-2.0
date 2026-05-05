@@ -13,4 +13,6 @@ export function getPublicEnv() {
       : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
-} [modified]
+}
+
+// update log: auto edit 01

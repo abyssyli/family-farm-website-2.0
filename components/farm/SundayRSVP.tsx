@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -16,7 +18,7 @@ export function SundayRSVP() {
   // Next Sunday's date
   const nextSunday = new Date()
   nextSunday.setDate(nextSunday.getDate() + ((7 - nextSunday.getDay()) % 7))
-  const dateStr = nextSunday.toISOString().split("T")[0] [modified]
+  const dateStr = nextSunday.toISOString().split("T")[0]
 
   useEffect(() => {
     if (supabase && session) {

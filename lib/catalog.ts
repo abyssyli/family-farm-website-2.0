@@ -1,3 +1,5 @@
+
+// task project adjust
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -174,7 +176,7 @@ export async function getCatalog(): Promise<Catalog> {
     slug: r.slug,
     description: r.description,
     ingredients: r.ingredients,
-    instructions: r.instructions, [modified]
+    instructions: r.instructions,
     imagePath: r.image_path
   }))
 

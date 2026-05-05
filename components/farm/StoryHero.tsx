@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -37,7 +39,7 @@ export function StoryHero() {
     setHoursSlide((current) => (current + 1) % slideCount)
     startAuto()
   }, [slideCount, startAuto])
- [modified]
+
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>

@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en"> [modified]
       <head>
         <meta name="format-detection" content="telephone=no" />
       </head>
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-/* daily modify record */

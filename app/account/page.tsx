@@ -5,7 +5,7 @@ import { OrderTracker } from "@/components/preferences/OrderTracker"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { UserMenu } from "@/components/auth/UserMenu"
 
-export default async function AccountPage() {
+export default async function AccountPage() { [modified]
   const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
@@ -23,7 +23,7 @@ export default async function AccountPage() {
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
-          <UserMenu /> [modified]
+          <UserMenu />
         </CardBody>
       </Card>
 

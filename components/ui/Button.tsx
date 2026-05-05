@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -43,7 +41,7 @@ export function ButtonLink({
   className?: string
 }) {
   const external = /^https?:\/\//i.test(href)
-  if (external) {
+  if (external) { [modified]
     return (
       <a
         href={href}

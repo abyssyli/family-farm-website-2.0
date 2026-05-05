@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -17,7 +19,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [ [modified]
+    "plugins": [
       {
         "name": "next"
       }

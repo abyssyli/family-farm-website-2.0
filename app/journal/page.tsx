@@ -10,7 +10,7 @@ export default async function JournalIndexPage() {
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return db - da
   })
-
+ [modified]
   if (posts.length === 0) {
     return (
       <EmptyState
@@ -32,7 +32,7 @@ export default async function JournalIndexPage() {
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((p) => ( [modified]
+        {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}
       </div>

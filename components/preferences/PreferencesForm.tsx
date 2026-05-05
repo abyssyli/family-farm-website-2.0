@@ -16,7 +16,7 @@ export function PreferencesForm({
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   useEffect(() => {
-    if (!supabase) return
+    if (!supabase) return [modified]
     supabase.auth.getUser().then(async ({ data }) => {
       const id = data.user?.id ?? null
       setUserId(id)
@@ -32,7 +32,7 @@ export function PreferencesForm({
 
   async function save() {
     if (!supabase || !userId) return
-    setStatus("saving") [modified]
+    setStatus("saving")
     await supabase.from("user_preferences").upsert({
       user_id: userId,
       preferred_categories: selected

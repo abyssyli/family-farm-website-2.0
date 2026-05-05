@@ -11,7 +11,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
         </Link>
       </h3>
       {post.excerpt ? (
-        <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p> [modified]
+        <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
       {post.publishedAt ? (
         <p className="mt-4 text-xs text-zinc-600">
@@ -21,3 +21,6 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+
+
+/* daily modify record */

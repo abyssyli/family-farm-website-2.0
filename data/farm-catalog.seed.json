@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -63,7 +61,7 @@
     {
       "id": "food-dumplings",
       "categorySlug": "food",
-      "slug": "dumplings",
+      "slug": "dumplings", [modified]
       "name": "Dumplings",
       "description": "Hand-folded dumplings with savory fillings.",
       "imagePath": "/photos/eat8.jpg",

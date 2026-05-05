@@ -67,4 +67,4 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
 
 
-// task project adjust
+// optimize code detail

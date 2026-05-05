@@ -1,3 +1,5 @@
+
+// task project adjust
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -84,7 +86,7 @@ async function runOnce() {
     await supabase.from("sync_runs").insert({
       status: "error",
       source: sourceLabel,
-      message [modified]
+      message
     })
     throw e
   }
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

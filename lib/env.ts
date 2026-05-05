@@ -15,4 +15,4 @@ export function getPublicEnv() {
   return { contactPhone, skincareUrl }
 }
 
-// task project adjust
+// optimize code detail

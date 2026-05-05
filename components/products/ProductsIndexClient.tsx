@@ -141,4 +141,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   )
 }
 
-// optimize code detail
+/* daily modify record */

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -206,7 +204,7 @@ export function AddressManager() {
                       <span className="text-[10px] font-bold uppercase tracking-wider text-farm-700">
                         Default
                       </span>
-                    )}
+                    )} [modified]
                   </div>
                   <div className="flex gap-2">
                     <button

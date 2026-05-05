@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"

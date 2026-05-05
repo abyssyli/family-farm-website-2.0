@@ -8,7 +8,7 @@ import { getCatalog } from "@/lib/catalog"
 
 export default async function JournalPostPage({
   params
-}: {
+}: { [modified]
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-// update log: auto edit 01

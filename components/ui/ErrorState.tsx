@@ -5,10 +5,10 @@ export function ErrorState({
   message,
   action
 }: {
-  title: string [modified]
+  title: string
   message: string
   action?: React.ReactNode
-}) {
+}) { [modified]
   return (
     <Card className="border-red-200">
       <CardBody>

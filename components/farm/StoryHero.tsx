@@ -42,7 +42,7 @@ export function StoryHero() {
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          Texas family farm · Chicken and Eggs · Woodcraft · Skincare
+          Texas family farm · Chicken and Eggs · Woodcraft · Skincare [modified]
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
           A warm marketplace built around our family and the land we care for.
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-# minor content update

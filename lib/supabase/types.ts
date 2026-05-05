@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -17,7 +15,7 @@ export type Database = {
         Update: { slug?: string; name?: string; sort_order?: number }
         Relationships: []
       }
-      products: {
+      products: { [modified]
         Row: {
           id: string
           category_slug: string

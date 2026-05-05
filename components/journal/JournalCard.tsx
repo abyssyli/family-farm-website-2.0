@@ -9,7 +9,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
         </Link>
-      </h3> [modified]
+      </h3>
       {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
@@ -21,3 +21,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+ [modified]

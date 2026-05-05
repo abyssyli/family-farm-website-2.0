@@ -55,7 +55,7 @@ export async function getCatalog(): Promise<Catalog> {
       "hen-spotlight": "/photos/chicken1.jpg",
       "coop-morning": "/photos/chicken2.jpg",
       "baby-chicks": "/photos/0.jpg"
-    } [modified]
+    }
 
     const fallback = fallbackBySlug[slug]
     if (!fallback) return imagePath
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+/* minor adjust */

@@ -24,7 +24,7 @@
       "description": "Traditional savory eggs marbled with tea and spices.",
       "imagePath": "/photos/eat2.jpg",
       "priceHint": "Sunday Gathering · Pre-order available",
-      "isActive": true
+      "isActive": true [modified]
     },
     {
       "id": "food-sausage-potato-pancakes",
@@ -303,5 +303,3 @@
     }
   ]
 }
-
-# minor content update

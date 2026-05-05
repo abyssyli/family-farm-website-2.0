@@ -5,4 +5,5 @@ const nextConfig = {
   }
 }
 
-export default nextConfig [modified]
+export default nextConfig
+ [modified]

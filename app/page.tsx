@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -41,7 +43,7 @@ export default async function HomePage() {
               <p className="mt-2 text-sm text-zinc-700">
                 Explore {c.name.toLowerCase()} from our family.
               </p>
-              <div className="mt-5"> [modified]
+              <div className="mt-5">
                 {c.slug === "skincare" ? (
                   <a
                     href={skincareUrl}

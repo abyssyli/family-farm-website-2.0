@@ -77,7 +77,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           {sorted
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
-            .map((r) => (
+            .map((r) => ( [modified]
               <button
                 key={r.id}
                 type="button"
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

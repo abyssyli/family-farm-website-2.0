@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -161,3 +159,5 @@ export function ProductDetail({
 }
 
 
+
+// optimize code detail

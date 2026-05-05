@@ -134,7 +134,7 @@ export function AddressManager() {
               <label className="flex flex-col gap-1 text-sm font-medium sm:col-span-2">
                 Address Line 2 (Optional)
                 <input
-                  type="text"
+                  type="text" [modified]
                   value={formData.address_line2}
                   onChange={(e) => setFormData({ ...formData, address_line2: e.target.value })}
                   className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-/* daily modify record */

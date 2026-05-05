@@ -306,7 +306,7 @@ export type Database = {
           slug: string
           description: string | null
           ingredients: string[]
-          instructions: string[] [modified]
+          instructions: string[]
           image_path: string | null
           created_at: string
         }
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+/* daily modify record */

@@ -28,7 +28,7 @@ async function runOnce() {
     name: p.name,
     description: p.description,
     image_path: p.imagePath,
-    price_hint: p.priceHint, [modified]
+    price_hint: p.priceHint,
     external_url: p.externalUrl,
     is_active: p.isActive,
     stock_quantity: p.stockQuantity,
@@ -63,7 +63,7 @@ async function runOnce() {
       supabase.from("categories").upsert(categories, { onConflict: "slug" }),
       supabase.from("products").upsert(products, { onConflict: "id" }),
       supabase.from("journal_posts").upsert(journalPosts, { onConflict: "id" }),
-      supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
+      supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" }) [modified]
     ])
 
     for (const res of upserts) {

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// update log: auto edit 01
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"

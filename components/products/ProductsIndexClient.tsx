@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Link from "next/link"
@@ -106,7 +108,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           const category = categoryBySlug.get(slug)
           if (!category) return null
           const count = catalog.products.filter((p) => p.categorySlug === slug)
-            .length [modified]
+            .length
           const isSkincare = slug === "skincare"
           return (
             <Card key={slug} className="p-6">

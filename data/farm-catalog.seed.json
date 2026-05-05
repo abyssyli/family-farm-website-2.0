@@ -1,5 +1,3 @@
-
-/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -238,7 +236,7 @@
     },
     {
       "id": "woodcraft-stool",
-      "categorySlug": "woodcraft",
+      "categorySlug": "woodcraft", [modified]
       "slug": "handmade-stool",
       "name": "Thomas's Handmade Stool",
       "description": "A sturdy little stool with clean lines—great as a step, seat, or plant stand.",

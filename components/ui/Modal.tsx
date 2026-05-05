@@ -9,7 +9,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 export function Modal({
   open,
   title,
-  children, [modified]
+  children,
   onClose,
   className
 }: {
@@ -56,7 +56,7 @@ export function Modal({
             Close
           </button>
         </div>
-        <div className="px-6 py-5">{children}</div>
+        <div className="px-6 py-5">{children}</div> [modified]
       </div>
     </div>
   )

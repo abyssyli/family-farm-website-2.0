@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -19,7 +21,7 @@ export function useSupabaseAuth() {
       if (!active) return
       setSession(data.session ?? null)
       setReady(true)
-    }) [modified]
+    })
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession)
     })
@@ -31,3 +33,4 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+

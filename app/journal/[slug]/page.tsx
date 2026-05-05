@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -21,7 +19,7 @@ export default async function JournalPostPage({
     <div className="flex flex-col gap-6">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          <Link href="/journal" className="hover:underline">
+          <Link href="/journal" className="hover:underline"> [modified]
             Farm Journal
           </Link>
         </p>
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

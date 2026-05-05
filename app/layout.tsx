@@ -36,7 +36,7 @@ export default function RootLayout({
                 <span className="relative h-6 w-6 overflow-hidden rounded-lg ring-1 ring-zinc-200">
                   <Image
                     src="/photos/egg.jpg"
-                    alt="Products" [modified]
+                    alt="Products"
                     fill
                     className="object-cover"
                     sizes="24px"
@@ -65,3 +65,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+// update log: auto edit 01

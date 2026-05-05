@@ -48,10 +48,12 @@ export function UserMenu() {
         onClick={() => {
           if (!supabase) return
           supabase.auth.signOut()
-        }} [modified]
+        }}
       >
         Sign out
       </Button>
     </div>
   )
 }
+
+// task project adjust

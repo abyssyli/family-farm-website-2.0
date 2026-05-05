@@ -22,7 +22,7 @@ export function PreferencesForm({
       setUserId(id)
       if (!id) return
       const { data: pref } = await supabase
-        .from("user_preferences") [modified]
+        .from("user_preferences")
         .select("preferred_categories")
         .eq("user_id", id)
         .maybeSingle()
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// update log: auto edit 01

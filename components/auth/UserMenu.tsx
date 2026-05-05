@@ -15,7 +15,7 @@ export function UserMenu() {
     const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"
-  }, [email]) [modified]
+  }, [email])
 
   if (!ready) return null
 
@@ -55,3 +55,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* minor adjust */

@@ -34,7 +34,7 @@ export function PreferencesForm({
     if (!supabase || !userId) return
     setStatus("saving")
     await supabase.from("user_preferences").upsert({
-      user_id: userId,
+      user_id: userId, [modified]
       preferred_categories: selected
     })
     setStatus("saved")
@@ -72,7 +72,7 @@ export function PreferencesForm({
                       checked={checked}
                       onChange={(e) => {
                         const next = e.target.checked
-                        setSelected((prev) => [modified]
+                        setSelected((prev) =>
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)

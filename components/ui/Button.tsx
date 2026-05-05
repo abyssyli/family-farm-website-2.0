@@ -60,4 +60,4 @@ export function ButtonLink({
   )
 }
 
-# minor content update
+// optimize code detail

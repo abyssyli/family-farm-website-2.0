@@ -3,7 +3,7 @@ import { defineConfig } from "@playwright/test"
 export default defineConfig({
   testDir: "./tests",
   use: {
-    baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000", [modified]
     trace: "retain-on-failure"
   },
   webServer: {
@@ -12,6 +12,3 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-
-
-// task project adjust

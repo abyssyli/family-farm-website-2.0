@@ -32,7 +32,7 @@ export function CommentSection({
     
     if (productId) query = query.eq("product_id", productId)
     if (journalPostId) query = query.eq("journal_post_id", journalPostId)
- [modified]
+
     const { data, error } = await query
     if (!error && data) {
       setComments(data)
@@ -44,7 +44,7 @@ export function CommentSection({
     if (!supabase || !session || !newComment.trim()) return
 
     setIsSubmitting(true)
-    const { error } = await supabase.from("comments").insert({
+    const { error } = await supabase.from("comments").insert({ [modified]
       user_id: session.user.id,
       content: newComment.trim(),
       product_id: productId || null,

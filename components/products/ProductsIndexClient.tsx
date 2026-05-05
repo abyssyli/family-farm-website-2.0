@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Link from "next/link"
@@ -99,7 +97,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
         ) : null}
-      </div>
+      </div> [modified]
 
       <SundayRSVP />
 

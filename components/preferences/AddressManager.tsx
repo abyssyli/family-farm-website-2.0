@@ -25,7 +25,7 @@ export function AddressManager() {
   })
 
   useEffect(() => {
-    if (supabase && session) { [modified]
+    if (supabase && session) {
       fetchAddresses()
     }
   }, [supabase, session])
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+// update log: auto edit 01

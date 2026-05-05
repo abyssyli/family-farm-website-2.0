@@ -37,7 +37,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
         <p className="mt-2 text-sm text-zinc-700">
           Tap a region to learn what we’re making this season.
         </p>
- [modified]
+
         <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           <div className="relative">
             <Image
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+/* daily modify record */

@@ -10,7 +10,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 export function ProductDetail({
   product,
   categoryName,
-  primaryAction
+  primaryAction [modified]
 }: {
   product: CatalogProduct
   categoryName: string
@@ -116,7 +116,7 @@ export function ProductDetail({
             </Link>
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-            {product.name} [modified]
+            {product.name}
           </h1>
           {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">

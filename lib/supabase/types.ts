@@ -164,7 +164,7 @@ export type Database = {
           address_line1: string
           address_line2?: string | null
           city: string
-          state: string [modified]
+          state: string
           postal_code: string
           is_default?: boolean
           created_at?: string
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+// update log: auto edit 01

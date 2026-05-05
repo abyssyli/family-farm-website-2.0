@@ -22,11 +22,8 @@ const config: Config = {
         }
       }
     }
-  },
+  }, [modified]
   plugins: []
 }
 
 export default config
-
-
-// update log: auto edit 01

@@ -21,7 +21,7 @@ export function StoryHero() {
     timerRef.current = window.setInterval(() => {
       setHoursSlide((current) => (current + 1) % slideCount)
     }, 6000)
-  }, [slideCount, stopAuto])
+  }, [slideCount, stopAuto]) [modified]
 
   useEffect(() => {
     startAuto()
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-// update log: auto edit 01

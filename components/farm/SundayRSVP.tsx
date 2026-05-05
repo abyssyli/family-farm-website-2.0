@@ -28,7 +28,7 @@ export function SundayRSVP() {
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("sunday_rsvps")
-      .select("*") [modified]
+      .select("*")
       .eq("user_id", session.user.id)
       .eq("event_date", dateStr)
       .single()
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* daily modify record */

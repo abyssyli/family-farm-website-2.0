@@ -21,7 +21,7 @@ export default async function ProductDetailPage({
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
-  if (!product) notFound() [modified]
+  if (!product) notFound()
 
   return (
     <ProductDetail
@@ -31,3 +31,5 @@ export default async function ProductDetailPage({
     />
   )
 }
+
+// update log: auto edit 01

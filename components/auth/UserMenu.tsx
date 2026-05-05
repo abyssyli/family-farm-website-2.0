@@ -11,7 +11,7 @@ export function UserMenu() {
   const [open, setOpen] = useState(false)
   const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
-    if (!email) return "U" [modified]
+    if (!email) return "U"
     const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"
@@ -37,7 +37,7 @@ export function UserMenu() {
       <div
         className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-farm-700 text-sm font-semibold text-white"
         title={email ?? "Signed in"}
-      >
+      > [modified]
         {avatarLabel}
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">

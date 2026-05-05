@@ -67,7 +67,7 @@ export function PreferencesForm({
                     key={c.slug}
                     className="flex items-center gap-3 rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm"
                   >
-                    <input
+                    <input [modified]
                       type="checkbox"
                       checked={checked}
                       onChange={(e) => {
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// optimize code detail

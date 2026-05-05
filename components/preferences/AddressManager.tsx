@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -114,7 +116,7 @@ export function AddressManager() {
                 />
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium">
-                Phone Number [modified]
+                Phone Number
                 <input
                   type="text"
                   value={formData.phone}

@@ -1,4 +1,4 @@
-import { Card, CardBody } from "./Card" [modified]
+import { Card, CardBody } from "./Card"
 
 export function EmptyState({
   title,
@@ -10,7 +10,7 @@ export function EmptyState({
   action?: React.ReactNode
 }) {
   return (
-    <Card>
+    <Card> [modified]
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>

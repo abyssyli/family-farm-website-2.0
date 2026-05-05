@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
@@ -13,7 +15,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
-      {post.publishedAt ? ( [modified]
+      {post.publishedAt ? (
         <p className="mt-4 text-xs text-zinc-600">
           {new Date(post.publishedAt).toLocaleDateString()}
         </p>
@@ -21,3 +23,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+

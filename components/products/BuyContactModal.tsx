@@ -177,4 +177,4 @@ export function BuyContactModal({
   )
 }
 
-/* minor adjust */
+/* daily modify record */

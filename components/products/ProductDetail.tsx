@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import { ButtonLink } from "@/components/ui/Button" [modified]
+import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
@@ -110,7 +110,7 @@ export function ProductDetail({
           <p className="text-sm font-medium text-farm-800">
             <Link
               href={`/products/${product.categorySlug}`}
-              className="hover:underline"
+              className="hover:underline" [modified]
             >
               {categoryName}
             </Link>

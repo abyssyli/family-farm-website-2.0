@@ -31,7 +31,7 @@ export function SundayRSVP() {
       .select("*")
       .eq("user_id", session.user.id)
       .eq("event_date", dateStr)
-      .single() [modified]
+      .single()
     
     if (!error && data) {
       setRsvp(data)
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* daily modify record */

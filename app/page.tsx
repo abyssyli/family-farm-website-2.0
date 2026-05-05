@@ -110,4 +110,4 @@ export default async function HomePage() {
   )
 }
 
-/* minor adjust */
+# minor content update

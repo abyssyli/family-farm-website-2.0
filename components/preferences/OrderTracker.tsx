@@ -39,7 +39,7 @@ export function OrderTracker() {
         return "bg-blue-100 text-blue-700 border-blue-200"
       case "completed":
         return "bg-green-100 text-green-700 border-green-200"
-      case "cancelled":
+      case "cancelled": [modified]
         return "bg-red-100 text-red-700 border-red-200"
       default:
         return "bg-zinc-100 text-zinc-700 border-zinc-200"
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-/* minor adjust */

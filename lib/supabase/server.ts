@@ -7,13 +7,10 @@ export function createServerSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
-
+ [modified]
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
   const serviceRoleKey = getSupabaseServiceRoleKey()
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
-
-
-/* daily modify record */

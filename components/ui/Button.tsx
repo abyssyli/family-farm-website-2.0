@@ -44,14 +44,14 @@ export function ButtonLink({
   if (external) {
     return (
       <a
-        href={href} [modified]
+        href={href}
         target="_blank"
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >
         {children}
       </a>
-    )
+    ) [modified]
   }
   return (
     <Link href={href} className={cn(base, variants[variant], className)}>

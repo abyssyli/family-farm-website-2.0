@@ -72,7 +72,7 @@ export function CommentSection({
           <textarea
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
-            placeholder="Write a comment..." [modified]
+            placeholder="Write a comment..."
             rows={3}
             className="w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-sm outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
           />
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+/* minor adjust */

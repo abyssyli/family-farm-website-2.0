@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button"
 import { ErrorState } from "@/components/ui/ErrorState"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
-export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
+export function LoginForm({ onSuccess }: { onSuccess?: () => void }) { [modified]
   const { supabase } = useSupabaseAuth()
   const isConfigured = Boolean(supabase)
   const [email, setEmail] = useState("")
@@ -80,5 +80,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-// optimize code detail

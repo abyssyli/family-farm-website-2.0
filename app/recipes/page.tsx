@@ -18,7 +18,7 @@ export default async function RecipesPage() {
         </p>
       </div>
 
-      {recipes.length === 0 ? ( [modified]
+      {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -49,6 +49,6 @@ export default async function RecipesPage() {
           ))}
         </div>
       )}
-    </div>
+    </div> [modified]
   )
 }

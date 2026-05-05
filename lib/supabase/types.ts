@@ -1,5 +1,3 @@
-
-# minor content update
 export type Json =
   | string
   | number
@@ -164,7 +162,7 @@ export type Database = {
           name: string
           phone?: string | null
           address_line1: string
-          address_line2?: string | null
+          address_line2?: string | null [modified]
           city: string
           state: string
           postal_code: string

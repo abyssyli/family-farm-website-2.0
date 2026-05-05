@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 module.exports = {
   plugins: {
     tailwindcss: {},

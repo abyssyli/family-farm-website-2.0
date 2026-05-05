@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -38,7 +40,7 @@ export function PreferencesForm({
       preferred_categories: selected
     })
     setStatus("saved")
-    window.setTimeout(() => setStatus("idle"), 1200) [modified]
+    window.setTimeout(() => setStatus("idle"), 1200)
   }
 
   return (
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

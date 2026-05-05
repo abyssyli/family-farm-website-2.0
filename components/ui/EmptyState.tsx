@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -7,7 +5,7 @@ export function EmptyState({
   message,
   action
 }: {
-  title: string
+  title: string [modified]
   message: string
   action?: React.ReactNode
 }) {
@@ -25,4 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-

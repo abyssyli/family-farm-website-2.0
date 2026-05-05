@@ -66,7 +66,7 @@ export function OrderTracker() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-zinc-200">
-                  {inquiries.map((inquiry) => ( [modified]
+                  {inquiries.map((inquiry) => (
                     <tr key={inquiry.id} className="hover:bg-zinc-50/50">
                       <td className="px-4 py-3">
                         {inquiry.products?.name || "Deleted Product"}
@@ -89,7 +89,7 @@ export function OrderTracker() {
               </table>
             </div>
           )}
-        </div>
+        </div> [modified]
       </CardBody>
     </Card>
   )

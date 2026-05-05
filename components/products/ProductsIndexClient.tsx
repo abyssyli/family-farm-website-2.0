@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import Link from "next/link"
@@ -49,7 +47,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           router.refresh()
         }
       )
-      .on(
+      .on( [modified]
         "postgres_changes",
         { event: "*", schema: "public", table: "categories" },
         () => {

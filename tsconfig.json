@@ -1,5 +1,3 @@
-
-// task project adjust
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -8,7 +6,7 @@
       "DOM.Iterable",
       "ES2022"
     ],
-    "allowJs": false,
+    "allowJs": false, [modified]
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,

@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -15,7 +13,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const [error, setError] = useState<string | null>(null)
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault()
+    e.preventDefault() [modified]
     setError(null)
     if (!supabase) return
     setStatus("sending")

@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
- [modified]
+
 export default async function HomePage() {
   const catalog = await getCatalog()
   const categories = catalog.categories
@@ -76,7 +76,7 @@ export default async function HomePage() {
                 Delicious ways to use our farm-fresh ingredients.
               </p>
             </div>
-            <ButtonLink href="/recipes" variant="secondary" className="shrink-0">
+            <ButtonLink href="/recipes" variant="secondary" className="shrink-0"> [modified]
               See all recipes
             </ButtonLink>
           </div>

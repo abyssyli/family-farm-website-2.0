@@ -33,7 +33,7 @@ export function ProductDetail({
 
   return (
     <div className="flex flex-col">
-      <div className="grid gap-10 lg:grid-cols-2 lg:items-start"> [modified]
+      <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
         <div className="group relative overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           {images.length > 0 ? (
             <>
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+# minor content update

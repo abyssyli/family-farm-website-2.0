@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -35,7 +37,7 @@ export function BuyContactModal({
       supabase
         .from("user_addresses")
         .select("*")
-        .order("is_default", { ascending: false }) [modified]
+        .order("is_default", { ascending: false })
         .then(({ data }) => {
           if (data) {
             setAddresses(data)

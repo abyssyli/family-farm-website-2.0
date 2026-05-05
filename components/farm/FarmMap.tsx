@@ -12,14 +12,14 @@ function cn(...parts: Array<string | false | null | undefined>) {
 export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   const sorted = useMemo(
     () => [...regions].sort((a, b) => a.title.localeCompare(b.title)),
-    [regions] [modified]
+    [regions]
   )
   const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
   const active = useMemo(
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]
   )
-  const coverImagePath = useMemo(() => {
+  const coverImagePath = useMemo(() => { [modified]
     if (!active) return "/photos/Home.jpg"
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
     if (active.slug === "woodshop") return "/photos/Wooden2.jpg"

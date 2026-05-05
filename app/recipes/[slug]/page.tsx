@@ -49,7 +49,7 @@ export default async function RecipeDetailPage({
             <CardBody>
               <ul className="flex flex-col gap-2">
                 {recipe.ingredients.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm text-zinc-700"> [modified]
+                  <li key={i} className="flex gap-3 text-sm text-zinc-700">
                     <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-farm-100 text-[10px] font-bold text-farm-700">
                       {i + 1}
                     </span>
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+// update log: auto edit 01

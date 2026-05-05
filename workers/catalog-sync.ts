@@ -1,3 +1,5 @@
+
+# minor content update
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -43,7 +45,7 @@ async function runOnce() {
     body: j.body,
     published_at: j.publishedAt,
     updated_at: new Date().toISOString()
-  })) [modified]
+  }))
 
   const farmRegions = catalog.farmRegions.map((r) => ({
     id: r.id,
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

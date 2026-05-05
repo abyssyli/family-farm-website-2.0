@@ -94,7 +94,7 @@ export type Database = {
           slug: string
           title: string
           description: string | null
-          image_path: string | null
+          image_path: string | null [modified]
           cta_label: string | null
           cta_href: string | null
           x: number
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-# minor content update

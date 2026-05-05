@@ -5,7 +5,7 @@ import { ButtonLink } from "@/components/ui/Button"
 import { LikeButton } from "@/components/ui/LikeButton"
 import { CommentSection } from "@/components/ui/CommentSection"
 import { getCatalog } from "@/lib/catalog"
-
+ [modified]
 export default async function JournalPostPage({
   params
 }: {
@@ -45,7 +45,7 @@ export default async function JournalPostPage({
       </Card>
 
       <CommentSection journalPostId={post.id} />
- [modified]
+
       <div>
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal

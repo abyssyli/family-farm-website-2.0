@@ -1,3 +1,5 @@
+
+# minor content update
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -138,7 +140,7 @@ export function BuyContactModal({
           </p>
         )}
 
-        <label className="text-sm font-medium"> [modified]
+        <label className="text-sm font-medium">
           Message
           <textarea
             value={message}

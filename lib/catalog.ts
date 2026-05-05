@@ -134,7 +134,7 @@ export async function getCatalog(): Promise<Catalog> {
     const finalImagePaths =
       p.imagePaths && p.imagePaths.length > 0
         ? p.imagePaths
-        : seedProduct?.imagePaths && seedProduct.imagePaths.length > 0
+        : seedProduct?.imagePaths && seedProduct.imagePaths.length > 0 [modified]
           ? seedProduct.imagePaths
           : p.imagePath
             ? [p.imagePath]
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-/* daily modify record */

@@ -15,7 +15,7 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve", [modified]
+    "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+/* minor adjust */

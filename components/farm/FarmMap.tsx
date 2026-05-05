@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -48,7 +46,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               width={1400}
               height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              sizes="(max-width: 1024px) 100vw, 50vw" [modified]
             />
             {sorted.map((r) => {
               const isActive = r.slug === activeSlug

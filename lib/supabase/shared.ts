@@ -3,10 +3,7 @@ export function getSupabasePublicConfig() {
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim()
   return { url, anonKey }
 }
-
+ [modified]
 export function getSupabaseServiceRoleKey() {
   return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
 }
-
-
-// optimize code detail

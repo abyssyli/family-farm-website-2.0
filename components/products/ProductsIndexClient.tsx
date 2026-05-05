@@ -12,7 +12,7 @@ import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
 import type { Catalog } from "@/lib/catalog-schema"
 
-export function ProductsIndexClient({ catalog }: { catalog: Catalog }) { [modified]
+export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const router = useRouter()
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const { skincareUrl } = getPublicEnv()
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) { [modifi
     </div>
   )
 }
+
+// update log: auto edit 01

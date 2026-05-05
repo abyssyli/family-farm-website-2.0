@@ -9,14 +9,14 @@ export default async function ProductCategoryPage({
 }: {
   params: { category: string }
 }) {
-  if (params.category === "skincare") { [modified]
+  if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
   }
 
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
-  if (!category) notFound()
+  if (!category) notFound() [modified]
 
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 

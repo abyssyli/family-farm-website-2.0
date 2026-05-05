@@ -15,7 +15,7 @@ export function AddressManager() {
   const [isAdding, setIsAdding] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
-    phone: "", [modified]
+    phone: "",
     address_line1: "",
     address_line2: "",
     city: "",
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+// optimize code detail

@@ -93,7 +93,7 @@ export type Database = {
           id: string
           slug: string
           title: string
-          description: string | null
+          description: string | null [modified]
           image_path: string | null
           cta_label: string | null
           cta_href: string | null
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// optimize code detail

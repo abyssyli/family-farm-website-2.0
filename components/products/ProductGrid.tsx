@@ -1,12 +1,12 @@
 import type { CatalogProduct } from "@/lib/catalog-schema"
-import { ProductCard } from "./ProductCard"
+import { ProductCard } from "./ProductCard" [modified]
 
 export function ProductGrid({
   products,
   categorySlug
 }: {
   products: CatalogProduct[]
-  categorySlug: string [modified]
+  categorySlug: string
 }) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

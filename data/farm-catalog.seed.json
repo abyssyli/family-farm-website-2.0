@@ -161,7 +161,7 @@
       "id": "eggs-weekly-reserve",
       "categorySlug": "eggs",
       "slug": "weekly-egg-reserve",
-      "name": "Weekly Egg Reserve", [modified]
+      "name": "Weekly Egg Reserve",
       "description": "Prefer a regular pickup? Tell us how many dozen you want each week and we’ll do our best to set them aside.",
       "imagePath": "/photos/egg2.jpg",
       "priceHint": "Text to arrange",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+/* minor adjust */

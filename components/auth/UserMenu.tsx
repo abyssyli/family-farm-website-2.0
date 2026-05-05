@@ -26,7 +26,7 @@ export function UserMenu() {
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
-          <LoginForm onSuccess={() => setOpen(false)} /> [modified]
+          <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>
       </>
     )
@@ -46,7 +46,7 @@ export function UserMenu() {
       <Button
         variant="ghost"
         onClick={() => {
-          if (!supabase) return
+          if (!supabase) return [modified]
           supabase.auth.signOut()
         }}
       >

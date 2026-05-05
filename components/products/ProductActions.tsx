@@ -1,8 +1,10 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
-import { BuyContactModal } from "./BuyContactModal" [modified]
+import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 

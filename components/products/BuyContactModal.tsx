@@ -74,7 +74,7 @@ export function BuyContactModal({
   return (
     <Modal open={open} title={title} onClose={onClose}>
       <div className="flex flex-col gap-4">
-        <p className="text-sm text-zinc-700"> [modified]
+        <p className="text-sm text-zinc-700">
           We keep it simple. Call or text Paula to check availability and set up
           pickup.
         </p>
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+/* minor adjust */

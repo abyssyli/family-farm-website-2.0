@@ -1,4 +1,4 @@
-import Link from "next/link" [modified]
+import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
@@ -22,7 +22,7 @@ export default async function RecipesPage() {
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {recipes.map((recipe) => (
+          {recipes.map((recipe) => ( [modified]
             <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                 <div className="relative h-48 w-full">

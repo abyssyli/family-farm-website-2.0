@@ -7,7 +7,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   return (
     <Card className="overflow-hidden">
       {region.imagePath ? (
-        <div className="relative h-56 w-full sm:h-64"> [modified]
+        <div className="relative h-56 w-full sm:h-64">
           <Image
             src={region.imagePath}
             alt={region.title}
@@ -33,3 +33,5 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
+
+// update log: auto edit 01

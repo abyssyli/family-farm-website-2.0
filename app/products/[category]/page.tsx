@@ -28,7 +28,7 @@ export default async function ProductCategoryPage({
             Products
           </Link>
         </p>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
+        <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl"> [modified]
           {category.name}
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// task project adjust

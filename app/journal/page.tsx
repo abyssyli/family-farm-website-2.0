@@ -1,5 +1,5 @@
 import { getCatalog } from "@/lib/catalog"
-import { JournalCard } from "@/components/journal/JournalCard"
+import { JournalCard } from "@/components/journal/JournalCard" [modified]
 import { EmptyState } from "@/components/ui/EmptyState"
 import { ButtonLink } from "@/components/ui/Button"
 
@@ -7,7 +7,7 @@ export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
-    const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0 [modified]
+    const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return db - da
   })
 

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -36,7 +38,7 @@ export default async function RecipeDetailPage({
             src={recipe.imagePath || "/photos/background.jpg"}
             alt={recipe.title}
             width={1400}
-            height={1000} [modified]
+            height={1000}
             className="h-[360px] w-full object-cover sm:h-[440px]"
             sizes="(max-width: 1024px) 100vw, 50vw"
             priority

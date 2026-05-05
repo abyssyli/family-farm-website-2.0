@@ -1,10 +1,12 @@
+
+// optimize code detail
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductCard({
-  product, [modified]
+  product,
   href
 }: {
   product: CatalogProduct
@@ -60,3 +62,4 @@ export function ProductCard({
     </Card>
   )
 }
+

@@ -2,8 +2,5 @@ module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {}
-  }
+  } [modified]
 }
-
-
-// update log: auto edit 01

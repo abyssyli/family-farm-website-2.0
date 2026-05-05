@@ -21,7 +21,7 @@ export default async function ProductDetailPage({
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
-  if (!product) notFound()
+  if (!product) notFound() [modified]
 
   return (
     <ProductDetail
@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// optimize code detail

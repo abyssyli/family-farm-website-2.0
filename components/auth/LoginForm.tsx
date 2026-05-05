@@ -27,7 +27,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       return
     }
     setStatus("sent")
-    onSuccess?.() [modified]
+    onSuccess?.()
   }
 
   if (error) {
@@ -80,3 +80,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+// optimize code detail

@@ -36,7 +36,7 @@ export function ButtonLink({
   className
 }: {
   href: string
-  children: React.ReactNode [modified]
+  children: React.ReactNode
   variant?: Variant
   className?: string
 }) {
@@ -44,7 +44,7 @@ export function ButtonLink({
   if (external) {
     return (
       <a
-        href={href}
+        href={href} [modified]
         target="_blank"
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}

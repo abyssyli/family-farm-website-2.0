@@ -114,7 +114,7 @@ export function AddressManager() {
                 />
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium">
-                Phone Number
+                Phone Number [modified]
                 <input
                   type="text"
                   value={formData.phone}
@@ -193,7 +193,7 @@ export function AddressManager() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             {addresses.map((address) => (
-              <div [modified]
+              <div
                 key={address.id}
                 className="flex flex-col gap-2 rounded-2xl border border-zinc-200 p-4 transition hover:shadow-md"
               >

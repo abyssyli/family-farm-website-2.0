@@ -1,5 +1,5 @@
 
-// optimize code detail
+// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

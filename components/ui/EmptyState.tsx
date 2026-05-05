@@ -1,4 +1,4 @@
-import { Card, CardBody } from "./Card"
+import { Card, CardBody } from "./Card" [modified]
 
 export function EmptyState({
   title,
@@ -23,6 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

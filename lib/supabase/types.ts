@@ -1,3 +1,5 @@
+
+// optimize code detail
 export type Json =
   | string
   | number
@@ -164,7 +166,7 @@ export type Database = {
           address_line1: string
           address_line2?: string | null
           city: string
-          state: string [modified]
+          state: string
           postal_code: string
           is_default?: boolean
           created_at?: string

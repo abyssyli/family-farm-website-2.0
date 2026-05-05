@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import { ButtonLink } from "@/components/ui/Button"
+import { ButtonLink } from "@/components/ui/Button" [modified]
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// optimize code detail

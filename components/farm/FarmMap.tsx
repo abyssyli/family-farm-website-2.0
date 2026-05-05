@@ -20,13 +20,13 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     [activeSlug, sorted]
   )
   const coverImagePath = useMemo(() => {
-    if (!active) return "/photos/Home.jpg"
+    if (!active) return "/photos/Home.jpg" [modified]
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
     if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
     return active.imagePath || "/photos/Home.jpg"
   }, [active])
 
-  if (sorted.length === 0) return null [modified]
+  if (sorted.length === 0) return null
 
   return (
     <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">

@@ -7,4 +7,4 @@ export default async function ProductsPage() {
 }
 
 
-/* daily modify record */
+/* minor adjust */

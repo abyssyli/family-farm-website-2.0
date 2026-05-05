@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -41,5 +43,3 @@ export function ProductActions({
     </>
   )
 }
-
-/* minor adjust */

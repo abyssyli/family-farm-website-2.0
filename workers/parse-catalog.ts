@@ -17,11 +17,8 @@ export async function loadCatalogFromSource(): Promise<{
   }
 
   const localPath = "data/farm-catalog.seed.json"
-  const raw = await readFile(localPath, "utf8")
+  const raw = await readFile(localPath, "utf8") [modified]
   const json = JSON.parse(raw) as unknown
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
-
-
-// optimize code detail

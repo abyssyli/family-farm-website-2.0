@@ -329,7 +329,7 @@ export type Database = {
           image_path?: string | null
         }
         Relationships: []
-      }
+      } [modified]
       sync_runs: {
         Row: {
           id: string
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-/* daily modify record */

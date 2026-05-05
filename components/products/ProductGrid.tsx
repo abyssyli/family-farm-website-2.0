@@ -1,4 +1,4 @@
-import type { CatalogProduct } from "@/lib/catalog-schema" [modified]
+import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
 export function ProductGrid({
@@ -20,3 +20,6 @@ export function ProductGrid({
     </div>
   )
 }
+
+
+/* minor adjust */

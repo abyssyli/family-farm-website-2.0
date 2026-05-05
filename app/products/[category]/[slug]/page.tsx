@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -27,7 +29,7 @@ export default async function ProductDetailPage({
     <ProductDetail
       product={product}
       categoryName={category.name}
-      primaryAction={<ProductActions product={product} categorySlug={category.slug} />} [modified]
+      primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />
   )
 }

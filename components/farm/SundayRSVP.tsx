@@ -67,7 +67,7 @@ export function SundayRSVP() {
   }
 
   return (
-    <Card className="border-farm-200 bg-farm-50/30">
+    <Card className="border-farm-200 bg-farm-50/30"> [modified]
       <CardHeader
         title="Sunday Family Gathering"
         subtitle={`RSVP for our next gathering on Sunday, ${new Date(dateStr).toLocaleDateString("en-US", { month: "long", day: "numeric" })}.`}
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* minor adjust */

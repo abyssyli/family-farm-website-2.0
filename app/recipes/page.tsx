@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -18,7 +20,7 @@ export default async function RecipesPage() {
         </p>
       </div>
 
-      {recipes.length === 0 ? ( [modified]
+      {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

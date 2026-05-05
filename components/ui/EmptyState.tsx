@@ -22,7 +22,4 @@ export function EmptyState({
       </CardBody>
     </Card>
   )
-}
-
-
-/* minor adjust */
+} [modified]

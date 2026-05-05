@@ -10,7 +10,7 @@ export default async function JournalPostPage({
   params
 }: {
   params: { slug: string }
-}) {
+}) { [modified]
   const catalog = await getCatalog()
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
   if (!post) notFound()
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-/* daily modify record */

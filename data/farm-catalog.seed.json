@@ -106,7 +106,7 @@
       "categorySlug": "food",
       "slug": "spam-fried-rice",
       "name": "Spam fried rice (Optional: with Gochujang)",
-      "description": "Savory fried rice with spam, with an optional Gochujang kick.",
+      "description": "Savory fried rice with spam, with an optional Gochujang kick.", [modified]
       "imagePath": "/photos/eat16.jpg",
       "imagePaths": ["/photos/eat16.jpg", "/photos/eat17.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",
@@ -183,7 +183,7 @@
       "id": "eggs-hen-spotlight",
       "categorySlug": "eggs",
       "slug": "hen-spotlight",
-      "name": "Hen Spotlight", [modified]
+      "name": "Hen Spotlight",
       "description": "A fun add-on to your pickup—ask which hens are laying today and what we’re seeing in the coop.",
       "imagePath": "/photos/chicken1.jpg",
       "priceHint": "Included with pickup",

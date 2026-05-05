@@ -1,5 +1,5 @@
 
-// optimize code detail
+// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"

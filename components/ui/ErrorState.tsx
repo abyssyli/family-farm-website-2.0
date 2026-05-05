@@ -19,7 +19,10 @@ export function ErrorState({
           </div>
           {action ? <div>{action}</div> : null}
         </div>
-      </CardBody> [modified]
+      </CardBody>
     </Card>
   )
 }
+
+
+// update log: auto edit 01

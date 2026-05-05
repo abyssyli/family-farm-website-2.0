@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -37,7 +35,7 @@ export function AddressManager() {
     const { data, error } = await supabase
       .from("user_addresses")
       .select("*")
-      .order("created_at", { ascending: false })
+      .order("created_at", { ascending: false }) [modified]
     if (!error && data) {
       setAddresses(data)
     }

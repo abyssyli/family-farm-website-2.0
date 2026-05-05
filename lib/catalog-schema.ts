@@ -4,7 +4,7 @@ export const CategorySchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
   sortOrder: z.number().int().nonnegative().default(0)
-}) [modified]
+})
 
 export const ProductSchema = z.object({
   id: z.string().min(1),
@@ -41,7 +41,7 @@ export const FarmRegionSchema = z.object({
   y: z.number().min(0).max(100)
 })
 
-export const RecipeSchema = z.object({
+export const RecipeSchema = z.object({ [modified]
   id: z.string().min(1),
   title: z.string().min(1),
   slug: z.string().min(1),

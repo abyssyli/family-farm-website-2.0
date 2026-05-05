@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -13,7 +11,7 @@ async function runOnce() {
     throw new Error(
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
     )
-  }
+  } [modified]
 
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

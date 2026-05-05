@@ -25,7 +25,7 @@ export default async function AccountPage() {
         <CardBody>
           <UserMenu />
         </CardBody>
-      </Card> [modified]
+      </Card>
 
       <OrderTracker />
 
@@ -35,3 +35,6 @@ export default async function AccountPage() {
     </div>
   )
 }
+
+
+# minor content update

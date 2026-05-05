@@ -11,7 +11,7 @@ import { getPublicEnv } from "@/lib/env"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 import { sortCategorySlugsByPreference } from "@/lib/personalization"
 import type { Catalog } from "@/lib/catalog-schema"
-
+ [modified]
 export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   const router = useRouter()
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// update log: auto edit 01

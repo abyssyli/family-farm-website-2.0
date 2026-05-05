@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -17,7 +15,7 @@ export function OrderTracker() {
   const [inquiries, setInquiries] = useState<Inquiry[]>([])
 
   useEffect(() => {
-    if (supabase && session) {
+    if (supabase && session) { [modified]
       fetchInquiries()
     }
   }, [supabase, session])

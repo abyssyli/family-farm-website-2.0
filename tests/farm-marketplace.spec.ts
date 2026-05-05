@@ -1,6 +1,4 @@
-
-/* minor adjust */
-import { test, expect } from "@playwright/test"
+import { test, expect } from "@playwright/test" [modified]
 
 test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")

@@ -64,7 +64,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                   onClick={() => setActiveSlug(r.slug)}
                 >
                   {r.title}
-                </button> [modified]
+                </button>
               )
             })}
           </div>
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+// task project adjust

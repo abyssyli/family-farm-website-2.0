@@ -1,3 +1,5 @@
+
+/* daily modify record */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +9,7 @@ body {
   height: 100%;
 }
 
-body { [modified]
+body {
   @apply bg-farm-50 text-zinc-900;
 }
+

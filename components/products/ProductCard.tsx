@@ -1,3 +1,5 @@
+
+# minor content update
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -8,7 +10,7 @@ export function ProductCard({
   href
 }: {
   product: CatalogProduct
-  href: string [modified]
+  href: string
 }) {
   return (
     <Card className="overflow-hidden">
@@ -60,3 +62,4 @@ export function ProductCard({
     </Card>
   )
 }
+

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -36,7 +38,7 @@ export function ProductDetail({
       <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
         <div className="group relative overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           {images.length > 0 ? (
-            <> [modified]
+            <>
               <div className="relative h-[360px] w-full sm:h-[440px]">
                 <Image
                   src={images[currentIdx]}
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

@@ -12,7 +12,7 @@ export function ProductActions({
 }: {
   product: CatalogProduct
   categorySlug: string
-}) {
+}) { [modified]
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
 
@@ -34,7 +34,7 @@ export function ProductActions({
         open={open}
         onClose={() => setOpen(false)}
         title="Buy / Contact"
-        categorySlug={categorySlug} [modified]
+        categorySlug={categorySlug}
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />

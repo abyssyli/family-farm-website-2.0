@@ -88,7 +88,7 @@ export function PreferencesForm({
             <div className="flex items-center gap-3">
               <Button
                 type="button"
-                onClick={save} [modified]
+                onClick={save}
                 disabled={status === "saving"}
               >
                 {status === "saved"
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// update log: auto edit 01

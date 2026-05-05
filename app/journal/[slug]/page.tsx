@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -43,7 +41,7 @@ export default async function JournalPostPage({
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
           </div>
-        </CardBody>
+        </CardBody> [modified]
       </Card>
 
       <CommentSection journalPostId={post.id} />
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

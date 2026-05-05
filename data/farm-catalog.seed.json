@@ -281,7 +281,7 @@
   "farmRegions": [
     {
       "id": "region-coop",
-      "slug": "chicken-coop", [modified]
+      "slug": "chicken-coop",
       "title": "Chicken Coop",
       "description": "Where the day starts: fresh eggs, feed time, and a lot of personality.",
       "imagePath": "/photos/chicken.jpg",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+# minor content update

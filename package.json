@@ -10,13 +10,13 @@
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "playwright test", [modified]
+    "test": "playwright test",
     "test:ui": "playwright test --ui",
     "worker:sync": "tsx workers/catalog-sync.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
-    "next": "^14.2.20",
+    "next": "^14.2.20", [modified]
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zod": "^3.24.1"

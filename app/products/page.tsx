@@ -7,4 +7,4 @@ export default async function ProductsPage() {
 }
 
 
-// task project adjust
+/* daily modify record */

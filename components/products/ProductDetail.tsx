@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react" [modified]
+import { useState } from "react"
 import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
@@ -99,7 +99,7 @@ export function ProductDetail({
                 </>
               )}
             </>
-          ) : (
+          ) : ( [modified]
             <div className="flex h-[360px] items-center justify-center text-sm text-zinc-500 sm:h-[440px]">
               No image
             </div>

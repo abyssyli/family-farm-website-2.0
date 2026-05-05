@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -13,7 +11,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
           <Image
             src={region.imagePath}
             alt={region.title}
-            fill
+            fill [modified]
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
           />

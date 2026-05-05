@@ -58,7 +58,7 @@ export function OrderTracker() {
           ) : (
             <div className="overflow-hidden rounded-2xl border border-zinc-200">
               <table className="w-full text-left text-sm">
-                <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500"> [modified]
+                <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500">
                   <tr>
                     <th className="px-4 py-3">Product</th>
                     <th className="px-4 py-3">Date</th>
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+// optimize code detail

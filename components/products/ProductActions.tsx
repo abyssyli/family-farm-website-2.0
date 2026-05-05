@@ -1,6 +1,4 @@
-
-// update log: auto edit 01
-"use client"
+"use client" [modified]
 
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"

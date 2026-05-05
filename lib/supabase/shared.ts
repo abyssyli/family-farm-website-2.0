@@ -4,9 +4,6 @@ export function getSupabasePublicConfig() {
   return { url, anonKey }
 }
 
-export function getSupabaseServiceRoleKey() {
+export function getSupabaseServiceRoleKey() { [modified]
   return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
 }
-
-
-/* daily modify record */

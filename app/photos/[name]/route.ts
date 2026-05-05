@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -31,7 +29,7 @@ export async function GET(
 
   try {
     const filePath = join(process.cwd(), "photo", name)
-    const bytes = await readFile(filePath)
+    const bytes = await readFile(filePath) [modified]
     const ext = extname(name)
     return new NextResponse(bytes, {
       headers: {
@@ -43,4 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

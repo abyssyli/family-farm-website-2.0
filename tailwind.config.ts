@@ -18,7 +18,7 @@ const config: Config = {
           600: "#5f7535",
           700: "#4c5d2c",
           800: "#3f4b27",
-          900: "#354022"
+          900: "#354022" [modified]
         }
       }
     }
@@ -27,6 +27,3 @@ const config: Config = {
 }
 
 export default config
-
-
-// optimize code detail

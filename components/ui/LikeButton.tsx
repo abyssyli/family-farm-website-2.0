@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -39,7 +37,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       setIsLiked(!!data)
     }
   }
-
+ [modified]
   async function toggleLike() {
     if (!supabase || !session || isUpdating) return
     setIsUpdating(true)

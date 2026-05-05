@@ -1,6 +1,6 @@
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
-import type { Database } from "./types"
+import type { Database } from "./types" [modified]
 
 export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
@@ -14,6 +14,3 @@ export function createServiceRoleSupabaseClient() {
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
-
-
-# minor content update

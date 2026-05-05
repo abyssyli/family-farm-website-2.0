@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -49,6 +51,6 @@ export default async function RecipesPage() {
           ))}
         </div>
       )}
-    </div> [modified]
+    </div>
   )
 }

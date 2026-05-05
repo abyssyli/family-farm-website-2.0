@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -13,7 +11,7 @@ export function ErrorState({
 }) {
   return (
     <Card className="border-red-200">
-      <CardBody>
+      <CardBody> [modified]
         <div className="flex flex-col gap-3">
           <div>
             <h2 className="text-lg font-semibold text-red-900">{title}</h2>
@@ -25,4 +23,3 @@ export function ErrorState({
     </Card>
   )
 }
-

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useMemo, useState } from "react"
@@ -46,7 +48,7 @@ export function UserMenu() {
       <Button
         variant="ghost"
         onClick={() => {
-          if (!supabase) return [modified]
+          if (!supabase) return
           supabase.auth.signOut()
         }}
       >

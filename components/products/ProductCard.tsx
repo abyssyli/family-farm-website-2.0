@@ -25,7 +25,7 @@ export function ProductCard({
       ) : null}
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
-          <h3 className="text-base font-semibold">{product.name}</h3>
+          <h3 className="text-base font-semibold">{product.name}</h3> [modified]
         </div>
         <p className="mt-1 line-clamp-2 text-sm text-zinc-600">
           {product.description}
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// task project adjust

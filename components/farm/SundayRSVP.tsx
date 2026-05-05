@@ -35,7 +35,7 @@ export function SundayRSVP() {
     
     if (!error && data) {
       setRsvp(data)
-      setAdultCount(data.adult_count)
+      setAdultCount(data.adult_count) [modified]
       setChildCount(data.child_count)
       setNotes(data.notes || "")
     }
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* minor adjust */

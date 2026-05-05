@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -71,7 +69,7 @@ export function PreferencesForm({
                   >
                     <input
                       type="checkbox"
-                      checked={checked}
+                      checked={checked} [modified]
                       onChange={(e) => {
                         const next = e.target.checked
                         setSelected((prev) =>
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

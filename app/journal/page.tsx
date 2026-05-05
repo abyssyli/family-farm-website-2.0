@@ -1,5 +1,3 @@
-
-# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -9,7 +7,7 @@ export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
-    const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
+    const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0 [modified]
     return db - da
   })
 
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

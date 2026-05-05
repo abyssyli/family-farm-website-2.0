@@ -1,3 +1,5 @@
+
+# minor content update
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -19,7 +21,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 })
 
 test("skincare category points to BeakerGold", async ({ page }) => {
-  await page.goto("/products") [modified]
+  await page.goto("/products")
   const href = await page
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")

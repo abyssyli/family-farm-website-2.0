@@ -93,7 +93,7 @@ export type Database = {
           id: string
           slug: string
           title: string
-          description: string | null [modified]
+          description: string | null
           image_path: string | null
           cta_label: string | null
           cta_href: string | null
@@ -358,7 +358,7 @@ export type Database = {
     Functions: { [_ in never]: never }
     Enums: {
       inquiry_status: "pending" | "confirmed" | "completed" | "cancelled"
-    }
+    } [modified]
     CompositeTypes: { [_ in never]: never }
   }
 }

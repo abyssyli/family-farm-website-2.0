@@ -29,7 +29,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   if (sorted.length === 0) return null
 
   return (
-    <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">
+    <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start"> [modified]
       <div>
         <h2 className="text-xl font-semibold tracking-tight">
           Explore the farm
@@ -46,7 +46,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               width={1400}
               height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
-              sizes="(max-width: 1024px) 100vw, 50vw" [modified]
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
             {sorted.map((r) => {
               const isActive = r.slug === activeSlug

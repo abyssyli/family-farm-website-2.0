@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -39,7 +37,7 @@ export function ButtonLink({
 }: {
   href: string
   children: React.ReactNode
-  variant?: Variant
+  variant?: Variant [modified]
   className?: string
 }) {
   const external = /^https?:\/\//i.test(href)

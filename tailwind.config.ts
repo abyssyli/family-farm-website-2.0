@@ -25,5 +25,8 @@ const config: Config = {
   },
   plugins: []
 }
- [modified]
+
 export default config
+
+
+/* daily modify record */

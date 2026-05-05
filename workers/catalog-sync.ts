@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -97,7 +95,7 @@ async function main() {
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
   if (once) {
-    await runOnce()
+    await runOnce() [modified]
     return
   }
 
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

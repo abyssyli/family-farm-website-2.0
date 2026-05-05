@@ -154,10 +154,7 @@ export function ProductDetail({
       </div>
 
       <CommentSection productId={product.id} />
-    </div>
+    </div> [modified]
   )
 }
 
-
-
-/* daily modify record */

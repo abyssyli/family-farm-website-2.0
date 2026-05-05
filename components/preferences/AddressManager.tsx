@@ -23,7 +23,7 @@ export function AddressManager() {
     postal_code: "",
     is_default: false
   })
-
+ [modified]
   useEffect(() => {
     if (supabase && session) {
       fetchAddresses()
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-/* minor adjust */

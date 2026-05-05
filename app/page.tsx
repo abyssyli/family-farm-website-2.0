@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
-import { Card } from "@/components/ui/Card" [modified]
+import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
@@ -109,3 +109,5 @@ export default async function HomePage() {
     </div>
   )
 }
+
+/* minor adjust */

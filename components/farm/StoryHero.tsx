@@ -42,13 +42,13 @@ export function StoryHero() {
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
         <p className="text-sm font-medium text-farm-800">
-          Texas family farm · Chicken and Eggs · Woodcraft · Skincare [modified]
+          Texas family farm · Chicken and Eggs · Woodcraft · Skincare
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
           A warm marketplace built around our family and the land we care for.
         </h1>
         <p className="mt-4 max-w-prose text-base text-zinc-700">
-          Paula is a mom of 10 and grandma to 11. She founded the Rushing
+          Paula is a mom of 10 and grandma to 11. She founded the Rushing [modified]
           homeschool and runs Paula’s farm business with a full-house kind of
           warmth. Chicken and eggs come straight from the coop, woodcraft comes
           from the family shop, and Lisa’s skincare connects to our natural, small-batch

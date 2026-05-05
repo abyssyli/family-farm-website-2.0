@@ -1,5 +1,5 @@
 
-// optimize code detail
+// task project adjust
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {

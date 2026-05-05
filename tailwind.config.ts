@@ -1,5 +1,3 @@
-
-// optimize code detail
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -12,7 +10,7 @@ const config: Config = {
       colors: {
         farm: {
           50: "#f7f7f2",
-          100: "#eef0e3",
+          100: "#eef0e3", [modified]
           200: "#d9dfbe",
           300: "#b9c98c",
           400: "#97ae60",
@@ -29,4 +27,3 @@ const config: Config = {
 }
 
 export default config
-

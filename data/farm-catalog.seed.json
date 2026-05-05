@@ -101,7 +101,7 @@
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },
-    {
+    { [modified]
       "id": "food-spam-fried-rice",
       "categorySlug": "food",
       "slug": "spam-fried-rice",
@@ -290,7 +290,7 @@
       "x": 35,
       "y": 62
     },
-    { [modified]
+    {
       "id": "region-woodshop",
       "slug": "woodshop",
       "title": "Family Woodshop",

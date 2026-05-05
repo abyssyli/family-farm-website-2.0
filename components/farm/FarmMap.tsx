@@ -73,7 +73,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 
       <div className="lg:mt-12">
         {active ? <FarmRegionCard region={active} /> : null}
-        <div className="mt-6 grid gap-4">
+        <div className="mt-6 grid gap-4"> [modified]
           {sorted
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

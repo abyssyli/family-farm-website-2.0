@@ -28,7 +28,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
 
     // Check if user liked
     if (session) {
-      const { data } = await supabase
+      const { data } = await supabase [modified]
         .from("likes")
         .select("id")
         .eq("journal_post_id", journalPostId)
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-// update log: auto edit 01

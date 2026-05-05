@@ -3,7 +3,7 @@ import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { UserMenu } from "@/components/auth/UserMenu" [modified]
+import { UserMenu } from "@/components/auth/UserMenu"
 
 export default async function AccountPage() {
   const catalog = await getCatalog()
@@ -19,7 +19,7 @@ export default async function AccountPage() {
           Sign in to manage your addresses, preferences, and track inquiries.
         </p>
       </div>
-
+ [modified]
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>

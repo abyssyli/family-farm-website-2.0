@@ -19,14 +19,14 @@ export function ProductDetail({
   const images =
     product.imagePaths && product.imagePaths.length > 0
       ? product.imagePaths
-      : product.imagePath [modified]
+      : product.imagePath
         ? [product.imagePath]
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
 
   const goPrev = () => {
     setCurrentIdx((prev) => (prev - 1 + images.length) % images.length)
-  }
+  } [modified]
   const goNext = () => {
     setCurrentIdx((prev) => (prev + 1) % images.length)
   }

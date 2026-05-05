@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -50,10 +48,9 @@ export default async function JournalPostPage({
 
       <div>
         <ButtonLink href="/journal" variant="ghost">
-          ← Back to journal
+          ← Back to journal [modified]
         </ButtonLink>
       </div>
     </div>
   )
 }
-

@@ -5,7 +5,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductDetailPage({
-  params [modified]
+  params
 }: {
   params: { category: string; slug: string }
 }) {
@@ -24,7 +24,7 @@ export default async function ProductDetailPage({
   if (!product) notFound()
 
   return (
-    <ProductDetail
+    <ProductDetail [modified]
       product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}

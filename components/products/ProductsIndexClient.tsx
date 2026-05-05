@@ -1,5 +1,5 @@
 
-# minor content update
+/* minor adjust */
 "use client"
 
 import Link from "next/link"

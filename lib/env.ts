@@ -1,5 +1,3 @@
-
-/* daily modify record */
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+1 (806) 290-4949"
@@ -16,3 +14,5 @@ export function getPublicEnv() {
 
   return { contactPhone, skincareUrl }
 }
+
+# minor content update

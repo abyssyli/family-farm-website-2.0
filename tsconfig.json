@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+  "compilerOptions": { [modified]
     "target": "ES2022",
     "lib": [
       "DOM",
@@ -39,5 +39,3 @@
     "node_modules"
   ]
 }
-
-// task project adjust

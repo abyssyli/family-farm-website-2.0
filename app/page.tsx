@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -94,7 +96,7 @@ export default async function HomePage() {
                   </div>
                   <div className="p-4">
                     <h3 className="text-sm font-semibold group-hover:text-farm-700">
-                      {recipe.title} [modified]
+                      {recipe.title}
                     </h3>
                     <p className="mt-1 line-clamp-2 text-xs text-zinc-600">
                       {recipe.description}

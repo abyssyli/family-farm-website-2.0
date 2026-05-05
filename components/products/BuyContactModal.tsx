@@ -49,7 +49,7 @@ export function BuyContactModal({
 
   const smsHref = useMemo(() => {
     const body = encodeURIComponent(message)
-    const digits = contactPhone.replace(/[^\d+]/g, "") [modified]
+    const digits = contactPhone.replace(/[^\d+]/g, "")
     return `sms:${digits}?&body=${body}`
   }, [contactPhone, message])
 
@@ -174,5 +174,5 @@ export function BuyContactModal({
         </div>
       </div>
     </Modal>
-  )
+  ) [modified]
 }

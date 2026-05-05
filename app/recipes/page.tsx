@@ -15,7 +15,7 @@ export default async function RecipesPage() {
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
-        </p>
+        </p> [modified]
       </div>
 
       {recipes.length === 0 ? (
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-# minor content update

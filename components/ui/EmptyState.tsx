@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
-  title,
+  title, [modified]
   message,
   action
 }: {
@@ -23,6 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-
-
-// task project adjust

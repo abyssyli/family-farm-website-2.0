@@ -3,7 +3,7 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
-import { getCatalog } from "@/lib/catalog" [modified]
+import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipeDetailPage({
   params
@@ -78,7 +78,7 @@ export default async function RecipeDetailPage({
         </div>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4"> [modified]
         <ButtonLink href="/recipes" variant="ghost">
           ← Back to recipes
         </ButtonLink>

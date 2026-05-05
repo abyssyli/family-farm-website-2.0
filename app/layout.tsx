@@ -42,7 +42,7 @@ export default function RootLayout({
                     sizes="24px"
                   />
                 </span>
-                <span>Products</span>
+                <span>Products</span> [modified]
               </Link>
               <Link href="/journal" className="hover:text-farm-700">
                 Journal
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-// task project adjust

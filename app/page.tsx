@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -29,7 +27,7 @@ export default async function HomePage() {
             <p className="mt-2 text-sm text-zinc-700">
               Chicken, eggs and woodcraft are local pickup. Skincare ships via
               Lisa’s shop.
-            </p>
+            </p> [modified]
           </div>
           <ButtonLink href="/products" variant="secondary" className="shrink-0">
             View all

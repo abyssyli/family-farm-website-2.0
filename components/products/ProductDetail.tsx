@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useState } from "react" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
@@ -58,7 +58,7 @@ export function ProductDetail({
                       <svg
                         viewBox="0 0 20 20"
                         fill="currentColor"
-                        className="h-5 w-5" [modified]
+                        className="h-5 w-5"
                       >
                         <path
                           fillRule="evenodd"

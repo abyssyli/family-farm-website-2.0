@@ -21,7 +21,7 @@ export default async function RecipeDetailPage({
           <Link href="/recipes" className="hover:underline">
             Farm Recipes
           </Link>
-        </p> [modified]
+        </p>
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {recipe.title}
         </h1>
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+/* daily modify record */

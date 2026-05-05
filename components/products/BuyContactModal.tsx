@@ -50,7 +50,7 @@ export function BuyContactModal({
   const smsHref = useMemo(() => {
     const body = encodeURIComponent(message)
     const digits = contactPhone.replace(/[^\d+]/g, "")
-    return `sms:${digits}?&body=${body}` [modified]
+    return `sms:${digits}?&body=${body}`
   }, [contactPhone, message])
 
   async function saveInquiry() {
@@ -84,7 +84,7 @@ export function BuyContactModal({
             <p className="text-sm font-medium">Phone</p>
             <p className="mt-1 font-mono text-sm">{contactPhone}</p>
           </div>
-          <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
+          <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4"> [modified]
             <p className="text-sm font-medium">Payment Methods</p>
             <p className="mt-1 text-sm">Zelle (to phone) or Check</p>
             <p className="text-[10px] text-zinc-600 mt-1 italic">Send Zelle to {contactPhone}</p>

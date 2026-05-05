@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -14,7 +16,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     () => [...regions].sort((a, b) => a.title.localeCompare(b.title)),
     [regions]
   )
-  const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null) [modified]
+  const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
   const active = useMemo(
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]

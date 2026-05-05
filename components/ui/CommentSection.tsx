@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -91,7 +89,7 @@ export function CommentSection({
       )}
 
       <div className="flex flex-col gap-6">
-        {comments.length === 0 ? (
+        {comments.length === 0 ? ( [modified]
           <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
         ) : (
           comments.map((comment) => (

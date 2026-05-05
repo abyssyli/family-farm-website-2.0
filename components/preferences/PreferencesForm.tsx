@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -90,7 +88,7 @@ export function PreferencesForm({
             <div className="flex items-center gap-3">
               <Button
                 type="button"
-                onClick={save}
+                onClick={save} [modified]
                 disabled={status === "saving"}
               >
                 {status === "saved"
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

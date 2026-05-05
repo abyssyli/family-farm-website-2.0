@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Link from "next/link"
@@ -25,7 +27,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       const userId = data.user?.id
       if (!userId) return
       const { data: pref } = await supabase
-        .from("user_preferences") [modified]
+        .from("user_preferences")
         .select("preferred_categories")
         .eq("user_id", userId)
         .maybeSingle()

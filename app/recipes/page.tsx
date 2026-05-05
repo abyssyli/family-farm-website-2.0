@@ -29,7 +29,7 @@ export default async function RecipesPage() {
                   <Image
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}
-                    fill
+                    fill [modified]
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-# minor content update

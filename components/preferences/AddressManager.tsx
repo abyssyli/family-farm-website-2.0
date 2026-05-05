@@ -188,7 +188,7 @@ export function AddressManager() {
                   Cancel
                 </Button>
               </div>
-            </div>
+            </div> [modified]
           )}
 
           <div className="grid gap-4 sm:grid-cols-2">
@@ -233,7 +233,7 @@ export function AddressManager() {
             ))}
           </div>
         </div>
-      </CardBody> [modified]
+      </CardBody>
     </Card>
   )
 }

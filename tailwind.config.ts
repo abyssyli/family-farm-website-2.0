@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import type { Config } from "tailwindcss"
 
 const config: Config = {

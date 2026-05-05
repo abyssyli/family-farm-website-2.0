@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -76,7 +78,7 @@ export default async function HomePage() {
                 Delicious ways to use our farm-fresh ingredients.
               </p>
             </div>
-            <ButtonLink href="/recipes" variant="secondary" className="shrink-0"> [modified]
+            <ButtonLink href="/recipes" variant="secondary" className="shrink-0">
               See all recipes
             </ButtonLink>
           </div>

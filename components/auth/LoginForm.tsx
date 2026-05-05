@@ -1,4 +1,4 @@
-"use client"
+"use client" [modified]
 
 import { useState } from "react"
 import { Button } from "@/components/ui/Button"
@@ -13,7 +13,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const [error, setError] = useState<string | null>(null)
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault() [modified]
+    e.preventDefault()
     setError(null)
     if (!supabase) return
     setStatus("sending")

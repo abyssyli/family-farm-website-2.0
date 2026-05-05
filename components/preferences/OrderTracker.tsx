@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -89,7 +91,7 @@ export function OrderTracker() {
               </table>
             </div>
           )}
-        </div> [modified]
+        </div>
       </CardBody>
     </Card>
   )

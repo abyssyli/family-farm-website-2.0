@@ -33,4 +33,4 @@ export function useSupabaseAuth() {
 }
 
 
-// task project adjust
+/* daily modify record */

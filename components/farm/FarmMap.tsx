@@ -19,7 +19,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]
   )
-  const coverImagePath = useMemo(() => { [modified]
+  const coverImagePath = useMemo(() => {
     if (!active) return "/photos/Home.jpg"
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
     if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+// optimize code detail

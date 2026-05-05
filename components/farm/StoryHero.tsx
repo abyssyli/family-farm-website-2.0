@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -81,7 +83,7 @@ export function StoryHero() {
             <button
               type="button"
               onClick={goPrev}
-              aria-label="Previous slide" [modified]
+              aria-label="Previous slide"
               className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <svg

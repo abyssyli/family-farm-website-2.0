@@ -15,4 +15,4 @@ export function getPublicEnv() {
   return { contactPhone, skincareUrl }
 }
 
-/* daily modify record */
+// update log: auto edit 01

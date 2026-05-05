@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test"
+import { test, expect } from "@playwright/test" [modified]
 
 test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
@@ -27,5 +27,3 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
-
-/* minor adjust */

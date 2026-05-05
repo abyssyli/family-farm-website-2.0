@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link" [modified]
 import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-// task project adjust

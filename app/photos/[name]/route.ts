@@ -1,3 +1,5 @@
+
+// task project adjust
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -23,7 +25,7 @@ export async function GET(
   { params }: { params: { name: string } }
 ) {
   const name = params.name
-  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) { [modified]
+  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
     return new NextResponse("Not found", { status: 404 })
   }
 
@@ -41,3 +43,4 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+

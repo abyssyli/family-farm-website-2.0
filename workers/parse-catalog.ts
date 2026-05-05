@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
@@ -8,7 +10,7 @@ export async function loadCatalogFromSource(): Promise<{
   const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
   if (sourceUrl) {
     const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
-    if (!res.ok) { [modified]
+    if (!res.ok) {
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
     const json = await res.json()
@@ -22,3 +24,4 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+

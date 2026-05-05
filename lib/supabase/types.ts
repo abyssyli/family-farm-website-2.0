@@ -13,7 +13,7 @@ export type Database = {
         Row: { id: string; slug: string; name: string; sort_order: number }
         Insert: { id?: string; slug: string; name: string; sort_order?: number }
         Update: { slug?: string; name?: string; sort_order?: number }
-        Relationships: [] [modified]
+        Relationships: []
       }
       products: {
         Row: {
@@ -244,7 +244,7 @@ export type Database = {
           user_id: string
           event_date: string
           adult_count?: number
-          child_count?: number
+          child_count?: number [modified]
           notes?: string | null
           created_at?: string
         }

@@ -87,4 +87,4 @@ export default async function RecipeDetailPage({
   )
 }
 
-// task project adjust
+# minor content update

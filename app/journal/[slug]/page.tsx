@@ -20,7 +20,7 @@ export default async function JournalPostPage({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href="/journal" className="hover:underline">
-            Farm Journal [modified]
+            Farm Journal
           </Link>
         </p>
         <div className="mt-2 flex items-start justify-between gap-4">
@@ -48,7 +48,7 @@ export default async function JournalPostPage({
 
       <div>
         <ButtonLink href="/journal" variant="ghost">
-          ← Back to journal
+          ← Back to journal [modified]
         </ButtonLink>
       </div>
     </div>

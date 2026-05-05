@@ -1,6 +1,9 @@
+
+// optimize code detail
 module.exports = {
-  plugins: { [modified]
+  plugins: {
     tailwindcss: {},
     autoprefixer: {}
   }
 }
+

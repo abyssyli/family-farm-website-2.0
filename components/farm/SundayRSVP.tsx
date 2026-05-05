@@ -56,7 +56,7 @@ export function SundayRSVP() {
     const { error } = await supabase
       .from("sunday_rsvps")
       .upsert(rsvpData, { onConflict: "user_id,event_date" })
- [modified]
+
     if (!error) {
       setStatus("saved")
       fetchRSVP()
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+// task project adjust

@@ -15,7 +15,7 @@ export function ProductCard({
       {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image
-            src={product.imagePath}
+            src={product.imagePath} [modified]
             alt={product.name}
             fill
             className="object-cover"
@@ -37,7 +37,7 @@ export function ProductCard({
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
             <span
               className={`text-[10px] font-bold uppercase tracking-wider ${
-                product.stockQuantity > 0 [modified]
+                product.stockQuantity > 0
                   ? "text-farm-700"
                   : "text-red-600"
               }`}

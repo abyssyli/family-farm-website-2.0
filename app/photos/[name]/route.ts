@@ -4,7 +4,7 @@ import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
-    case ".jpg": [modified]
+    case ".jpg":
     case ".jpeg":
       return "image/jpeg"
     case ".png":
@@ -14,7 +14,7 @@ function contentTypeFromExt(ext: string) {
     case ".gif":
       return "image/gif"
     default:
-      return "application/octet-stream"
+      return "application/octet-stream" [modified]
   }
 }
 

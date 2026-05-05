@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -95,7 +93,7 @@ export function ProductDetail({
                         className={`h-1.5 w-1.5 rounded-full transition-colors ${
                           i === currentIdx ? "bg-white" : "bg-white/40"
                         }`}
-                      />
+                      /> [modified]
                     ))}
                   </div>
                 </>
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

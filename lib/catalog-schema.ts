@@ -37,7 +37,7 @@ export const FarmRegionSchema = z.object({
   imagePath: z.string().nullable().optional().default(null),
   ctaLabel: z.string().nullable().optional().default(null),
   ctaHref: z.string().nullable().optional().default(null),
-  x: z.number().min(0).max(100), [modified]
+  x: z.number().min(0).max(100),
   y: z.number().min(0).max(100)
 })
 
@@ -65,3 +65,6 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+
+
+// update log: auto edit 01

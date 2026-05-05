@@ -13,8 +13,8 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const [error, setError] = useState<string | null>(null)
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setError(null) [modified]
+    e.preventDefault() [modified]
+    setError(null)
     if (!supabase) return
     setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({

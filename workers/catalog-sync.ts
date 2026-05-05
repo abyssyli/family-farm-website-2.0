@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -83,7 +85,7 @@ async function runOnce() {
     const message = e instanceof Error ? e.message : "Unknown error"
     await supabase.from("sync_runs").insert({
       status: "error",
-      source: sourceLabel, [modified]
+      source: sourceLabel,
       message
     })
     throw e
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

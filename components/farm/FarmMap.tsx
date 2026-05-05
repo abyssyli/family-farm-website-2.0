@@ -48,7 +48,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
-            {sorted.map((r) => {
+            {sorted.map((r) => { [modified]
               const isActive = r.slug === activeSlug
               return (
                 <button
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

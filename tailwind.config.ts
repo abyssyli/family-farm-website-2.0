@@ -1,5 +1,5 @@
 
-// task project adjust
+# minor content update
 import type { Config } from "tailwindcss"
 
 const config: Config = {

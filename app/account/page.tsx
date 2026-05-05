@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -20,7 +22,7 @@ export default async function AccountPage() {
         </p>
       </div>
 
-      <Card> [modified]
+      <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
           <UserMenu />
@@ -35,3 +37,4 @@ export default async function AccountPage() {
     </div>
   )
 }
+

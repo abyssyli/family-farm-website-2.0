@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/Card"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductCard({
-  product,
+  product, [modified]
   href
 }: {
   product: CatalogProduct
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
+import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth" [modified]
 import type { Database } from "@/lib/supabase/types"
 
 type Address = Database["public"]["Tables"]["user_addresses"]["Row"]
@@ -99,7 +99,7 @@ export function AddressManager() {
           {!isAdding && !editingId && (
             <Button onClick={() => setIsAdding(true)} variant="secondary" className="self-start">
               Add New Address
-            </Button> [modified]
+            </Button>
           )}
 
           {(isAdding || editingId) && (

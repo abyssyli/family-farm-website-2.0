@@ -21,7 +21,7 @@ export function useSupabaseAuth() {
       setReady(true)
     })
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession) [modified]
+      setSession(nextSession)
     })
     return () => {
       active = false
@@ -31,3 +31,6 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
+
+
+# minor content update

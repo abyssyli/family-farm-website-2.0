@@ -1,5 +1,3 @@
-
-/* daily modify record */
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -26,7 +24,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [
+      "@/*": [ [modified]
         "./*"
       ]
     }

@@ -37,7 +37,10 @@ export async function GET(
         "cache-control": "public, max-age=31536000, immutable"
       }
     })
-  } catch { [modified]
+  } catch {
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+/* minor adjust */

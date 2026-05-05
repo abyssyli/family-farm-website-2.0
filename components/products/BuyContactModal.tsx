@@ -1,4 +1,6 @@
-import { useEffect, useMemo, useState } from "react" [modified]
+
+/* minor adjust */
+import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"

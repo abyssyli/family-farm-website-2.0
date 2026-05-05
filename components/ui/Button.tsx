@@ -24,8 +24,8 @@ export const Button = forwardRef<
     <button
       ref={ref}
       className={cn(base, variants[variant], className)}
-      {...props} [modified]
-    />
+      {...props}
+    /> [modified]
   )
 })
 

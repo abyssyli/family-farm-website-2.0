@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -14,7 +16,7 @@ export function Card({
       className={cn(
         "rounded-2xl border border-zinc-200 bg-white shadow-sm",
         className
-      )} [modified]
+      )}
     >
       {children}
     </div>
@@ -39,3 +41,4 @@ export function CardHeader({
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
+

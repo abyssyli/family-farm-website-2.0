@@ -37,7 +37,7 @@ export default async function RecipeDetailPage({
             alt={recipe.title}
             width={1400}
             height={1000}
-            className="h-[360px] w-full object-cover sm:h-[440px]" [modified]
+            className="h-[360px] w-full object-cover sm:h-[440px]"
             sizes="(max-width: 1024px) 100vw, 50vw"
             priority
           />
@@ -85,4 +85,4 @@ export default async function RecipeDetailPage({
       </div>
     </div>
   )
-}
+} [modified]

@@ -49,7 +49,7 @@ async function runOnce() {
     id: r.id,
     slug: r.slug,
     title: r.title,
-    description: r.description,
+    description: r.description, [modified]
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
     cta_href: r.ctaHref,
@@ -115,6 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-
-
-/* minor adjust */

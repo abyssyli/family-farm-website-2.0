@@ -1,6 +1,8 @@
+
+// task project adjust
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
- [modified]
+
 export default function NotFound() {
   return (
     <EmptyState
@@ -10,3 +12,4 @@ export default function NotFound() {
     />
   )
 }
+

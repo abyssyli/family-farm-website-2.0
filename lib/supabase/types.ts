@@ -1,5 +1,5 @@
 
-// task project adjust
+// optimize code detail
 export type Json =
   | string
   | number

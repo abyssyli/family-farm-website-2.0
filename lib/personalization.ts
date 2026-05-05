@@ -1,7 +1,7 @@
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
-) {
+) { [modified]
   if (!preferred || preferred.length === 0) return categorySlugs
   const rank = new Map(preferred.map((slug, idx) => [slug, idx]))
   return [...categorySlugs].sort((a, b) => {
@@ -11,6 +11,3 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
-
-
-// update log: auto edit 01

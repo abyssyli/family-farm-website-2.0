@@ -1,4 +1,4 @@
-import { ButtonLink } from "@/components/ui/Button" [modified]
+import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
 export default function NotFound() {
@@ -10,3 +10,6 @@ export default function NotFound() {
     />
   )
 }
+
+
+# minor content update

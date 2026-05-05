@@ -1,6 +1,4 @@
-
-/* minor adjust */
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
@@ -37,4 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-

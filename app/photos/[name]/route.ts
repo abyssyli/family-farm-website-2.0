@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -32,7 +30,7 @@ export async function GET(
   try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
-    const ext = extname(name)
+    const ext = extname(name) [modified]
     return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),
@@ -43,4 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

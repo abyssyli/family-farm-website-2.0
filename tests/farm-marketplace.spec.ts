@@ -1,3 +1,5 @@
+
+# minor content update
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -11,7 +13,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /Chicken and Eggs/i })).toBeVisible()
 
   await page.getByRole("link", { name: /View details/i }).first().click()
-  await expect(page.getByRole("button", { name: /Buy \/ Contact/i })).toBeVisible() [modified]
+  await expect(page.getByRole("button", { name: /Buy \/ Contact/i })).toBeVisible()
 
   await page.getByRole("button", { name: /Buy \/ Contact/i }).click()
   await expect(page.getByText(/Call or text Paula/i)).toBeVisible()

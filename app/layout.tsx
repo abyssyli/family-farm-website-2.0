@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children
-}: Readonly<{
+}: Readonly<{ [modified]
   children: React.ReactNode
 }>) {
   return (
@@ -50,7 +50,7 @@ export default function RootLayout({
               <Link href="/account" className="hover:text-farm-700">
                 Account
               </Link>
-              <UserMenu /> [modified]
+              <UserMenu />
             </nav>
           </header>
           <main className="flex-1 pb-16">{children}</main>

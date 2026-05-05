@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import Image from "next/image"
@@ -61,7 +63,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                       : "bg-white text-zinc-900 ring-zinc-200 hover:bg-zinc-50"
                   )}
                   style={{ left: `${r.x}%`, top: `${r.y}%` }}
-                  onClick={() => setActiveSlug(r.slug)} [modified]
+                  onClick={() => setActiveSlug(r.slug)}
                 >
                   {r.title}
                 </button>

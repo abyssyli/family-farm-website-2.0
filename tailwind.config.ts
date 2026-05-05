@@ -6,7 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: {
+    extend: { [modified]
       colors: {
         farm: {
           50: "#f7f7f2",
@@ -14,7 +14,7 @@ const config: Config = {
           200: "#d9dfbe",
           300: "#b9c98c",
           400: "#97ae60",
-          500: "#7a9446", [modified]
+          500: "#7a9446",
           600: "#5f7535",
           700: "#4c5d2c",
           800: "#3f4b27",

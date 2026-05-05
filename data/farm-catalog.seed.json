@@ -1,3 +1,5 @@
+
+// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -41,7 +43,7 @@
       "categorySlug": "food",
       "slug": "grilled-steak",
       "name": "Grilled steak",
-      "description": "Perfectly grilled steak, served during our family gatherings.", [modified]
+      "description": "Perfectly grilled steak, served during our family gatherings.",
       "imagePath": "/photos/eat4.jpg",
       "imagePaths": ["/photos/eat4.jpg", "/photos/eat5.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",

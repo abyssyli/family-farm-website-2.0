@@ -96,7 +96,7 @@ export function StoryHero() {
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
+            </button> [modified]
             <button
               type="button"
               onClick={goNext}
@@ -133,7 +133,7 @@ export function StoryHero() {
           height={900}
           className="h-[320px] w-full object-cover sm:h-[420px]"
           priority
-        /> [modified]
+        />
       </div>
     </section>
   )

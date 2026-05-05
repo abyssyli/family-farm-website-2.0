@@ -1,4 +1,4 @@
-"use client"
+"use client" [modified]
 
 import { useEffect } from "react"
 
@@ -18,7 +18,7 @@ export function Modal({
   children: React.ReactNode
   onClose: () => void
   className?: string
-}) { [modified]
+}) {
   useEffect(() => {
     if (!open) return
     const onKeyDown = (e: KeyboardEvent) => {

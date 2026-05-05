@@ -89,7 +89,7 @@ export default async function HomePage() {
                       src={recipe.imagePath || "/photos/background.jpg"}
                       alt={recipe.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105" [modified]
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
                   <div className="p-4">
@@ -109,3 +109,5 @@ export default async function HomePage() {
     </div>
   )
 }
+
+// task project adjust

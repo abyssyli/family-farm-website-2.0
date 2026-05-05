@@ -13,7 +13,7 @@
     "esModuleInterop": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, [modified]
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
@@ -26,7 +26,7 @@
     "paths": {
       "@/*": [
         "./*"
-      ] [modified]
+      ]
     }
   },
   "include": [

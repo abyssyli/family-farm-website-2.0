@@ -1,10 +1,8 @@
-
-// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
-import { Card } from "@/components/ui/Card"
+import { Card } from "@/components/ui/Card" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"

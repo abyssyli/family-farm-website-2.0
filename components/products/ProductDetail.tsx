@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -7,7 +9,7 @@ import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
-export function ProductDetail({ [modified]
+export function ProductDetail({
   product,
   categoryName,
   primaryAction
@@ -157,4 +159,5 @@ export function ProductDetail({ [modified]
     </div>
   )
 }
+
 

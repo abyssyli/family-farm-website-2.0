@@ -183,6 +183,4 @@ export async function getCatalog(): Promise<Catalog> {
 
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
-}
-
-# minor content update
+} [modified]

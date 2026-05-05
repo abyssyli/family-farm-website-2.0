@@ -24,7 +24,7 @@ export function ProductCard({
         </div>
       ) : null}
       <div className="p-6">
-        <div className="flex items-start justify-between gap-4">
+        <div className="flex items-start justify-between gap-4"> [modified]
           <h3 className="text-base font-semibold">{product.name}</h3>
         </div>
         <p className="mt-1 line-clamp-2 text-sm text-zinc-600">
@@ -42,7 +42,7 @@ export function ProductCard({
                   : "text-red-600"
               }`}
             >
-              {product.stockQuantity > 0 [modified]
+              {product.stockQuantity > 0
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
             </span>

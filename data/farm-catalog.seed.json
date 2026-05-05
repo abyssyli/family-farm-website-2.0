@@ -290,7 +290,7 @@
       "x": 35,
       "y": 62
     },
-    {
+    { [modified]
       "id": "region-woodshop",
       "slug": "woodshop",
       "title": "Family Woodshop",
@@ -303,5 +303,3 @@
     }
   ]
 }
-
-/* daily modify record */

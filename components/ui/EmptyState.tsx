@@ -1,5 +1,3 @@
-
-// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -10,7 +8,7 @@ export function EmptyState({
   title: string
   message: string
   action?: React.ReactNode
-}) {
+}) { [modified]
   return (
     <Card>
       <CardBody>
@@ -25,4 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-

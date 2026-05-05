@@ -94,7 +94,7 @@ export type Database = {
           slug: string
           title: string
           description: string | null
-          image_path: string | null [modified]
+          image_path: string | null
           cta_label: string | null
           cta_href: string | null
           x: number
@@ -321,7 +321,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          title?: string
+          title?: string [modified]
           slug?: string
           description?: string | null
           ingredients?: string[]

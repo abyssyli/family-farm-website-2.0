@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { Card, CardBody } from "./Card"
 
 export function ErrorState({
@@ -6,7 +8,7 @@ export function ErrorState({
   action
 }: {
   title: string
-  message: string [modified]
+  message: string
   action?: React.ReactNode
 }) {
   return (
@@ -23,3 +25,4 @@ export function ErrorState({
     </Card>
   )
 }
+

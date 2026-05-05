@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -42,7 +40,7 @@ export function SundayRSVP() {
       setNotes(data.notes || "")
     }
   }
-
+ [modified]
   async function handleRSVP() {
     if (!supabase || !session) return
     setStatus("saving")

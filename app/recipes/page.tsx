@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -37,7 +39,7 @@ export default async function RecipesPage() {
                   <h3 className="text-lg font-semibold group-hover:text-farm-700">
                     {recipe.title}
                   </h3>
-                  <p className="mt-2 line-clamp-2 text-sm text-zinc-600"> [modified]
+                  <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
                   </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">

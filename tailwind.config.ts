@@ -1,5 +1,3 @@
-
-// task project adjust
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -25,8 +23,7 @@ const config: Config = {
       }
     }
   },
-  plugins: []
+  plugins: [] [modified]
 }
 
 export default config
-

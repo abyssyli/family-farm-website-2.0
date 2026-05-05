@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -29,7 +27,7 @@ export default async function JournalIndexPage() {
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Farm Journal
         </h1>
-        <p className="mt-2 text-sm text-zinc-700">
+        <p className="mt-2 text-sm text-zinc-700"> [modified]
           Small stories from the farm, the shop, and the family.
         </p>
       </div>
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

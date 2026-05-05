@@ -8,12 +8,12 @@ export async function loadCatalogFromSource(): Promise<{
   const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
   if (sourceUrl) {
     const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
-    if (!res.ok) {
+    if (!res.ok) { [modified]
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
     const json = await res.json()
     const catalog = CatalogSchema.parse(json)
-    return { catalog, sourceLabel: sourceUrl } [modified]
+    return { catalog, sourceLabel: sourceUrl }
   }
 
   const localPath = "data/farm-catalog.seed.json"

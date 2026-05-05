@@ -5,7 +5,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
- [modified]
+
 type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & {
   products: { name: string } | null
 }
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+// update log: auto edit 01

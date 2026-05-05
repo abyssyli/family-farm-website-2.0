@@ -57,7 +57,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       )
       .subscribe()
     return () => {
-      supabase.removeChannel(channel) [modified]
+      supabase.removeChannel(channel)
     }
   }, [router, supabase])
 
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+/* minor adjust */

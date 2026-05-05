@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -67,7 +65,7 @@ export function SundayRSVP() {
       setStatus("idle")
     }
   }
-
+ [modified]
   return (
     <Card className="border-farm-200 bg-farm-50/30">
       <CardHeader

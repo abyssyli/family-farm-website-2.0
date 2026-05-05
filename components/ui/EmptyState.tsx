@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -20,6 +22,7 @@ export function EmptyState({
           {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
-    </Card> [modified]
+    </Card>
   )
 }
+

@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -39,7 +41,7 @@ async function runOnce() {
     id: j.id,
     slug: j.slug,
     title: j.title,
-    excerpt: j.excerpt, [modified]
+    excerpt: j.excerpt,
     body: j.body,
     published_at: j.publishedAt,
     updated_at: new Date().toISOString()
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

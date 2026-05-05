@@ -26,7 +26,7 @@ export default async function RecipeDetailPage({
           {recipe.title}
         </h1>
         <p className="mt-2 text-base text-zinc-700">
-          {recipe.description} [modified]
+          {recipe.description}
         </p>
       </div>
 
@@ -86,3 +86,5 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
+
+// update log: auto edit 01

@@ -17,7 +17,7 @@ export function PreferencesForm({
 
   useEffect(() => {
     if (!supabase) return
-    supabase.auth.getUser().then(async ({ data }) => {
+    supabase.auth.getUser().then(async ({ data }) => { [modified]
       const id = data.user?.id ?? null
       setUserId(id)
       if (!id) return
@@ -56,7 +56,7 @@ export function PreferencesForm({
         ) : !userId ? (
           <p className="text-sm text-zinc-700">
             Sign in to save preferences to your account.
-          </p> [modified]
+          </p>
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-3 sm:grid-cols-2">

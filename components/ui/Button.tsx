@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -13,7 +15,7 @@ const base =
 const variants: Record<Variant, string> = {
   primary: "bg-farm-700 text-white hover:bg-farm-800",
   secondary: "bg-white text-zinc-900 ring-1 ring-zinc-200 hover:bg-zinc-50",
-  ghost: "bg-transparent text-zinc-900 hover:bg-zinc-100" [modified]
+  ghost: "bg-transparent text-zinc-900 hover:bg-zinc-100"
 }
 
 export const Button = forwardRef<

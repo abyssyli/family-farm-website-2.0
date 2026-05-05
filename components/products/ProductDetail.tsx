@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -27,7 +25,7 @@ export function ProductDetail({
   const [currentIdx, setCurrentIdx] = useState(0)
 
   const goPrev = () => {
-    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length)
+    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length) [modified]
   }
   const goNext = () => {
     setCurrentIdx((prev) => (prev + 1) % images.length)
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

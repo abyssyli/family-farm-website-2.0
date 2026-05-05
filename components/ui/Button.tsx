@@ -33,7 +33,7 @@ export function ButtonLink({
   href,
   children,
   variant = "primary",
-  className
+  className [modified]
 }: {
   href: string
   children: React.ReactNode
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-/* minor adjust */

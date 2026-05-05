@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -29,7 +31,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     // Check if user liked
     if (session) {
       const { data } = await supabase
-        .from("likes") [modified]
+        .from("likes")
         .select("id")
         .eq("journal_post_id", journalPostId)
         .eq("user_id", session.user.id)

@@ -124,7 +124,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                   >
                     Browse {category.name} →
                   </a>
-                ) : ( [modified]
+                ) : (
                   <Link
                     href={`/products/${slug}`}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// optimize code detail

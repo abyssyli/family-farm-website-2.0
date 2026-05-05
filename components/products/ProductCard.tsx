@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogProduct } from "@/lib/catalog-schema"
-
+ [modified]
 export function ProductCard({
   product,
   href
@@ -13,7 +13,7 @@ export function ProductCard({
   return (
     <Card className="overflow-hidden">
       {product.imagePath ? (
-        <div className="relative h-48 w-full"> [modified]
+        <div className="relative h-48 w-full">
           <Image
             src={product.imagePath}
             alt={product.name}

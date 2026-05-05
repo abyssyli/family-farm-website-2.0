@@ -28,10 +28,13 @@ export default async function AccountPage() {
       </Card>
 
       <OrderTracker />
- [modified]
+
       <AddressManager />
 
       <PreferencesForm categories={categories} />
     </div>
   )
 }
+
+
+/* daily modify record */

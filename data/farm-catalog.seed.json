@@ -1,5 +1,3 @@
-
-# minor content update
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -216,7 +214,7 @@
     },
     {
       "id": "woodcraft-decor-sign",
-      "categorySlug": "woodcraft",
+      "categorySlug": "woodcraft", [modified]
       "slug": "farmhouse-sign",
       "name": "Farmhouse Decor Sign",
       "description": "Rustic wood signage for your kitchen, porch, or pantry. Custom text available.",

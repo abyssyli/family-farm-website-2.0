@@ -27,7 +27,7 @@ export function PreferencesForm({
         .eq("user_id", id)
         .maybeSingle()
       setSelected(pref?.preferred_categories ?? [])
-    })
+    }) [modified]
   }, [supabase])
 
   async function save() {
@@ -76,7 +76,7 @@ export function PreferencesForm({
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)
-                        ) [modified]
+                        )
                       }}
                       className="h-4 w-4 accent-farm-700"
                     />

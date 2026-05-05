@@ -105,7 +105,7 @@ export function AddressManager() {
           {(isAdding || editingId) && (
             <div className="grid gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 sm:grid-cols-2">
               <label className="flex flex-col gap-1 text-sm font-medium">
-                Full Name
+                Full Name [modified]
                 <input
                   type="text"
                   value={formData.name}
@@ -200,7 +200,7 @@ export function AddressManager() {
                 <div className="flex items-start justify-between">
                   <div>
                     <p className="font-semibold">{address.name}</p>
-                    {address.is_default && ( [modified]
+                    {address.is_default && (
                       <span className="text-[10px] font-bold uppercase tracking-wider text-farm-700">
                         Default
                       </span>

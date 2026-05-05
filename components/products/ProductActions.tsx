@@ -8,7 +8,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
   product,
-  categorySlug [modified]
+  categorySlug
 }: {
   product: CatalogProduct
   categorySlug: string
@@ -41,3 +41,5 @@ export function ProductActions({
     </>
   )
 }
+
+/* minor adjust */

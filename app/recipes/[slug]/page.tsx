@@ -9,7 +9,7 @@ export default async function RecipeDetailPage({
   params
 }: {
   params: { slug: string }
-}) { [modified]
+}) {
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
   if (!recipe) notFound()
@@ -22,7 +22,7 @@ export default async function RecipeDetailPage({
             Farm Recipes
           </Link>
         </p>
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
           {recipe.title}
         </h1>
         <p className="mt-2 text-base text-zinc-700">

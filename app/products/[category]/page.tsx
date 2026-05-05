@@ -4,7 +4,7 @@ import { ProductGrid } from "@/components/products/ProductGrid"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
-export default async function ProductCategoryPage({ [modified]
+export default async function ProductCategoryPage({
   params
 }: {
   params: { category: string }
@@ -17,7 +17,7 @@ export default async function ProductCategoryPage({ [modified]
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
-
+ [modified]
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 
   return (

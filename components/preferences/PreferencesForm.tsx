@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react" [modified]
 import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

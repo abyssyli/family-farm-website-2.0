@@ -5,7 +5,7 @@ import type { Database } from "./types"
 export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   if (!url || !anonKey) return null
-  return createClient<Database>(url, anonKey) [modified]
+  return createClient<Database>(url, anonKey)
 }
 
 export function createServiceRoleSupabaseClient() {
@@ -14,3 +14,6 @@ export function createServiceRoleSupabaseClient() {
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
+
+
+// task project adjust

@@ -23,6 +23,4 @@ export function EmptyState({
     </Card>
   )
 }
-
-
-/* minor adjust */
+ [modified]

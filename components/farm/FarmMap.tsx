@@ -6,7 +6,7 @@ import { FarmRegionCard } from "./FarmRegionCard"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 function cn(...parts: Array<string | false | null | undefined>) {
-  return parts.filter(Boolean).join(" ") [modified]
+  return parts.filter(Boolean).join(" ")
 }
 
 export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+// update log: auto edit 01

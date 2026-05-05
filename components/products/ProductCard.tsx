@@ -52,7 +52,7 @@ export function ProductCard({
           <Link
             href={href}
             className="text-sm font-medium text-farm-800 hover:text-farm-900"
-          >
+          > [modified]
             View details →
           </Link>
         </div>
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

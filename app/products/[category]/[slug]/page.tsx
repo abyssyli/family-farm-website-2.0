@@ -28,8 +28,6 @@ export default async function ProductDetailPage({
       product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
-    />
+    /> [modified]
   )
 }
-
-// task project adjust

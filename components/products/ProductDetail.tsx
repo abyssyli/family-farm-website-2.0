@@ -118,7 +118,7 @@ export function ProductDetail({
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}
           </h1>
-          {product.description ? (
+          {product.description ? ( [modified]
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
             </p>
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-/* daily modify record */

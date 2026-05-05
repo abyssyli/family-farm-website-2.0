@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -42,5 +44,3 @@ export async function GET(
   }
 }
 
-
-/* minor adjust */

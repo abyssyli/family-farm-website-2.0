@@ -7,4 +7,6 @@ export function createBrowserSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
- [modified]
+
+
+/* minor adjust */

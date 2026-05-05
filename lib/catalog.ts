@@ -50,7 +50,7 @@ export async function getCatalog(): Promise<Catalog> {
   const normalizeEggsImagePath = (slug: string, imagePath: string | null) => {
     const fallbackBySlug: Record<string, string> = {
       "fresh-dozen-eggs": "/photos/egg.jpg",
-      "weekly-egg-reserve": "/photos/egg2.jpg", [modified]
+      "weekly-egg-reserve": "/photos/egg2.jpg",
       "coop-visit": "/photos/chicken.jpg",
       "hen-spotlight": "/photos/chicken1.jpg",
       "coop-morning": "/photos/chicken2.jpg",
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+/* minor adjust */

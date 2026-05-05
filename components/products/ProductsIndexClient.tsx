@@ -81,7 +81,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }
 
   return (
-    <div className="flex flex-col gap-8"> [modified]
+    <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -109,7 +109,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             .length
           const isSkincare = slug === "skincare"
           return (
-            <Card key={slug} className="p-6">
+            <Card key={slug} className="p-6"> [modified]
               <h2 className="text-base font-semibold">{category.name}</h2>
               <p className="mt-2 text-sm text-zinc-700">
                 {count} item{count === 1 ? "" : "s"}

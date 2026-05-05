@@ -361,4 +361,6 @@ export type Database = {
     }
     CompositeTypes: { [_ in never]: never }
   }
-} [modified]
+}
+
+# minor content update

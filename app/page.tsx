@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -109,5 +111,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-/* daily modify record */

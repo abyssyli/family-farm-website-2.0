@@ -65,7 +65,7 @@ export function SundayRSVP() {
       setStatus("idle")
     }
   }
- [modified]
+
   return (
     <Card className="border-farm-200 bg-farm-50/30">
       <CardHeader
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+// update log: auto edit 01

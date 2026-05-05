@@ -18,7 +18,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   async function fetchLikes() {
     if (!supabase) return
     
-    // Get total likes [modified]
+    // Get total likes
     const { count, error } = await supabase
       .from("likes")
       .select("*", { count: "exact", head: true })
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+// update log: auto edit 01

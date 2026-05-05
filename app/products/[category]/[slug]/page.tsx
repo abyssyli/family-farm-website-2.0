@@ -27,9 +27,7 @@ export default async function ProductDetailPage({
     <ProductDetail
       product={product}
       categoryName={category.name}
-      primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
+      primaryAction={<ProductActions product={product} categorySlug={category.slug} />} [modified]
     />
   )
 }
-
-/* daily modify record */

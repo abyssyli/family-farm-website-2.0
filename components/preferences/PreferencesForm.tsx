@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -17,7 +19,7 @@ export function PreferencesForm({
 
   useEffect(() => {
     if (!supabase) return
-    supabase.auth.getUser().then(async ({ data }) => { [modified]
+    supabase.auth.getUser().then(async ({ data }) => {
       const id = data.user?.id ?? null
       setUserId(id)
       if (!id) return
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

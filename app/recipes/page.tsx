@@ -53,4 +53,4 @@ export default async function RecipesPage() {
   )
 }
 
-// optimize code detail
+# minor content update

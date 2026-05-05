@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useMemo, useState } from "react"
@@ -27,7 +25,7 @@ export function UserMenu() {
         <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
         </Button>
-        <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
+        <Modal open={open} title="Sign in" onClose={() => setOpen(false)}> [modified]
           <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>
       </>

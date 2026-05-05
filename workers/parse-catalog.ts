@@ -1,5 +1,5 @@
 
-# minor content update
+// task project adjust
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 

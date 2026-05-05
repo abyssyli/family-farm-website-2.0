@@ -79,12 +79,10 @@ export default async function RecipeDetailPage({
       </div>
 
       <div className="mt-4">
-        <ButtonLink href="/recipes" variant="ghost">
+        <ButtonLink href="/recipes" variant="ghost"> [modified]
           ← Back to recipes
         </ButtonLink>
       </div>
     </div>
   )
 }
-
-// update log: auto edit 01

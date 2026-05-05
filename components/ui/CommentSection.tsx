@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -84,7 +86,7 @@ export function CommentSection({
         <div className="rounded-2xl bg-zinc-50 p-6 text-center">
           <p className="text-sm text-zinc-600">
             Please sign in to leave a comment.
-          </p> [modified]
+          </p>
         </div>
       )}
 

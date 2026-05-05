@@ -7,7 +7,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function ProductCategoryPage({
   params
 }: {
-  params: { category: string }
+  params: { category: string } [modified]
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// optimize code detail

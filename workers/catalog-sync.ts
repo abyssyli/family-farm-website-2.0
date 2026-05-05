@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -23,7 +21,7 @@ async function runOnce() {
     sort_order: c.sortOrder
   }))
 
-  const products = catalog.products.map((p) => ({
+  const products = catalog.products.map((p) => ({ [modified]
     id: p.id,
     category_slug: p.categorySlug,
     slug: p.slug,
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

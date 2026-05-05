@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -47,7 +49,7 @@ export function AddressManager() {
     if (editingId) {
       const { user_id, ...updateData } = { ...formData, user_id: session.user.id }
       await supabase.from("user_addresses").update(updateData).eq("id", editingId)
-    } else { [modified]
+    } else {
       await supabase.from("user_addresses").insert({
         ...formData,
         user_id: session.user.id

@@ -25,7 +25,7 @@ export function ProductDetail({
   const [currentIdx, setCurrentIdx] = useState(0)
 
   const goPrev = () => {
-    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length) [modified]
+    setCurrentIdx((prev) => (prev - 1 + images.length) % images.length)
   }
   const goNext = () => {
     setCurrentIdx((prev) => (prev + 1) % images.length)
@@ -115,7 +115,7 @@ export function ProductDetail({
               {categoryName}
             </Link>
           </p>
-          <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl"> [modified]
             {product.name}
           </h1>
           {product.description ? (

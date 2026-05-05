@@ -1,4 +1,4 @@
-import { createClient } from "@supabase/supabase-js" [modified]
+import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"
 
@@ -7,3 +7,6 @@ export function createBrowserSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
+
+
+# minor content update

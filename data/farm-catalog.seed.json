@@ -67,7 +67,7 @@
       "imagePath": "/photos/eat8.jpg",
       "imagePaths": ["/photos/eat8.jpg", "/photos/eat9.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",
-      "isActive": true
+      "isActive": true [modified]
     },
     {
       "id": "food-egg-pancakes-toppings",
@@ -303,5 +303,3 @@
     }
   ]
 }
-
-/* daily modify record */

@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -8,7 +10,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function HomePage() {
-  const catalog = await getCatalog() [modified]
+  const catalog = await getCatalog()
   const categories = catalog.categories
   const regions = catalog.farmRegions
   const { skincareUrl } = getPublicEnv()

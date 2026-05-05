@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react" [modified]
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"
@@ -152,7 +152,7 @@ export function BuyContactModal({
           <Button type="button" onClick={() => window.open(smsHref)}>
             Open text message
           </Button>
-          <Button [modified]
+          <Button
             variant="secondary"
             type="button"
             onClick={async () => {

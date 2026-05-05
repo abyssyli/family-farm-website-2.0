@@ -27,7 +27,7 @@ export function UserMenu() {
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
           <LoginForm onSuccess={() => setOpen(false)} />
-        </Modal> [modified]
+        </Modal>
       </>
     )
   }
@@ -55,3 +55,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+// update log: auto edit 01

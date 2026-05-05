@@ -110,7 +110,7 @@ export function StoryHero() {
                 aria-hidden="true"
               >
                 <path
-                  fillRule="evenodd" [modified]
+                  fillRule="evenodd"
                   d="M7.22 4.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 0 1 0 1.06l-5 5a.75.75 0 1 1-1.06-1.06L11.69 10 7.22 5.53a.75.75 0 0 1 0-1.06Z"
                   clipRule="evenodd"
                 />
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* daily modify record */

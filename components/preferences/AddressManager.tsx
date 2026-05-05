@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -101,7 +99,7 @@ export function AddressManager() {
           {!isAdding && !editingId && (
             <Button onClick={() => setIsAdding(true)} variant="secondary" className="self-start">
               Add New Address
-            </Button>
+            </Button> [modified]
           )}
 
           {(isAdding || editingId) && (

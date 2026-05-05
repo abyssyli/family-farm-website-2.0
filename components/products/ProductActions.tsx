@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useState } from "react"
@@ -39,5 +41,5 @@ export function ProductActions({
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
     </>
-  ) [modified]
+  )
 }

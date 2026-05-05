@@ -50,7 +50,7 @@ export function SundayRSVP() {
       event_date: dateStr,
       adult_count: adultCount,
       child_count: childCount,
-      notes: notes || null [modified]
+      notes: notes || null
     }
 
     const { error } = await supabase
@@ -110,7 +110,7 @@ export function SundayRSVP() {
                 onChange={(e) => setNotes(e.target.value)}
                 rows={2}
                 placeholder="Optional..."
-                className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
+                className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20" [modified]
               />
             </label>
             <div className="flex items-center gap-4">

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -86,7 +84,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                 className="text-left"
                 onClick={() => setActiveSlug(r.slug)}
               >
-                <FarmRegionCard region={r} />
+                <FarmRegionCard region={r} /> [modified]
               </button>
             ))}
         </div>

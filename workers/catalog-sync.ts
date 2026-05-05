@@ -17,7 +17,7 @@ async function runOnce() {
 
   const categories = catalog.categories.map((c) => ({
     slug: c.slug,
-    name: c.name, [modified]
+    name: c.name,
     sort_order: c.sortOrder
   }))
 
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+/* minor adjust */

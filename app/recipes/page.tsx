@@ -1,8 +1,8 @@
-import Link from "next/link" [modified]
+import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
 import { getCatalog } from "@/lib/catalog"
-
+ [modified]
 export default async function RecipesPage() {
   const catalog = await getCatalog()
   const recipes = catalog.recipes

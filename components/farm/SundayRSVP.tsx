@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -16,7 +14,7 @@ export function SundayRSVP() {
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   // Next Sunday's date
-  const nextSunday = new Date()
+  const nextSunday = new Date() [modified]
   nextSunday.setDate(nextSunday.getDate() + ((7 - nextSunday.getDay()) % 7))
   const dateStr = nextSunday.toISOString().split("T")[0]
 

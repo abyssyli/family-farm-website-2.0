@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect } from "react"
@@ -12,7 +10,7 @@ export function Modal({
   open,
   title,
   children,
-  onClose,
+  onClose, [modified]
   className
 }: {
   open: boolean
@@ -63,4 +61,3 @@ export function Modal({
     </div>
   )
 }
-

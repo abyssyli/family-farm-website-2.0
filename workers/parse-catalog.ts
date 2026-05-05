@@ -13,7 +13,7 @@ export async function loadCatalogFromSource(): Promise<{
     }
     const json = await res.json()
     const catalog = CatalogSchema.parse(json)
-    return { catalog, sourceLabel: sourceUrl }
+    return { catalog, sourceLabel: sourceUrl } [modified]
   }
 
   const localPath = "data/farm-catalog.seed.json"
@@ -22,6 +22,3 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
-
-
-// update log: auto edit 01

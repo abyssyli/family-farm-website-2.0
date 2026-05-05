@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -102,7 +100,7 @@ export type Database = {
           x: number
           y: number
         }
-        Insert: {
+        Insert: { [modified]
           id: string
           slug: string
           title: string

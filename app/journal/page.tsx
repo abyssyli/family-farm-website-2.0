@@ -1,7 +1,9 @@
+
+// task project adjust
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
-import { ButtonLink } from "@/components/ui/Button" [modified]
+import { ButtonLink } from "@/components/ui/Button"
 
 export default async function JournalIndexPage() {
   const catalog = await getCatalog()
@@ -39,3 +41,4 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+

@@ -15,7 +15,7 @@ export function UserMenu() {
     const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"
-  }, [email])
+  }, [email]) [modified]
 
   if (!ready) return null
 
@@ -41,7 +41,7 @@ export function UserMenu() {
         {avatarLabel}
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
-        {email} [modified]
+        {email}
       </span>
       <Button
         variant="ghost"

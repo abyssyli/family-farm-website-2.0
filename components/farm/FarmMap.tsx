@@ -42,7 +42,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           <div className="relative">
             <Image
               src={coverImagePath}
-              alt="Farm map"
+              alt="Farm map" [modified]
               width={1400}
               height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
@@ -91,4 +91,4 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
       </div>
     </section>
   )
-} [modified]
+}

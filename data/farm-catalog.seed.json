@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// optimize code detail
 import Link from "next/link"
 import { forwardRef } from "react"
 

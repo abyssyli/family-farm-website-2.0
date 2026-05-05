@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
@@ -13,7 +15,7 @@ export async function loadCatalogFromSource(): Promise<{
     }
     const json = await res.json()
     const catalog = CatalogSchema.parse(json)
-    return { catalog, sourceLabel: sourceUrl } [modified]
+    return { catalog, sourceLabel: sourceUrl }
   }
 
   const localPath = "data/farm-catalog.seed.json"
@@ -22,3 +24,4 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+

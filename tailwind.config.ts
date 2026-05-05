@@ -6,7 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: { [modified]
+    extend: {
       colors: {
         farm: {
           50: "#f7f7f2",
@@ -25,5 +25,5 @@ const config: Config = {
   },
   plugins: []
 }
-
+ [modified]
 export default config

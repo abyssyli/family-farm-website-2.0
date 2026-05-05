@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {
@@ -10,7 +10,7 @@ export function Modal({
   open,
   title,
   children,
-  onClose, [modified]
+  onClose,
   className
 }: {
   open: boolean

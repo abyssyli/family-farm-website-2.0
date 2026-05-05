@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useMemo, useState } from "react"
@@ -15,7 +17,7 @@ export function UserMenu() {
     const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"
-  }, [email]) [modified]
+  }, [email])
 
   if (!ready) return null
 

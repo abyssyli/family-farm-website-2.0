@@ -5,7 +5,7 @@ export const CategorySchema = z.object({
   name: z.string().min(1),
   sortOrder: z.number().int().nonnegative().default(0)
 })
-
+ [modified]
 export const ProductSchema = z.object({
   id: z.string().min(1),
   categorySlug: z.string().min(1),
@@ -65,6 +65,3 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
-
-
-/* minor adjust */

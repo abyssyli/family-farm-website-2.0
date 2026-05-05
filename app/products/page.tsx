@@ -1,5 +1,5 @@
 
-// task project adjust
+// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

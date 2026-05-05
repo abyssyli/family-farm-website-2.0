@@ -150,7 +150,7 @@ export function ProductDetail({
               ← Back to {categoryName}
             </Link>
           </div>
-        </div>
+        </div> [modified]
       </div>
 
       <CommentSection productId={product.id} />
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-/* minor adjust */

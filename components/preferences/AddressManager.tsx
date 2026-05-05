@@ -34,7 +34,7 @@ export function AddressManager() {
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("user_addresses")
-      .select("*")
+      .select("*") [modified]
       .order("created_at", { ascending: false })
     if (!error && data) {
       setAddresses(data)
@@ -60,7 +60,7 @@ export function AddressManager() {
       name: "",
       phone: "",
       address_line1: "",
-      address_line2: "", [modified]
+      address_line2: "",
       city: "",
       state: "",
       postal_code: "",

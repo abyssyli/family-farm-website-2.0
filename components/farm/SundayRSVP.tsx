@@ -14,7 +14,7 @@ export function SundayRSVP() {
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   // Next Sunday's date
-  const nextSunday = new Date() [modified]
+  const nextSunday = new Date()
   nextSunday.setDate(nextSunday.getDate() + ((7 - nextSunday.getDay()) % 7))
   const dateStr = nextSunday.toISOString().split("T")[0]
 
@@ -24,7 +24,7 @@ export function SundayRSVP() {
     }
   }, [supabase, session])
 
-  async function fetchRSVP() {
+  async function fetchRSVP() { [modified]
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("sunday_rsvps")

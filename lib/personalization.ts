@@ -11,6 +11,4 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
-
-
-/* daily modify record */
+ [modified]

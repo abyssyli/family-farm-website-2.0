@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -6,7 +8,7 @@
       "DOM.Iterable",
       "ES2022"
     ],
-    "allowJs": false, [modified]
+    "allowJs": false,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,

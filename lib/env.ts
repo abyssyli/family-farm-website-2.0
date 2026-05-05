@@ -1,3 +1,5 @@
+
+/* minor adjust */
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+1 (806) 290-4949"
@@ -12,5 +14,5 @@ export function getPublicEnv() {
       ? configuredSkincareUrl
       : defaultSkincareUrl
 
-  return { contactPhone, skincareUrl } [modified]
+  return { contactPhone, skincareUrl }
 }

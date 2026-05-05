@@ -1,3 +1,5 @@
+
+/* daily modify record */
 export type Json =
   | string
   | number
@@ -100,7 +102,7 @@ export type Database = {
           x: number
           y: number
         }
-        Insert: { [modified]
+        Insert: {
           id: string
           slug: string
           title: string

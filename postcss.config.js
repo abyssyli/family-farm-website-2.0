@@ -1,9 +1,6 @@
 module.exports = {
-  plugins: {
+  plugins: { [modified]
     tailwindcss: {},
     autoprefixer: {}
   }
 }
-
-
-/* daily modify record */

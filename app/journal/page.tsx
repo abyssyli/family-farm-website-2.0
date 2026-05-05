@@ -1,3 +1,5 @@
+
+# minor content update
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -40,5 +42,3 @@ export default async function JournalIndexPage() {
   )
 }
 
-
-// task project adjust

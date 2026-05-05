@@ -121,7 +121,7 @@ export function StoryHero() {
         <div className="mt-6 flex flex-wrap gap-3">
           <ButtonLink href="/products">Browse products</ButtonLink>
           <ButtonLink href="/products/eggs" variant="secondary">
-            See today’s eggs [modified]
+            See today’s eggs
           </ButtonLink>
         </div>
       </div>
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* minor adjust */

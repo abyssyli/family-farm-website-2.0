@@ -1,5 +1,3 @@
-
-/* minor adjust */
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -9,3 +7,5 @@ const nextConfig = {
 
 export default nextConfig
 
+
+// optimize code detail

@@ -23,7 +23,7 @@ export async function getCatalog(): Promise<Catalog> {
   if (
     categoriesRes.error ||
     productsRes.error ||
-    journalRes.error || [modified]
+    journalRes.error ||
     regionsRes.error ||
     recipesRes.error
   ) {
@@ -50,7 +50,7 @@ export async function getCatalog(): Promise<Catalog> {
   const normalizeEggsImagePath = (slug: string, imagePath: string | null) => {
     const fallbackBySlug: Record<string, string> = {
       "fresh-dozen-eggs": "/photos/egg.jpg",
-      "weekly-egg-reserve": "/photos/egg2.jpg",
+      "weekly-egg-reserve": "/photos/egg2.jpg", [modified]
       "coop-visit": "/photos/chicken.jpg",
       "hen-spotlight": "/photos/chicken1.jpg",
       "coop-morning": "/photos/chicken2.jpg",

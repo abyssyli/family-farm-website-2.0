@@ -3,7 +3,7 @@
     "target": "ES2022",
     "lib": [
       "DOM",
-      "DOM.Iterable",
+      "DOM.Iterable", [modified]
       "ES2022"
     ],
     "allowJs": false,
@@ -39,5 +39,3 @@
     "node_modules"
   ]
 }
-
-// optimize code detail

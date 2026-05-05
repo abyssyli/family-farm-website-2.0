@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect } from "react"
@@ -64,3 +62,5 @@ export function Modal({
   )
 }
 
+
+// optimize code detail

@@ -23,7 +23,10 @@ const config: Config = {
       }
     }
   },
-  plugins: [] [modified]
+  plugins: []
 }
 
 export default config
+
+
+/* minor adjust */

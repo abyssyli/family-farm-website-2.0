@@ -23,4 +23,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 }
 
 
-/* daily modify record */
+/* minor adjust */

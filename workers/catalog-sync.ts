@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -94,7 +96,7 @@ async function main() {
   const once = process.env.SYNC_ONCE?.trim() === "1"
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
-  if (once) { [modified]
+  if (once) {
     await runOnce()
     return
   }
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

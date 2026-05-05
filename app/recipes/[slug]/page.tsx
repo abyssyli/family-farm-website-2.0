@@ -9,7 +9,7 @@ export default async function RecipeDetailPage({
   params
 }: {
   params: { slug: string }
-}) {
+}) { [modified]
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
   if (!recipe) notFound()
@@ -75,7 +75,7 @@ export default async function RecipeDetailPage({
               </ol>
             </CardBody>
           </Card>
-        </div> [modified]
+        </div>
       </div>
 
       <div className="mt-4">

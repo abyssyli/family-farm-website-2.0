@@ -33,4 +33,4 @@ export function useSupabaseAuth() {
 }
 
 
-// task project adjust
+// optimize code detail

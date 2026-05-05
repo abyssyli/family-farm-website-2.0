@@ -1,12 +1,10 @@
-
-/* minor adjust */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
 
 export function getSeedCatalog(): Catalog {
   return CatalogSchema.parse(seedJson)
-}
+} [modified]
 
 export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()

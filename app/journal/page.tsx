@@ -41,4 +41,4 @@ export default async function JournalIndexPage() {
 }
 
 
-// task project adjust
+/* daily modify record */

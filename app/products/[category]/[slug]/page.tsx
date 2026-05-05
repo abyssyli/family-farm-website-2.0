@@ -32,4 +32,4 @@ export default async function ProductDetailPage({
   )
 }
 
-/* minor adjust */
+// update log: auto edit 01

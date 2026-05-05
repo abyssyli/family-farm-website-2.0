@@ -85,4 +85,6 @@ export default async function RecipeDetailPage({
       </div>
     </div>
   )
-} [modified]
+}
+
+// update log: auto edit 01

@@ -1,9 +1,11 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth" [modified]
+import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 
 type Address = Database["public"]["Tables"]["user_addresses"]["Row"]

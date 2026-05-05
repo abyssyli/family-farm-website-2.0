@@ -4,14 +4,14 @@ import { Card } from "@/components/ui/Card"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductCard({
-  product, [modified]
+  product,
   href
 }: {
   product: CatalogProduct
   href: string
 }) {
   return (
-    <Card className="overflow-hidden">
+    <Card className="overflow-hidden"> [modified]
       {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image

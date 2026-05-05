@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -75,7 +77,7 @@ export function ProductDetail({
                     >
                       <svg
                         viewBox="0 0 20 20"
-                        fill="currentColor" [modified]
+                        fill="currentColor"
                         className="h-5 w-5"
                       >
                         <path
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

@@ -24,7 +24,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [ [modified]
+      "@/*": [
         "./*"
       ]
     }
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+# minor content update

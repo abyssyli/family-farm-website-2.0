@@ -53,4 +53,4 @@ export default async function RecipesPage() {
   )
 }
 
-// optimize code detail
+/* daily modify record */

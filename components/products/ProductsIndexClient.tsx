@@ -30,7 +30,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         .eq("user_id", userId)
         .maybeSingle()
       if (pref?.preferred_categories) {
-        setPreferred(pref.preferred_categories)
+        setPreferred(pref.preferred_categories) [modified]
       }
     })
   }, [supabase])
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// update log: auto edit 01

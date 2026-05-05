@@ -82,7 +82,7 @@ export function OrderTracker() {
                         >
                           {inquiry.status}
                         </span>
-                      </td>
+                      </td> [modified]
                     </tr>
                   ))}
                 </tbody>
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-/* daily modify record */

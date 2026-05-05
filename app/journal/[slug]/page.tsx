@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -36,7 +34,7 @@ export default async function JournalPostPage({
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
-      </div>
+      </div> [modified]
 
       <Card>
         <CardBody>
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

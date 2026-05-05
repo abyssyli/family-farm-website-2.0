@@ -35,7 +35,7 @@ export function UserMenu() {
   return (
     <div className="flex items-center gap-3">
       <div
-        className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-farm-700 text-sm font-semibold text-white" [modified]
+        className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-farm-700 text-sm font-semibold text-white"
         title={email ?? "Signed in"}
       >
         {avatarLabel}
@@ -55,3 +55,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* minor adjust */

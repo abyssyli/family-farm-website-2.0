@@ -11,11 +11,11 @@ export function ProductGrid({
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((p) => (
-        <ProductCard [modified]
+        <ProductCard
           key={p.id}
           product={p}
           href={`/products/${categorySlug}/${p.slug}`}
-        />
+        /> [modified]
       ))}
     </div>
   )

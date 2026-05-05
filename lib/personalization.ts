@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined

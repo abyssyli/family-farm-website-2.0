@@ -18,7 +18,7 @@ export default async function RecipesPage() {
         </p>
       </div>
 
-      {recipes.length === 0 ? (
+      {recipes.length === 0 ? ( [modified]
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -40,7 +40,7 @@ export default async function RecipesPage() {
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
                   </p>
-                  <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700"> [modified]
+                  <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
                     View Recipe →
                   </p>
                 </CardBody>

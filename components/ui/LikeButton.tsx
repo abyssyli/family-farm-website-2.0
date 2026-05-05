@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -15,7 +17,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     }
   }, [supabase, journalPostId, session])
 
-  async function fetchLikes() { [modified]
+  async function fetchLikes() {
     if (!supabase) return
     
     // Get total likes

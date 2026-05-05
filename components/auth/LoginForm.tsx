@@ -8,7 +8,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const { supabase } = useSupabaseAuth()
   const isConfigured = Boolean(supabase)
-  const [email, setEmail] = useState("") [modified]
+  const [email, setEmail] = useState("")
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle")
   const [error, setError] = useState<string | null>(null)
 
@@ -80,3 +80,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
+
+// optimize code detail

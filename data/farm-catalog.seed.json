@@ -138,7 +138,7 @@
       "categorySlug": "eggs",
       "slug": "baby-chicks",
       "name": "Baby Chicks",
-      "description": "Healthy, lively baby chicks from our best layers. Available in seasonal batches.", [modified]
+      "description": "Healthy, lively baby chicks from our best layers. Available in seasonal batches.",
       "imagePath": "/photos/0.jpg",
       "imagePaths": ["/photos/0.jpg", "/photos/chicken3.jpg"],
       "priceHint": "Seasonal · Text for availability",
@@ -183,7 +183,7 @@
       "id": "eggs-hen-spotlight",
       "categorySlug": "eggs",
       "slug": "hen-spotlight",
-      "name": "Hen Spotlight",
+      "name": "Hen Spotlight", [modified]
       "description": "A fun add-on to your pickup—ask which hens are laying today and what we’re seeing in the coop.",
       "imagePath": "/photos/chicken1.jpg",
       "priceHint": "Included with pickup",

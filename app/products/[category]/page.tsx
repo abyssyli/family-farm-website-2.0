@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -40,5 +42,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// task project adjust

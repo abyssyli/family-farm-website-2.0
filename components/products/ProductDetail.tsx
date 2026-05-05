@@ -83,7 +83,7 @@ export function ProductDetail({
                           d="M7.22 14.47a.75.75 0 0 1 0-1.06L11.69 10 7.22 5.53a.75.75 0 0 1 1.06-1.06l5 5a.75.75 0 0 1 0 1.06l-5 5a.75.75 0 0 1-1.06 0Z"
                           clipRule="evenodd"
                         />
-                      </svg> [modified]
+                      </svg>
                     </button>
                   </div>
                   <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-1.5">
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+// update log: auto edit 01

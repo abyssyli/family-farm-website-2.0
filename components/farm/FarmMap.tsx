@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -28,7 +26,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     return active.imagePath || "/photos/Home.jpg"
   }, [active])
 
-  if (sorted.length === 0) return null
+  if (sorted.length === 0) return null [modified]
 
   return (
     <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">

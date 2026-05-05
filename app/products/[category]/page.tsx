@@ -1,3 +1,5 @@
+
+// optimize code detail
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -19,7 +21,7 @@ export default async function ProductCategoryPage({
   if (!category) notFound()
 
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
- [modified]
+
   return (
     <div className="flex flex-col gap-8">
       <div>

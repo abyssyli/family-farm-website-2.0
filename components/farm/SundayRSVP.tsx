@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -48,7 +46,7 @@ export function SundayRSVP() {
     setStatus("saving")
 
     const rsvpData = {
-      user_id: session.user.id,
+      user_id: session.user.id, [modified]
       event_date: dateStr,
       adult_count: adultCount,
       child_count: childCount,

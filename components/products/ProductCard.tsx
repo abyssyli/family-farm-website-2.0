@@ -57,6 +57,9 @@ export function ProductCard({
           </Link>
         </div>
       </div>
-    </Card> [modified]
+    </Card>
   )
 }
+
+
+// update log: auto edit 01

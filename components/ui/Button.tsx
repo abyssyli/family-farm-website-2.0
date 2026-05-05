@@ -1,7 +1,5 @@
-
-// update log: auto edit 01
 import Link from "next/link"
-import { forwardRef } from "react"
+import { forwardRef } from "react" [modified]
 
 type Variant = "primary" | "secondary" | "ghost"
 

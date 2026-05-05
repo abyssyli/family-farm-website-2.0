@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -12,7 +10,7 @@ export default async function AccountPage() {
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
   return (
-    <div className="flex flex-col gap-6 pb-12">
+    <div className="flex flex-col gap-6 pb-12"> [modified]
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
@@ -37,4 +35,3 @@ export default async function AccountPage() {
     </div>
   )
 }
-

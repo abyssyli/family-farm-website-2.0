@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -28,7 +30,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
 
     // Check if user liked
     if (session) {
-      const { data } = await supabase [modified]
+      const { data } = await supabase
         .from("likes")
         .select("id")
         .eq("journal_post_id", journalPostId)

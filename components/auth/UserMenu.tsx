@@ -17,7 +17,7 @@ export function UserMenu() {
     return trimmed[0]?.toUpperCase() ?? "U"
   }, [email])
 
-  if (!ready) return null
+  if (!ready) return null [modified]
 
   if (!session) {
     return (
@@ -55,5 +55,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// update log: auto edit 01

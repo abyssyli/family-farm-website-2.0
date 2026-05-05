@@ -96,7 +96,7 @@ export type Database = {
           description: string | null
           image_path: string | null
           cta_label: string | null
-          cta_href: string | null [modified]
+          cta_href: string | null
           x: number
           y: number
         }
@@ -153,7 +153,7 @@ export type Database = {
           state: string
           postal_code: string
           is_default: boolean
-          created_at: string
+          created_at: string [modified]
           updated_at: string
         }
         Insert: {

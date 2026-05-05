@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({

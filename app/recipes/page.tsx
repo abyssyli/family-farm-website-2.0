@@ -42,7 +42,7 @@ export default async function RecipesPage() {
                   </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
                     View Recipe →
-                  </p> [modified]
+                  </p>
                 </CardBody>
               </Card>
             </Link>
@@ -52,3 +52,5 @@ export default async function RecipesPage() {
     </div>
   )
 }
+
+// task project adjust

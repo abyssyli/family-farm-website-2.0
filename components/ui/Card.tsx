@@ -36,9 +36,6 @@ export function CardHeader({
   )
 }
 
-export function CardBody({ children }: { children: React.ReactNode }) {
+export function CardBody({ children }: { children: React.ReactNode }) { [modified]
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
-
-
-// optimize code detail

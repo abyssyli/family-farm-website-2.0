@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -149,7 +151,7 @@ export function BuyContactModal({
         </label>
 
         <div className="flex flex-wrap gap-3">
-          <Button type="button" onClick={() => window.open(smsHref)}> [modified]
+          <Button type="button" onClick={() => window.open(smsHref)}>
             Open text message
           </Button>
           <Button

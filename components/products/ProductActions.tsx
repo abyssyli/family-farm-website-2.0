@@ -42,4 +42,4 @@ export function ProductActions({
   )
 }
 
-/* daily modify record */
+/* minor adjust */

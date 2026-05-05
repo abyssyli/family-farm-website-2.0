@@ -91,7 +91,7 @@ export default async function HomePage() {
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                  </div> [modified]
+                  </div>
                   <div className="p-4">
                     <h3 className="text-sm font-semibold group-hover:text-farm-700">
                       {recipe.title}
@@ -109,3 +109,5 @@ export default async function HomePage() {
     </div>
   )
 }
+
+// task project adjust

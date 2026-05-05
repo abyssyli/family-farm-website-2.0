@@ -8,7 +8,7 @@ import Link from "next/link"
 
 type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & {
   products: { name: string } | null
-}
+} [modified]
 
 export function OrderTracker() {
   const { supabase, session } = useSupabaseAuth()
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-# minor content update

@@ -1,10 +1,10 @@
 {
-  "name": "paulas-farm-family-marketplace", [modified]
+  "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build", [modified]
     "start": "next start",
     "start:web": "next start",
     "start:worker": "npm run worker:sync",

@@ -56,4 +56,4 @@ export default async function JournalPostPage({
 }
 
 
-// task project adjust
+// optimize code detail

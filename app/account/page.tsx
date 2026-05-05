@@ -23,7 +23,7 @@ export default async function AccountPage() {
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
-          <UserMenu /> [modified]
+          <UserMenu />
         </CardBody>
       </Card>
 
@@ -35,3 +35,6 @@ export default async function AccountPage() {
     </div>
   )
 }
+
+
+// update log: auto edit 01

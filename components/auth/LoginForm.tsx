@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -50,7 +48,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
       <label className="text-sm font-medium">
         Email
-        <input
+        <input [modified]
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"

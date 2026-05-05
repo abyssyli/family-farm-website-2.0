@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect } from "react"
@@ -44,7 +42,7 @@ export function Modal({
         role="dialog"
         aria-modal="true"
         className={cn(
-          "relative w-full max-w-lg rounded-2xl bg-white shadow-xl",
+          "relative w-full max-w-lg rounded-2xl bg-white shadow-xl", [modified]
           className
         )}
       >
@@ -63,4 +61,3 @@ export function Modal({
     </div>
   )
 }
-

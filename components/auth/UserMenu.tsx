@@ -41,7 +41,7 @@ export function UserMenu() {
         {avatarLabel}
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
-        {email}
+        {email} [modified]
       </span>
       <Button
         variant="ghost"
@@ -49,7 +49,7 @@ export function UserMenu() {
           if (!supabase) return
           supabase.auth.signOut()
         }}
-      > [modified]
+      >
         Sign out
       </Button>
     </div>

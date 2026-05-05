@@ -1,5 +1,3 @@
-
-/* daily modify record */
 export type Json =
   | string
   | number
@@ -184,7 +182,7 @@ export type Database = {
           updated_at?: string
         }
         Relationships: []
-      }
+      } [modified]
       inquiries: {
         Row: {
           id: string

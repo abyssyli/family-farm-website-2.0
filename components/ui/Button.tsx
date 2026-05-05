@@ -1,3 +1,5 @@
+
+# minor content update
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -59,5 +61,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-/* minor adjust */

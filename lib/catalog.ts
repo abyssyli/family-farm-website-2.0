@@ -1,5 +1,3 @@
-
-// optimize code detail
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -176,7 +174,7 @@ export async function getCatalog(): Promise<Catalog> {
     slug: r.slug,
     description: r.description,
     ingredients: r.ingredients,
-    instructions: r.instructions,
+    instructions: r.instructions, [modified]
     imagePath: r.image_path
   }))
 

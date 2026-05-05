@@ -1,3 +1,5 @@
+
+/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -303,5 +305,3 @@
     }
   ]
 }
-
-// task project adjust

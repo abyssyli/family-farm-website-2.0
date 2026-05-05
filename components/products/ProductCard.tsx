@@ -39,7 +39,7 @@ export function ProductCard({
               className={`text-[10px] font-bold uppercase tracking-wider ${
                 product.stockQuantity > 0
                   ? "text-farm-700"
-                  : "text-red-600"
+                  : "text-red-600" [modified]
               }`}
             >
               {product.stockQuantity > 0
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-/* minor adjust */

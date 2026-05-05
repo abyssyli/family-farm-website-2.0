@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Link from "next/link"
@@ -41,7 +39,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     if (!supabase) return
     const channel = supabase
       .channel("catalog-changes")
-      .on(
+      .on( [modified]
         "postgres_changes",
         { event: "*", schema: "public", table: "products" },
         () => {

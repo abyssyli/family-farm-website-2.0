@@ -71,7 +71,7 @@ export type Database = {
         }
         Insert: {
           id: string
-          slug: string
+          slug: string [modified]
           title: string
           excerpt?: string | null
           body: string
@@ -294,7 +294,7 @@ export type Database = {
           journal_post_id?: string | null
           created_at?: string
         }
-        Update: { [modified]
+        Update: {
           journal_post_id?: string | null
         }
         Relationships: []

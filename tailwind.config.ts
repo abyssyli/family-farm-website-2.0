@@ -1,5 +1,5 @@
 
-// task project adjust
+// update log: auto edit 01
 import type { Config } from "tailwindcss"
 
 const config: Config = {

@@ -72,7 +72,7 @@ export function StoryHero() {
               }`}
               priority={index === 0}
             />
-          ))}
+          ))} [modified]
           <div
             className="absolute inset-0 bg-gradient-to-r from-zinc-950/50 via-zinc-950/10 to-zinc-950/10"
             aria-hidden="true"
@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-/* daily modify record */

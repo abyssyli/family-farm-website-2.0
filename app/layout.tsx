@@ -39,7 +39,7 @@ export default function RootLayout({
                     alt="Products"
                     fill
                     className="object-cover"
-                    sizes="24px"
+                    sizes="24px" [modified]
                   />
                 </span>
                 <span>Products</span>
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-/* daily modify record */

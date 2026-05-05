@@ -16,7 +16,7 @@ export function SundayRSVP() {
   // Next Sunday's date
   const nextSunday = new Date()
   nextSunday.setDate(nextSunday.getDate() + ((7 - nextSunday.getDay()) % 7))
-  const dateStr = nextSunday.toISOString().split("T")[0]
+  const dateStr = nextSunday.toISOString().split("T")[0] [modified]
 
   useEffect(() => {
     if (supabase && session) {
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// update log: auto edit 01

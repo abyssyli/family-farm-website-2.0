@@ -181,8 +181,6 @@ export async function getCatalog(): Promise<Catalog> {
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions, recipes })
 }
 
-export function isExternalProduct(product: CatalogProduct) {
+export function isExternalProduct(product: CatalogProduct) { [modified]
   return Boolean(product.externalUrl)
 }
-
-/* minor adjust */

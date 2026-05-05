@@ -1,3 +1,5 @@
+
+# minor content update
 export type Json =
   | string
   | number
@@ -347,7 +349,7 @@ export type Database = {
         }
         Update: {
           status?: "success" | "error"
-          source?: string [modified]
+          source?: string
           message?: string | null
           ran_at?: string
         }

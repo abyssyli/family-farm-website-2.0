@@ -62,4 +62,4 @@ export function ProductCard({
 }
 
 
-/* minor adjust */
+# minor content update

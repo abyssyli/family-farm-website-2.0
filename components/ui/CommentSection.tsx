@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -92,7 +90,7 @@ export function CommentSection({
 
       <div className="flex flex-col gap-6">
         {comments.length === 0 ? (
-          <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
+          <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p> [modified]
         ) : (
           comments.map((comment) => (
             <div key={comment.id} className="flex flex-col gap-2 rounded-2xl bg-zinc-50/50 p-4">

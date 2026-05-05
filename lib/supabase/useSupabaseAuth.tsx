@@ -29,5 +29,6 @@ export function useSupabaseAuth() {
     }
   }, [supabase])
 
-  return { supabase, session, ready } [modified]
+  return { supabase, session, ready }
 }
+ [modified]

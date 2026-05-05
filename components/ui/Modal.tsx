@@ -56,8 +56,11 @@ export function Modal({
             Close
           </button>
         </div>
-        <div className="px-6 py-5">{children}</div> [modified]
+        <div className="px-6 py-5">{children}</div>
       </div>
     </div>
   )
 }
+
+
+/* minor adjust */

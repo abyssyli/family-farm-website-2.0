@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -19,7 +21,7 @@ export function PreferencesForm({
     if (!supabase) return
     supabase.auth.getUser().then(async ({ data }) => {
       const id = data.user?.id ?? null
-      setUserId(id) [modified]
+      setUserId(id)
       if (!id) return
       const { data: pref } = await supabase
         .from("user_preferences")
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

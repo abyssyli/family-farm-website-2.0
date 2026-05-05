@@ -26,7 +26,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     
     if (!error) setLikes(count || 0)
 
-    // Check if user liked [modified]
+    // Check if user liked
     if (session) {
       const { data } = await supabase
         .from("likes")
@@ -39,7 +39,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
   }
 
   async function toggleLike() {
-    if (!supabase || !session || isUpdating) return
+    if (!supabase || !session || isUpdating) return [modified]
     setIsUpdating(true)
 
     if (isLiked) {

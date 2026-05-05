@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -138,5 +140,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-/* daily modify record */

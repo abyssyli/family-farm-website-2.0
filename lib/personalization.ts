@@ -1,5 +1,5 @@
 
-# minor content update
+/* daily modify record */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Link from "next/link"
@@ -80,7 +78,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />
     )
-  }
+  } [modified]
 
   return (
     <div className="flex flex-col gap-8">

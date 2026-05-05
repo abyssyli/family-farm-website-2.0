@@ -66,4 +66,4 @@ export default function RootLayout({
   )
 }
 
-/* daily modify record */
+/* minor adjust */

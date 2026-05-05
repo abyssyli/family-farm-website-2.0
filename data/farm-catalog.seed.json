@@ -5,14 +5,14 @@
     { "slug": "woodcraft", "name": "Handmade Woodcraft", "sortOrder": 2 },
     { "slug": "skincare", "name": "Lisa’s Skincare", "sortOrder": 3 }
   ],
-  "products": [ [modified]
+  "products": [
     {
       "id": "food-zucchini-pancakes",
       "categorySlug": "food",
       "slug": "zucchini-pancakes",
       "name": "Zucchini pancakes",
       "description": "Every Sunday, Paula's farm holds a grand family gathering with various types of delicious food. These are also available for pre-order and sale here when needed. Savory zucchini pancakes, a family gathering favorite.",
-      "imagePath": "/photos/eat1.jpg",
+      "imagePath": "/photos/eat1.jpg", [modified]
       "priceHint": "Sunday Gathering · Pre-order available",
       "isActive": true
     },

@@ -28,10 +28,8 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
               {region.ctaLabel || "Explore"}
             </ButtonLink>
           </div>
-        ) : null}
+        ) : null} [modified]
       </div>
     </Card>
   )
 }
-
-// optimize code detail

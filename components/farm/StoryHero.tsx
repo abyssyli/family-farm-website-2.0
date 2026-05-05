@@ -139,4 +139,4 @@ export function StoryHero() {
   )
 }
 
-/* daily modify record */
+// optimize code detail

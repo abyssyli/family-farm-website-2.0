@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -41,7 +43,7 @@ export function AddressManager() {
     }
   }
 
-  async function handleSave() { [modified]
+  async function handleSave() {
     if (!supabase || !session) return
 
     if (editingId) {

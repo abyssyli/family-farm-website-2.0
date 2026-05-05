@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -61,7 +59,7 @@ export function PreferencesForm({
           </p>
         ) : (
           <div className="flex flex-col gap-4">
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2"> [modified]
               {categories.map((c) => {
                 const checked = selected.includes(c.slug)
                 return (
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

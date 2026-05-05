@@ -75,7 +75,7 @@ export async function getCatalog(): Promise<Catalog> {
     return imagePath
   }
 
-  const dbCategories = categoriesRes.data.map((c) => ({ [modified]
+  const dbCategories = categoriesRes.data.map((c) => ({
     slug: c.slug,
     name: c.name,
     sortOrder: c.sort_order
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+// update log: auto edit 01

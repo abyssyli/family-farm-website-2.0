@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children
+  children [modified]
 }: Readonly<{
   children: React.ReactNode
 }>) {
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-# minor content update

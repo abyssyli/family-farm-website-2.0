@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Card, CardBody, CardHeader } from "@/components/ui/Card" [modified]
+import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
@@ -31,7 +31,7 @@ export function OrderTracker() {
     }
   }
 
-  const getStatusColor = (status: string) => {
+  const getStatusColor = (status: string) => { [modified]
     switch (status) {
       case "pending":
         return "bg-amber-100 text-amber-700 border-amber-200"

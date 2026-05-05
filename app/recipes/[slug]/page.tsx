@@ -74,14 +74,14 @@ export default async function RecipeDetailPage({
                 ))}
               </ol>
             </CardBody>
-          </Card>
+          </Card> [modified]
         </div>
       </div>
 
       <div className="mt-4">
         <ButtonLink href="/recipes" variant="ghost">
           ← Back to recipes
-        </ButtonLink> [modified]
+        </ButtonLink>
       </div>
     </div>
   )

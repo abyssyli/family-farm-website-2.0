@@ -137,7 +137,7 @@ export function BuyContactModal({
             Sign in to add a delivery address to your inquiry.
           </p>
         )}
- [modified]
+
         <label className="text-sm font-medium">
           Message
           <textarea
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+// optimize code detail

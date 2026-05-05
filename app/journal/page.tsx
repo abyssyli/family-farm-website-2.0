@@ -1,5 +1,5 @@
 import { getCatalog } from "@/lib/catalog"
-import { JournalCard } from "@/components/journal/JournalCard"
+import { JournalCard } from "@/components/journal/JournalCard" [modified]
 import { EmptyState } from "@/components/ui/EmptyState"
 import { ButtonLink } from "@/components/ui/Button"
 
@@ -39,6 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-
-
-/* minor adjust */

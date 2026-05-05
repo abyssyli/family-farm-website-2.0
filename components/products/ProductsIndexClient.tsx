@@ -92,7 +92,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             pickup. Skincare ships via Lisa’s shop.
           </p>
         </div>
-        {lastUpdate ? (
+        {lastUpdate ? ( [modified]
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// update log: auto edit 01

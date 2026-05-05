@@ -160,4 +160,4 @@ export function ProductDetail({
 
 
 
-/* daily modify record */
+# minor content update

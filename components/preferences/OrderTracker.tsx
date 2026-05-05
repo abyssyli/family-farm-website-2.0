@@ -44,7 +44,7 @@ export function OrderTracker() {
       default:
         return "bg-zinc-100 text-zinc-700 border-zinc-200"
     }
-  }
+  } [modified]
 
   if (!session) return null
 
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-/* minor adjust */

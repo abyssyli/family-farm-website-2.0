@@ -1,5 +1,3 @@
-
-// task project adjust
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -143,7 +141,7 @@ export function BuyContactModal({
         <label className="text-sm font-medium">
           Message
           <textarea
-            value={message}
+            value={message} [modified]
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
             className="mt-2 w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"

@@ -244,7 +244,7 @@ export type Database = {
           user_id: string
           event_date: string
           adult_count?: number
-          child_count?: number [modified]
+          child_count?: number
           notes?: string | null
           created_at?: string
         }
@@ -294,7 +294,7 @@ export type Database = {
           journal_post_id?: string | null
           created_at?: string
         }
-        Update: {
+        Update: { [modified]
           journal_post_id?: string | null
         }
         Relationships: []

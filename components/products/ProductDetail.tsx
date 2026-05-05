@@ -69,7 +69,7 @@ export function ProductDetail({
                     </button>
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100">
-                    <button
+                    <button [modified]
                       onClick={goNext}
                       className="flex h-9 w-9 items-center justify-center rounded-full bg-white/80 text-zinc-900 shadow-md backdrop-blur-sm hover:bg-white"
                     >
@@ -93,7 +93,7 @@ export function ProductDetail({
                         className={`h-1.5 w-1.5 rounded-full transition-colors ${
                           i === currentIdx ? "bg-white" : "bg-white/40"
                         }`}
-                      /> [modified]
+                      />
                     ))}
                   </div>
                 </>

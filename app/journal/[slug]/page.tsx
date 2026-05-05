@@ -48,9 +48,12 @@ export default async function JournalPostPage({
 
       <div>
         <ButtonLink href="/journal" variant="ghost">
-          ← Back to journal [modified]
+          ← Back to journal
         </ButtonLink>
       </div>
     </div>
   )
 }
+
+
+// task project adjust

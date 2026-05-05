@@ -1,5 +1,3 @@
-
-// optimize code detail
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -7,3 +5,5 @@ module.exports = {
   }
 }
 
+
+/* daily modify record */

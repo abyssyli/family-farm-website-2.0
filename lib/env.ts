@@ -1,5 +1,7 @@
+
+// update log: auto edit 01
 export function getPublicEnv() {
-  const contactPhone = [modified]
+  const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+1 (806) 290-4949"
   const defaultSkincareUrl =
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"

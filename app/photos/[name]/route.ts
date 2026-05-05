@@ -14,7 +14,7 @@ function contentTypeFromExt(ext: string) {
     case ".gif":
       return "image/gif"
     default:
-      return "application/octet-stream" [modified]
+      return "application/octet-stream"
   }
 }
 
@@ -41,3 +41,6 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+# minor content update

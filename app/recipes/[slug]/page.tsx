@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link" [modified]
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -86,5 +86,3 @@ export default async function RecipeDetailPage({
     </div>
   )
 }
-
-# minor content update

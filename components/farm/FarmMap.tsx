@@ -48,7 +48,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
-            {sorted.map((r) => { [modified]
+            {sorted.map((r) => {
               const isActive = r.slug === activeSlug
               return (
                 <button
@@ -74,7 +74,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
       <div className="lg:mt-12">
         {active ? <FarmRegionCard region={active} /> : null}
         <div className="mt-6 grid gap-4">
-          {sorted
+          {sorted [modified]
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
             .map((r) => (

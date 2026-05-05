@@ -12,7 +12,7 @@ export function useSupabaseAuth() {
   useEffect(() => {
     if (!supabase) {
       setReady(true)
-      return
+      return [modified]
     }
     let active = true
     supabase.auth.getSession().then(({ data }) => {
@@ -31,6 +31,3 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-
-
-# minor content update

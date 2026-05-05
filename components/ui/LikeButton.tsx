@@ -72,7 +72,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
       <svg
         viewBox="0 0 20 20"
         fill={isLiked ? "currentColor" : "none"}
-        stroke="currentColor"
+        stroke="currentColor" [modified]
         className="h-4 w-4"
       >
         <path
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-/* minor adjust */

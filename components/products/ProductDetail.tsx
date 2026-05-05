@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 "use client"
 
 import Image from "next/image"

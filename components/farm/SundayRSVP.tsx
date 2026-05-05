@@ -30,7 +30,7 @@ export function SundayRSVP() {
       .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)
-      .eq("event_date", dateStr)
+      .eq("event_date", dateStr) [modified]
       .single()
     
     if (!error && data) {
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// optimize code detail

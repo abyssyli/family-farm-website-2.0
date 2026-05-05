@@ -3,7 +3,7 @@ import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
 
-function cn(...parts: Array<string | false | null | undefined>) {
+function cn(...parts: Array<string | false | null | undefined>) { [modified]
   return parts.filter(Boolean).join(" ")
 }
 
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-/* daily modify record */

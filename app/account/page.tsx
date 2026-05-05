@@ -1,4 +1,4 @@
-import { getCatalog } from "@/lib/catalog" [modified]
+import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
@@ -15,7 +15,7 @@ export default async function AccountPage() {
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>
-        <p className="mt-2 text-sm text-zinc-700">
+        <p className="mt-2 text-sm text-zinc-700"> [modified]
           Sign in to manage your addresses, preferences, and track inquiries.
         </p>
       </div>

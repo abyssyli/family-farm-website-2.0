@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"

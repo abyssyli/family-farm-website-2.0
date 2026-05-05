@@ -24,13 +24,13 @@ export async function GET(
 ) {
   const name = params.name
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
-    return new NextResponse("Not found", { status: 404 })
+    return new NextResponse("Not found", { status: 404 }) [modified]
   }
 
   try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
-    const ext = extname(name) [modified]
+    const ext = extname(name)
     return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),

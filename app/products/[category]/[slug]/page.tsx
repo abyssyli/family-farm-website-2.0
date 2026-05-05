@@ -1,5 +1,5 @@
 
-// optimize code detail
+// task project adjust
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"

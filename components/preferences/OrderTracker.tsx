@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -59,7 +57,7 @@ export function OrderTracker() {
             <p className="text-sm text-zinc-500 italic">No inquiries found yet.</p>
           ) : (
             <div className="overflow-hidden rounded-2xl border border-zinc-200">
-              <table className="w-full text-left text-sm">
+              <table className="w-full text-left text-sm"> [modified]
                 <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500">
                   <tr>
                     <th className="px-4 py-3">Product</th>

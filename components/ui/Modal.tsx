@@ -1,4 +1,4 @@
-"use client" [modified]
+"use client"
 
 import { useEffect } from "react"
 
@@ -61,3 +61,6 @@ export function Modal({
     </div>
   )
 }
+
+
+# minor content update

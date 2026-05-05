@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -38,7 +36,7 @@ export default async function JournalPostPage({
         ) : null}
       </div>
 
-      <Card>
+      <Card> [modified]
         <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

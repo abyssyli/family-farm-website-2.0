@@ -123,7 +123,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     target="_blank"
                   >
                     Browse {category.name} →
-                  </a> [modified]
+                  </a>
                 ) : (
                   <Link
                     href={`/products/${slug}`}
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+// update log: auto edit 01

@@ -3,7 +3,7 @@ import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
 import { ButtonLink } from "@/components/ui/Button"
 
-export default async function JournalIndexPage() { [modified]
+export default async function JournalIndexPage() {
   const catalog = await getCatalog()
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
@@ -14,7 +14,7 @@ export default async function JournalIndexPage() { [modified]
   if (posts.length === 0) {
     return (
       <EmptyState
-        title="No journal posts yet"
+        title="No journal posts yet" [modified]
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />

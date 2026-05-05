@@ -1,5 +1,3 @@
-
-# minor content update
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -32,7 +30,7 @@ export function BuyContactModal({
   const [addresses, setAddresses] = useState<Address[]>([])
   const [selectedAddressId, setSelectedAddressId] = useState<string | null>(null)
 
-  useEffect(() => {
+  useEffect(() => { [modified]
     if (supabase && session && open) {
       supabase
         .from("user_addresses")

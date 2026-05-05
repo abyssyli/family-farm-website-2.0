@@ -15,7 +15,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 
   await page.getByRole("button", { name: /Buy \/ Contact/i }).click()
   await expect(page.getByText(/Call or text Paula/i)).toBeVisible()
-  await expect(page.getByText(/\+1 \(806\) 290-4949/)).toBeVisible() [modified]
+  await expect(page.getByText(/\+1 \(806\) 290-4949/)).toBeVisible()
 })
 
 test("skincare category points to BeakerGold", async ({ page }) => {

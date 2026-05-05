@@ -116,5 +116,3 @@ main().catch((e) => {
   process.exit(1)
 })
 
-
-/* daily modify record */

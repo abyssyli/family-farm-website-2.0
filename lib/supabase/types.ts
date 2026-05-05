@@ -205,7 +205,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          user_id?: string | null [modified]
+          user_id?: string | null
           product_id?: string | null
           category_slug?: string
           address_id?: string | null

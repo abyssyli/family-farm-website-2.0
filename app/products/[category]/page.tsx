@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-/* minor adjust */

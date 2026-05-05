@@ -59,9 +59,10 @@ export const CatalogSchema = z.object({
   farmRegions: z.array(FarmRegionSchema).default([])
 })
 
-export type Catalog = z.infer<typeof CatalogSchema> [modified]
+export type Catalog = z.infer<typeof CatalogSchema>
 export type CatalogCategory = z.infer<typeof CategorySchema>
 export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+

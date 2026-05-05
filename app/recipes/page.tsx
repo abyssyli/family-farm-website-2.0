@@ -52,5 +52,3 @@ export default async function RecipesPage() {
     </div>
   )
 }
-
-// task project adjust

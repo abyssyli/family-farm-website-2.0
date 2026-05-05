@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-/* minor adjust */

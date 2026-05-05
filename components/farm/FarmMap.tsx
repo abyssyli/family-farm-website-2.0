@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import Image from "next/image"

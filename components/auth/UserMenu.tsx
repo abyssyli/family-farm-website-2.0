@@ -55,5 +55,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// update log: auto edit 01

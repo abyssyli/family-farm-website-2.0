@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-# minor content update

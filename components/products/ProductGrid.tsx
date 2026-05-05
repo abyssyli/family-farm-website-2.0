@@ -3,7 +3,7 @@ import { ProductCard } from "./ProductCard"
 
 export function ProductGrid({
   products,
-  categorySlug [modified]
+  categorySlug
 }: {
   products: CatalogProduct[]
   categorySlug: string
@@ -20,3 +20,4 @@ export function ProductGrid({
     </div>
   )
 }
+

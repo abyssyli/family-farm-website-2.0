@@ -36,5 +36,3 @@ export default async function AccountPage() {
   )
 }
 
-
-/* daily modify record */

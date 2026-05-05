@@ -11,5 +11,3 @@ export default function NotFound() {
   )
 }
 
-
-/* daily modify record */

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
-import type { CatalogProduct } from "@/lib/catalog-schema"
+import type { CatalogProduct } from "@/lib/catalog-schema" [modified]
 
 export function ProductCard({
   product,
@@ -27,7 +27,7 @@ export function ProductCard({
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
         </div>
-        <p className="mt-1 line-clamp-2 text-sm text-zinc-600"> [modified]
+        <p className="mt-1 line-clamp-2 text-sm text-zinc-600">
           {product.description}
         </p>
         <div className="mt-4 flex items-center justify-between">

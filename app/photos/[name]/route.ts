@@ -4,7 +4,7 @@ import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
-    case ".jpg":
+    case ".jpg": [modified]
     case ".jpeg":
       return "image/jpeg"
     case ".png":
@@ -18,7 +18,7 @@ function contentTypeFromExt(ext: string) {
   }
 }
 
-export async function GET( [modified]
+export async function GET(
   _request: Request,
   { params }: { params: { name: string } }
 ) {

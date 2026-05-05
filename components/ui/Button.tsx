@@ -2,7 +2,7 @@ import Link from "next/link"
 import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
-
+ [modified]
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-// update log: auto edit 01

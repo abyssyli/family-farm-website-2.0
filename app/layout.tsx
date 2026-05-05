@@ -1,5 +1,3 @@
-
-// optimize code detail
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -62,7 +60,7 @@ export default function RootLayout({
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
             </div>
           </footer>
-        </div>
+        </div> [modified]
       </body>
     </html>
   )

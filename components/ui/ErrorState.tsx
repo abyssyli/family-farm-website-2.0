@@ -6,9 +6,9 @@ export function ErrorState({
   action
 }: {
   title: string
-  message: string
+  message: string [modified]
   action?: React.ReactNode
-}) { [modified]
+}) {
   return (
     <Card className="border-red-200">
       <CardBody>

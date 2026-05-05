@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 

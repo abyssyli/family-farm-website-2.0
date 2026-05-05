@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
-import { Card, CardBody, CardHeader } from "@/components/ui/Card"
+import { Card, CardBody, CardHeader } from "@/components/ui/Card" [modified]
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function SundayRSVP() {
@@ -22,7 +22,7 @@ export function SundayRSVP() {
     if (supabase && session) {
       fetchRSVP()
     }
-  }, [supabase, session]) [modified]
+  }, [supabase, session])
 
   async function fetchRSVP() {
     if (!supabase || !session) return

@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -36,7 +34,7 @@ export default async function RecipeDetailPage({
         <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           <Image
             src={recipe.imagePath || "/photos/background.jpg"}
-            alt={recipe.title}
+            alt={recipe.title} [modified]
             width={1400}
             height={1000}
             className="h-[360px] w-full object-cover sm:h-[440px]"

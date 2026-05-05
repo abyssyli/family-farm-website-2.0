@@ -29,8 +29,5 @@ export function useSupabaseAuth() {
     }
   }, [supabase])
 
-  return { supabase, session, ready }
+  return { supabase, session, ready } [modified]
 }
-
-
-/* daily modify record */

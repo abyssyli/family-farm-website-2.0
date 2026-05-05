@@ -289,7 +289,7 @@ export type Database = {
           created_at: string
         }
         Insert: {
-          id?: string [modified]
+          id?: string
           user_id: string
           journal_post_id?: string | null
           created_at?: string
@@ -347,7 +347,7 @@ export type Database = {
         }
         Update: {
           status?: "success" | "error"
-          source?: string
+          source?: string [modified]
           message?: string | null
           ran_at?: string
         }

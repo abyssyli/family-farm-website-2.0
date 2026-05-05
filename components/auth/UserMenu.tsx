@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useMemo, useState } from "react"
@@ -52,6 +54,6 @@ export function UserMenu() {
       >
         Sign out
       </Button>
-    </div> [modified]
+    </div>
   )
 }

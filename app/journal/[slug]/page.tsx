@@ -9,7 +9,7 @@ import { getCatalog } from "@/lib/catalog"
 export default async function JournalPostPage({
   params
 }: {
-  params: { slug: string } [modified]
+  params: { slug: string }
 }) {
   const catalog = await getCatalog()
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
@@ -54,3 +54,6 @@ export default async function JournalPostPage({
     </div>
   )
 }
+
+
+// optimize code detail

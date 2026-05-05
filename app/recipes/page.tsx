@@ -39,7 +39,7 @@ export default async function RecipesPage() {
                   </h3>
                   <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
                     {recipe.description}
-                  </p> [modified]
+                  </p>
                   <p className="mt-4 text-xs font-bold uppercase tracking-wider text-farm-700">
                     View Recipe →
                   </p>
@@ -51,4 +51,4 @@ export default async function RecipesPage() {
       )}
     </div>
   )
-}
+} [modified]

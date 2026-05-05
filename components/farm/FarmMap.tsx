@@ -62,7 +62,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                   )}
                   style={{ left: `${r.x}%`, top: `${r.y}%` }}
                   onClick={() => setActiveSlug(r.slug)}
-                >
+                > [modified]
                   {r.title}
                 </button>
               )
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* daily modify record */

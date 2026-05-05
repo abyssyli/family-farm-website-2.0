@@ -85,7 +85,7 @@ export function ProductDetail({
                         />
                       </svg>
                     </button>
-                  </div>
+                  </div> [modified]
                   <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-1.5">
                     {images.map((_, i) => (
                       <div
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-# minor content update

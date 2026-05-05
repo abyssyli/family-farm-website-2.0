@@ -11,7 +11,7 @@ export function StoryHero() {
   const timerRef = useRef<number | null>(null)
 
   const stopAuto = useCallback(() => {
-    if (timerRef.current === null) return [modified]
+    if (timerRef.current === null) return
     window.clearInterval(timerRef.current)
     timerRef.current = null
   }, [])
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* daily modify record */

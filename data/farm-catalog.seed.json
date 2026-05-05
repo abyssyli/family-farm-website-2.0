@@ -5,7 +5,7 @@
     { "slug": "woodcraft", "name": "Handmade Woodcraft", "sortOrder": 2 },
     { "slug": "skincare", "name": "Lisa’s Skincare", "sortOrder": 3 }
   ],
-  "products": [
+  "products": [ [modified]
     {
       "id": "food-zucchini-pancakes",
       "categorySlug": "food",
@@ -95,7 +95,7 @@
       "categorySlug": "food",
       "slug": "ramen",
       "name": "Ramen",
-      "description": "Authentic ramen with rich broth and fresh noodles.", [modified]
+      "description": "Authentic ramen with rich broth and fresh noodles.",
       "imagePath": "/photos/eat14.jpg",
       "imagePaths": ["/photos/eat14.jpg", "/photos/eat15.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",

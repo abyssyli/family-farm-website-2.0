@@ -1,5 +1,3 @@
-
-// optimize code detail
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -9,3 +7,5 @@ const nextConfig = {
 
 export default nextConfig
 
+
+/* daily modify record */

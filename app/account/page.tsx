@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
@@ -31,10 +29,9 @@ export default async function AccountPage() {
 
       <OrderTracker />
 
-      <AddressManager />
+      <AddressManager /> [modified]
 
       <PreferencesForm categories={categories} />
     </div>
   )
 }
-

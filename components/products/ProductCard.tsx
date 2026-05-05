@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -44,7 +42,7 @@ export function ProductCard({
                   : "text-red-600"
               }`}
             >
-              {product.stockQuantity > 0
+              {product.stockQuantity > 0 [modified]
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
             </span>
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

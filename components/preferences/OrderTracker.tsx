@@ -79,7 +79,7 @@ export function OrderTracker() {
                           className={`inline-flex rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase tracking-tight ${getStatusColor(
                             inquiry.status
                           )}`}
-                        >
+                        > [modified]
                           {inquiry.status}
                         </span>
                       </td>
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-// optimize code detail

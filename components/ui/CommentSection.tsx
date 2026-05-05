@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -98,7 +100,7 @@ export function CommentSection({
                 <span className="text-xs font-bold text-zinc-900">
                   {comment.profiles?.email?.split("@")[0] || "User"}
                 </span>
-                <span className="text-[10px] text-zinc-500"> [modified]
+                <span className="text-[10px] text-zinc-500">
                   {new Date(comment.created_at).toLocaleDateString()}
                 </span>
               </div>

@@ -7,7 +7,7 @@ import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
-export function ProductDetail({
+export function ProductDetail({ [modified]
   product,
   categoryName,
   primaryAction
@@ -150,7 +150,7 @@ export function ProductDetail({
               ← Back to {categoryName}
             </Link>
           </div>
-        </div> [modified]
+        </div>
       </div>
 
       <CommentSection productId={product.id} />

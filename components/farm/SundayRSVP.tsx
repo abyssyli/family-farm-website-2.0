@@ -24,7 +24,7 @@ export function SundayRSVP() {
     }
   }, [supabase, session])
 
-  async function fetchRSVP() { [modified]
+  async function fetchRSVP() {
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("sunday_rsvps")
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* daily modify record */

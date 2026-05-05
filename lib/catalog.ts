@@ -62,7 +62,7 @@ export async function getCatalog(): Promise<Catalog> {
     return imagePath === fallback ? imagePath : fallback
   }
 
-  const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => { [modified]
+  const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => {
     if (slug === "chicken-coop") {
       return imagePath &&
         (imagePath.includes("/photos/chicken") || imagePath.includes("/photos/egg"))
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+# minor content update

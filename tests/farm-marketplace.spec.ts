@@ -25,7 +25,5 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     .getAttribute("href")
   expect(href).toBe(
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
-  )
+  ) [modified]
 })
-
-# minor content update

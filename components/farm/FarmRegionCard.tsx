@@ -1,10 +1,12 @@
+
+// update log: auto edit 01
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
 export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
-  return ( [modified]
+  return (
     <Card className="overflow-hidden">
       {region.imagePath ? (
         <div className="relative h-56 w-full sm:h-64">

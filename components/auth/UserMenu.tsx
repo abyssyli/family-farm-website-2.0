@@ -37,7 +37,7 @@ export function UserMenu() {
       <div
         className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-farm-700 text-sm font-semibold text-white"
         title={email ?? "Signed in"}
-      > [modified]
+      >
         {avatarLabel}
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
@@ -55,3 +55,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+// optimize code detail

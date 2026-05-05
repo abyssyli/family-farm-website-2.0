@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -39,7 +41,7 @@ export function OrderTracker() {
         return "bg-blue-100 text-blue-700 border-blue-200"
       case "completed":
         return "bg-green-100 text-green-700 border-green-200"
-      case "cancelled": [modified]
+      case "cancelled":
         return "bg-red-100 text-red-700 border-red-200"
       default:
         return "bg-zinc-100 text-zinc-700 border-zinc-200"

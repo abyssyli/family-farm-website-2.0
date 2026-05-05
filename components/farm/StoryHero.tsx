@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -116,7 +118,7 @@ export function StoryHero() {
                 />
               </svg>
             </button>
-          </div> [modified]
+          </div>
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
           <ButtonLink href="/products">Browse products</ButtonLink>

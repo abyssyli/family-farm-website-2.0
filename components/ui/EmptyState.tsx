@@ -10,12 +10,12 @@ export function EmptyState({
   action?: React.ReactNode
 }) {
   return (
-    <Card> [modified]
+    <Card>
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>
             <h2 className="text-lg font-semibold">{title}</h2>
-            <p className="mt-1 text-sm text-zinc-600">{message}</p>
+            <p className="mt-1 text-sm text-zinc-600">{message}</p> [modified]
           </div>
           {action ? <div>{action}</div> : null}
         </div>

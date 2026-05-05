@@ -20,7 +20,7 @@ export const Button = forwardRef<
   HTMLButtonElement,
   React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
 >(function Button({ className, variant = "primary", ...props }, ref) {
-  return (
+  return ( [modified]
     <button
       ref={ref}
       className={cn(base, variants[variant], className)}
@@ -51,7 +51,7 @@ export function ButtonLink({
       >
         {children}
       </a>
-    ) [modified]
+    )
   }
   return (
     <Link href={href} className={cn(base, variants[variant], className)}>

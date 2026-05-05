@@ -89,7 +89,7 @@ export type Database = {
         Relationships: []
       }
       farm_regions: {
-        Row: {
+        Row: { [modified]
           id: string
           slug: string
           title: string
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// update log: auto edit 01

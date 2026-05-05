@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -10,7 +12,7 @@ export default async function JournalPostPage({
   params
 }: {
   params: { slug: string }
-}) { [modified]
+}) {
   const catalog = await getCatalog()
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
   if (!post) notFound()
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

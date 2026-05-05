@@ -20,7 +20,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     [activeSlug, sorted]
   )
   const coverImagePath = useMemo(() => {
-    if (!active) return "/photos/Home.jpg" [modified]
+    if (!active) return "/photos/Home.jpg"
     if (active.slug === "chicken-coop") return "/photos/chicken2.jpg"
     if (active.slug === "woodshop") return "/photos/Wooden2.jpg"
     return active.imagePath || "/photos/Home.jpg"
@@ -92,3 +92,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
+
+/* daily modify record */

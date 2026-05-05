@@ -101,7 +101,7 @@ export function CommentSection({
                 <span className="text-[10px] text-zinc-500">
                   {new Date(comment.created_at).toLocaleDateString()}
                 </span>
-              </div> [modified]
+              </div>
               <p className="text-sm text-zinc-700 whitespace-pre-wrap">{comment.content}</p>
             </div>
           ))
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+/* daily modify record */

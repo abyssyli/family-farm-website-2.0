@@ -1,10 +1,8 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
+import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth" [modified]
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
 

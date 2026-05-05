@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useMemo, useState } from "react"
@@ -24,7 +22,7 @@ export function UserMenu() {
   if (!session) {
     return (
       <>
-        <Button variant="secondary" onClick={() => setOpen(true)}>
+        <Button variant="secondary" onClick={() => setOpen(true)}> [modified]
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>

@@ -9,4 +9,4 @@ export function createBrowserSupabaseClient() {
 }
 
 
-// task project adjust
+/* daily modify record */

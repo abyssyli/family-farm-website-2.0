@@ -19,7 +19,7 @@ export function ProductDetail({
   const images =
     product.imagePaths && product.imagePaths.length > 0
       ? product.imagePaths
-      : product.imagePath [modified]
+      : product.imagePath
         ? [product.imagePath]
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+/* minor adjust */

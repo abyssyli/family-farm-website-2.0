@@ -1,3 +1,5 @@
+
+/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -106,7 +108,7 @@
       "categorySlug": "food",
       "slug": "spam-fried-rice",
       "name": "Spam fried rice (Optional: with Gochujang)",
-      "description": "Savory fried rice with spam, with an optional Gochujang kick.", [modified]
+      "description": "Savory fried rice with spam, with an optional Gochujang kick.",
       "imagePath": "/photos/eat16.jpg",
       "imagePaths": ["/photos/eat16.jpg", "/photos/eat17.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",

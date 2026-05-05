@@ -119,7 +119,7 @@ export type Database = {
           cta_label?: string | null
           cta_href?: string | null
           x?: number
-          y?: number
+          y?: number [modified]
         }
         Relationships: []
       }
@@ -329,7 +329,7 @@ export type Database = {
           image_path?: string | null
         }
         Relationships: []
-      } [modified]
+      }
       sync_runs: {
         Row: {
           id: string

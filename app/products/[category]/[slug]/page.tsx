@@ -1,5 +1,3 @@
-
-# minor content update
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -11,7 +9,7 @@ export default async function ProductDetailPage({
 }: {
   params: { category: string; slug: string }
 }) {
-  if (params.category === "skincare") {
+  if (params.category === "skincare") { [modified]
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
   }

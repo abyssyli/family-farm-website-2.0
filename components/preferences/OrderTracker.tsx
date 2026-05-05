@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -52,7 +50,7 @@ export function OrderTracker() {
 
   return (
     <Card>
-      <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." />
+      <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." /> [modified]
       <CardBody>
         <div className="flex flex-col gap-4">
           {inquiries.length === 0 ? (

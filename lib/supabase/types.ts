@@ -19,7 +19,7 @@ export type Database = {
         Row: {
           id: string
           category_slug: string
-          slug: string [modified]
+          slug: string
           name: string
           description: string | null
           image_path: string | null
@@ -306,7 +306,7 @@ export type Database = {
           slug: string
           description: string | null
           ingredients: string[]
-          instructions: string[]
+          instructions: string[] [modified]
           image_path: string | null
           created_at: string
         }

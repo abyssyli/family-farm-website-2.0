@@ -10,7 +10,7 @@ export function useSupabaseAuth() {
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    if (!supabase) { [modified]
+    if (!supabase) {
       setReady(true)
       return
     }
@@ -19,7 +19,7 @@ export function useSupabaseAuth() {
       if (!active) return
       setSession(data.session ?? null)
       setReady(true)
-    })
+    }) [modified]
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession)
     })

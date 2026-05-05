@@ -1,5 +1,3 @@
-
-// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -12,7 +10,7 @@ export default async function RecipeDetailPage({
 }: {
   params: { slug: string }
 }) {
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
   if (!recipe) notFound()
 

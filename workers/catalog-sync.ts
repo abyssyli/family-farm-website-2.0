@@ -28,7 +28,7 @@ async function runOnce() {
     name: p.name,
     description: p.description,
     image_path: p.imagePath,
-    price_hint: p.priceHint,
+    price_hint: p.priceHint, [modified]
     external_url: p.externalUrl,
     is_active: p.isActive,
     stock_quantity: p.stockQuantity,
@@ -115,6 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-
-
-/* daily modify record */

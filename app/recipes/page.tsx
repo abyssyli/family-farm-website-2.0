@@ -13,11 +13,11 @@ export default async function RecipesPage() {
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           Farm Recipes
         </h1>
-        <p className="mt-2 text-sm text-zinc-700"> [modified]
+        <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
         </p>
       </div>
-
+ [modified]
       {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (

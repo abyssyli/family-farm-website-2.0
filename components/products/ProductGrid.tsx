@@ -5,7 +5,7 @@ export function ProductGrid({
   products,
   categorySlug
 }: {
-  products: CatalogProduct[]
+  products: CatalogProduct[] [modified]
   categorySlug: string
 }) {
   return (
@@ -20,6 +20,3 @@ export function ProductGrid({
     </div>
   )
 }
-
-
-/* daily modify record */

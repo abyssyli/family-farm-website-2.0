@@ -238,4 +238,4 @@ export function AddressManager() {
   )
 }
 
-/* minor adjust */
+/* daily modify record */

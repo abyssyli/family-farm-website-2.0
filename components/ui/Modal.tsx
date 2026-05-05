@@ -8,8 +8,8 @@ function cn(...parts: Array<string | false | null | undefined>) {
 
 export function Modal({
   open,
-  title, [modified]
-  children,
+  title,
+  children, [modified]
   onClose,
   className
 }: {

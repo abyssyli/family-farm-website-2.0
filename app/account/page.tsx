@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"

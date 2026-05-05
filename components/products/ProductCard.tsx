@@ -1,3 +1,5 @@
+
+// task project adjust
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -46,7 +48,7 @@ export function ProductCard({
                 ? `${product.stockQuantity} in stock`
                 : "Out of stock"}
             </span>
-          )} [modified]
+          )}
         </div>
         <div className="mt-5">
           <Link
@@ -60,3 +62,4 @@ export function ProductCard({
     </Card>
   )
 }
+

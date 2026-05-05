@@ -75,7 +75,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
         stroke="currentColor"
         className="h-4 w-4"
       >
-        <path
+        <path [modified]
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={1.5}
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-/* minor adjust */

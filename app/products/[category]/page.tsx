@@ -41,4 +41,4 @@ export default async function ProductCategoryPage({
   )
 }
 
-// optimize code detail
+// task project adjust

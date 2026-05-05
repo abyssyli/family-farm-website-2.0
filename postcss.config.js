@@ -1,9 +1,6 @@
 module.exports = {
   plugins: {
     tailwindcss: {},
-    autoprefixer: {}
+    autoprefixer: {} [modified]
   }
 }
-
-
-/* minor adjust */

@@ -36,13 +36,13 @@ export default function RootLayout({
                 <span className="relative h-6 w-6 overflow-hidden rounded-lg ring-1 ring-zinc-200">
                   <Image
                     src="/photos/egg.jpg"
-                    alt="Products"
+                    alt="Products" [modified]
                     fill
                     className="object-cover"
                     sizes="24px"
                   />
                 </span>
-                <span>Products</span> [modified]
+                <span>Products</span>
               </Link>
               <Link href="/journal" className="hover:text-farm-700">
                 Journal

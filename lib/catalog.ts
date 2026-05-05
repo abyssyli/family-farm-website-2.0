@@ -177,10 +177,12 @@ export async function getCatalog(): Promise<Catalog> {
     instructions: r.instructions,
     imagePath: r.image_path
   }))
- [modified]
+
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions, recipes })
 }
 
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+/* minor adjust */

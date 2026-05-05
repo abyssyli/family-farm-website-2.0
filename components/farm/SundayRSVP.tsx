@@ -77,7 +77,7 @@ export function SundayRSVP() {
           <p className="text-sm text-zinc-600 italic">
             Please sign in to RSVP for the family gathering.
           </p>
-        ) : (
+        ) : ( [modified]
           <div className="flex flex-col gap-4">
             <div className="grid gap-4 sm:grid-cols-2">
               <label className="flex flex-col gap-1 text-sm font-medium">
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-// update log: auto edit 01

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -24,7 +22,7 @@ export function PreferencesForm({
       setUserId(id)
       if (!id) return
       const { data: pref } = await supabase
-        .from("user_preferences")
+        .from("user_preferences") [modified]
         .select("preferred_categories")
         .eq("user_id", id)
         .maybeSingle()
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

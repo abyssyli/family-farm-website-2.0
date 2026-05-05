@@ -31,7 +31,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         .maybeSingle()
       if (pref?.preferred_categories) {
         setPreferred(pref.preferred_categories)
-      } [modified]
+      }
     })
   }, [supabase])
 
@@ -106,7 +106,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           const category = categoryBySlug.get(slug)
           if (!category) return null
           const count = catalog.products.filter((p) => p.categorySlug === slug)
-            .length
+            .length [modified]
           const isSkincare = slug === "skincare"
           return (
             <Card key={slug} className="p-6">

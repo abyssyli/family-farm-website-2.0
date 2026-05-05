@@ -29,7 +29,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
   if (sorted.length === 0) return null
 
   return (
-    <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start"> [modified]
+    <section className="mt-14 grid gap-8 lg:grid-cols-2 lg:items-start">
       <div>
         <h2 className="text-xl font-semibold tracking-tight">
           Explore the farm
@@ -77,7 +77,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
           {sorted
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
-            .map((r) => (
+            .map((r) => ( [modified]
               <button
                 key={r.id}
                 type="button"

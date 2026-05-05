@@ -23,7 +23,7 @@ export const Button = forwardRef<
   return (
     <button
       ref={ref}
-      className={cn(base, variants[variant], className)}
+      className={cn(base, variants[variant], className)} [modified]
       {...props}
     />
   )
@@ -37,7 +37,7 @@ export function ButtonLink({
 }: {
   href: string
   children: React.ReactNode
-  variant?: Variant [modified]
+  variant?: Variant
   className?: string
 }) {
   const external = /^https?:\/\//i.test(href)

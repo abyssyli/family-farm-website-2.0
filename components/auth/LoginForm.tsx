@@ -26,7 +26,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       setStatus("idle")
       return
     }
-    setStatus("sent")
+    setStatus("sent") [modified]
     onSuccess?.()
   }
 
@@ -40,7 +40,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
             Try again
           </Button>
         }
-      /> [modified]
+      />
     )
   }
 

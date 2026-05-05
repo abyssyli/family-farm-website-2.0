@@ -41,7 +41,7 @@ export function PreferencesForm({
     window.setTimeout(() => setStatus("idle"), 1200)
   }
 
-  return (
+  return ( [modified]
     <Card>
       <CardHeader
         title="Preferences"
@@ -69,7 +69,7 @@ export function PreferencesForm({
                   >
                     <input
                       type="checkbox"
-                      checked={checked} [modified]
+                      checked={checked}
                       onChange={(e) => {
                         const next = e.target.checked
                         setSelected((prev) =>

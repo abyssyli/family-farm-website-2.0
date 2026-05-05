@@ -358,7 +358,9 @@ export type Database = {
     Functions: { [_ in never]: never }
     Enums: {
       inquiry_status: "pending" | "confirmed" | "completed" | "cancelled"
-    } [modified]
+    }
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+// task project adjust

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -23,7 +21,7 @@ export function CommentSection({
     if (supabase) {
       fetchComments()
     }
-  }, [supabase, productId, journalPostId])
+  }, [supabase, productId, journalPostId]) [modified]
 
   async function fetchComments() {
     if (!supabase) return

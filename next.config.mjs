@@ -5,4 +5,7 @@ const nextConfig = {
   }
 }
 
-export default nextConfig [modified]
+export default nextConfig
+
+
+// update log: auto edit 01

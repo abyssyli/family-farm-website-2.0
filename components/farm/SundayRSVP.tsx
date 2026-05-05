@@ -35,7 +35,7 @@ export function SundayRSVP() {
     
     if (!error && data) {
       setRsvp(data)
-      setAdultCount(data.adult_count) [modified]
+      setAdultCount(data.adult_count)
       setChildCount(data.child_count)
       setNotes(data.notes || "")
     }
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+// update log: auto edit 01

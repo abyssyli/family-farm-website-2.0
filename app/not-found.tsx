@@ -12,4 +12,4 @@ export default function NotFound() {
 }
 
 
-// optimize code detail
+/* minor adjust */

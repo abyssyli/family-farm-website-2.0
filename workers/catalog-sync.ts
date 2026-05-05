@@ -95,7 +95,7 @@ async function main() {
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
   if (once) {
-    await runOnce() [modified]
+    await runOnce()
     return
   }
 
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// update log: auto edit 01

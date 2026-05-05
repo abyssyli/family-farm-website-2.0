@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -32,7 +30,7 @@ export function AddressManager() {
     }
   }, [supabase, session])
 
-  async function fetchAddresses() {
+  async function fetchAddresses() { [modified]
     if (!supabase || !session) return
     const { data, error } = await supabase
       .from("user_addresses")

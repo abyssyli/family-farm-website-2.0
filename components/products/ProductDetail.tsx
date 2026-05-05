@@ -154,7 +154,10 @@ export function ProductDetail({
       </div>
 
       <CommentSection productId={product.id} />
-    </div> [modified]
+    </div>
   )
 }
 
+
+
+// update log: auto edit 01

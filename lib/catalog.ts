@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -107,7 +109,7 @@ export async function getCatalog(): Promise<Catalog> {
     excerpt: j.excerpt,
     body: j.body,
     publishedAt: j.published_at ? new Date(j.published_at).toISOString() : null
-  })) [modified]
+  }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
     id: r.id,

@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({

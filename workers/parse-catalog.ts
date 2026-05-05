@@ -24,4 +24,4 @@ export async function loadCatalogFromSource(): Promise<{
 }
 
 
-/* minor adjust */
+/* daily modify record */

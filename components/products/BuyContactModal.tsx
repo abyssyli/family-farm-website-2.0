@@ -168,7 +168,7 @@ export function BuyContactModal({
                 ? "Save inquiry"
                 : "Configure Supabase to save inquiries"
             }
-          > [modified]
+          >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}
           </Button>
         </div>
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+# minor content update

@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -30,7 +28,7 @@ export default async function RecipesPage() {
                 <div className="relative h-48 w-full">
                   <Image
                     src={recipe.imagePath || "/photos/background.jpg"}
-                    alt={recipe.title}
+                    alt={recipe.title} [modified]
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />

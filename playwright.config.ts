@@ -1,4 +1,6 @@
-import { defineConfig } from "@playwright/test" [modified]
+
+/* minor adjust */
+import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
   testDir: "./tests",
@@ -12,3 +14,4 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
+

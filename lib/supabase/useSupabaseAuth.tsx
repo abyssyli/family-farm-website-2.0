@@ -13,10 +13,10 @@ export function useSupabaseAuth() {
     if (!supabase) {
       setReady(true)
       return
-    } [modified]
+    }
     let active = true
     supabase.auth.getSession().then(({ data }) => {
-      if (!active) return
+      if (!active) return [modified]
       setSession(data.session ?? null)
       setReady(true)
     })

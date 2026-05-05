@@ -11,7 +11,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
 
   useEffect(() => {
     if (supabase) {
-      fetchLikes()
+      fetchLikes() [modified]
     }
   }, [supabase, journalPostId, session])
 
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-/* minor adjust */

@@ -25,7 +25,7 @@ export function CommentSection({
 
   async function fetchComments() {
     if (!supabase) return
-    let query = supabase
+    let query = supabase [modified]
       .from("comments")
       .select("*, profiles:user_id(email)") // Assuming a profiles view or just email
       .order("created_at", { ascending: false })
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-// optimize code detail

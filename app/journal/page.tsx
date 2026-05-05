@@ -20,7 +20,7 @@ export default async function JournalIndexPage() {
       />
     )
   }
- [modified]
+
   return (
     <div className="flex flex-col gap-8">
       <div>
@@ -39,3 +39,6 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+
+// optimize code detail

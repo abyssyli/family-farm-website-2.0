@@ -1,5 +1,5 @@
 
-/* minor adjust */
+/* daily modify record */
 "use client"
 
 import Link from "next/link"

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
@@ -22,7 +20,7 @@ export function ProductCard({
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
-          />
+          /> [modified]
         </div>
       ) : null}
       <div className="p-6">
@@ -62,4 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-

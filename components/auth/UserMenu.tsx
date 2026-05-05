@@ -9,7 +9,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
   const [open, setOpen] = useState(false)
-  const email = useMemo(() => session?.user.email ?? null, [session]) [modified]
+  const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
     if (!email) return "U"
     const trimmed = email.trim()
@@ -52,6 +52,6 @@ export function UserMenu() {
       >
         Sign out
       </Button>
-    </div>
+    </div> [modified]
   )
 }

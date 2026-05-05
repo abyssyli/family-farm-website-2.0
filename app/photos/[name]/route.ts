@@ -1,11 +1,9 @@
-
-// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
-  switch (ext.toLowerCase()) {
+  switch (ext.toLowerCase()) { [modified]
     case ".jpg":
     case ".jpeg":
       return "image/jpeg"
@@ -43,4 +41,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

@@ -34,4 +34,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   )
 }
 
-// optimize code detail
+// update log: auto edit 01

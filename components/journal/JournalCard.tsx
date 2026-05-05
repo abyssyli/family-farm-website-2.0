@@ -1,10 +1,12 @@
+
+# minor content update
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
 
 export function JournalCard({ post }: { post: CatalogJournalPost }) {
   return (
-    <Card className="p-6"> [modified]
+    <Card className="p-6">
       <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
@@ -21,3 +23,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
+

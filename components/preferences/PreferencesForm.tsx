@@ -81,7 +81,7 @@ export function PreferencesForm({
                       className="h-4 w-4 accent-farm-700"
                     />
                     <span className="font-medium">{c.name}</span>
-                  </label> [modified]
+                  </label>
                 )
               })}
             </div>
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// update log: auto edit 01

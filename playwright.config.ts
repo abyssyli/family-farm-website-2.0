@@ -14,4 +14,4 @@ export default defineConfig({
 })
 
 
-// update log: auto edit 01
+// optimize code detail

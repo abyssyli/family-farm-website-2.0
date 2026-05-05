@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -54,7 +56,7 @@ export default function RootLayout({
             </nav>
           </header>
           <main className="flex-1 pb-16">{children}</main>
-          <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600"> [modified]
+          <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>

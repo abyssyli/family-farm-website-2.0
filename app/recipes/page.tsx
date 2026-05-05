@@ -27,8 +27,8 @@ export default async function RecipesPage() {
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                 <div className="relative h-48 w-full">
                   <Image
-                    src={recipe.imagePath || "/photos/background.jpg"}
-                    alt={recipe.title} [modified]
+                    src={recipe.imagePath || "/photos/background.jpg"} [modified]
+                    alt={recipe.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />

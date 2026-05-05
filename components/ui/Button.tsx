@@ -1,4 +1,4 @@
-import Link from "next/link" [modified]
+import Link from "next/link"
 import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
@@ -59,3 +59,5 @@ export function ButtonLink({
     </Link>
   )
 }
+
+/* daily modify record */

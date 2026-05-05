@@ -36,7 +36,7 @@ export function BuyContactModal({
         .from("user_addresses")
         .select("*")
         .order("is_default", { ascending: false })
-        .then(({ data }) => {
+        .then(({ data }) => { [modified]
           if (data) {
             setAddresses(data)
             const defaultAddr = data.find((a) => a.is_default)
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-/* daily modify record */

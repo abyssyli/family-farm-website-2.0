@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+# minor content update
 "use client"
 
 import Image from "next/image"

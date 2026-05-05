@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -188,7 +190,7 @@ export function AddressManager() {
                   Cancel
                 </Button>
               </div>
-            </div> [modified]
+            </div>
           )}
 
           <div className="grid gap-4 sm:grid-cols-2">

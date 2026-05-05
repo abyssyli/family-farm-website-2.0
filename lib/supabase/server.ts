@@ -14,4 +14,6 @@ export function createServiceRoleSupabaseClient() {
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
- [modified]
+
+
+// task project adjust

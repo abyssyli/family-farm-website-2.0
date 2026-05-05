@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test" [modified]
+import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
@@ -24,6 +24,6 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")
   expect(href).toBe(
-    "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
+    "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR" [modified]
   )
 })

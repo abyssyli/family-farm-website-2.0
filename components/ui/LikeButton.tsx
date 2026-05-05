@@ -38,7 +38,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     }
   }
 
-  async function toggleLike() {
+  async function toggleLike() { [modified]
     if (!supabase || !session || isUpdating) return
     setIsUpdating(true)
 
@@ -86,5 +86,3 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
-
-/* minor adjust */

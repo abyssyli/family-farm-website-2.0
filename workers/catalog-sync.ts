@@ -76,7 +76,7 @@ async function runOnce() {
     const ms = Date.now() - startedAt
     await supabase.from("sync_runs").insert({
       status: "success",
-      source: sourceLabel,
+      source: sourceLabel, [modified]
       message: `Upserted ${products.length} products in ${ms}ms`
     })
   } catch (e) {
@@ -115,6 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-
-
-// optimize code detail

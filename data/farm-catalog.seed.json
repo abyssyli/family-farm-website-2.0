@@ -1,5 +1,3 @@
-
-/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -201,7 +199,7 @@
       "imagePath": "/photos/chicken2.jpg",
       "priceHint": "Text to arrange",
       "externalUrl": null,
-      "isActive": true
+      "isActive": true [modified]
     },
     {
       "id": "woodcraft-cutting-board",

@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -11,7 +13,7 @@ export default async function ProductCategoryPage({
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
-    redirect(skincareUrl) [modified]
+    redirect(skincareUrl)
   }
 
   const catalog = await getCatalog()

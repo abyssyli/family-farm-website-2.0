@@ -33,12 +33,12 @@ export function ButtonLink({
   href,
   children,
   variant = "primary",
-  className [modified]
+  className
 }: {
   href: string
   children: React.ReactNode
   variant?: Variant
-  className?: string
+  className?: string [modified]
 }) {
   const external = /^https?:\/\//i.test(href)
   if (external) {

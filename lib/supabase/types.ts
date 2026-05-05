@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// optimize code detail
 export type Json =
   | string
   | number

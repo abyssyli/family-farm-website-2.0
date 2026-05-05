@@ -214,7 +214,7 @@
     },
     {
       "id": "woodcraft-decor-sign",
-      "categorySlug": "woodcraft", [modified]
+      "categorySlug": "woodcraft",
       "slug": "farmhouse-sign",
       "name": "Farmhouse Decor Sign",
       "description": "Rustic wood signage for your kitchen, porch, or pantry. Custom text available.",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+/* daily modify record */

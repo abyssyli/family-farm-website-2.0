@@ -105,7 +105,7 @@ export function AddressManager() {
           {(isAdding || editingId) && (
             <div className="grid gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 sm:grid-cols-2">
               <label className="flex flex-col gap-1 text-sm font-medium">
-                Full Name [modified]
+                Full Name
                 <input
                   type="text"
                   value={formData.name}
@@ -237,3 +237,5 @@ export function AddressManager() {
     </Card>
   )
 }
+
+/* minor adjust */

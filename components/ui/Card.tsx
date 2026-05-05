@@ -8,7 +8,7 @@ export function Card({
 }: {
   children: React.ReactNode
   className?: string
-}) {
+}) { [modified]
   return (
     <div
       className={cn(
@@ -28,7 +28,7 @@ export function CardHeader({
   title: string
   subtitle?: string | null
 }) {
-  return ( [modified]
+  return (
     <div className="px-6 pt-6">
       <h3 className="text-base font-semibold">{title}</h3>
       {subtitle ? <p className="mt-1 text-sm text-zinc-600">{subtitle}</p> : null}

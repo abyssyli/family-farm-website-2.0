@@ -97,7 +97,7 @@ export function SundayRSVP() {
                   type="number"
                   min={0}
                   max={20}
-                  value={childCount} [modified]
+                  value={childCount}
                   onChange={(e) => setChildCount(parseInt(e.target.value) || 0)}
                   className="rounded-xl border border-zinc-200 px-3 py-2 outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
                 />
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+// update log: auto edit 01

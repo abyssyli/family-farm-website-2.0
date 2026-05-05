@@ -83,7 +83,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-        <div>
+        <div> [modified]
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Products
           </h1>
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-// optimize code detail

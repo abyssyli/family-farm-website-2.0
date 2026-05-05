@@ -1,3 +1,5 @@
+
+// task project adjust
 {
   "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
@@ -7,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "start:web": "next start",
-    "start:worker": "npm run worker:sync", [modified]
+    "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "playwright test",

@@ -1,8 +1,6 @@
-
-/* daily modify record */
 "use client"
 
-import Image from "next/image"
+import Image from "next/image" [modified]
 import { useMemo, useState } from "react"
 import { FarmRegionCard } from "./FarmRegionCard"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"

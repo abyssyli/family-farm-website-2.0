@@ -1,10 +1,12 @@
+
+// update log: auto edit 01
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import { getPublicEnv } from "@/lib/env"
-import type { Database } from "@/lib/supabase/types" [modified]
+import type { Database } from "@/lib/supabase/types"
 
 type Address = Database["public"]["Tables"]["user_addresses"]["Row"]
 

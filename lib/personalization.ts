@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined

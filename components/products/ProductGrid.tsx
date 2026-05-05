@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 

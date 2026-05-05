@@ -3,7 +3,7 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 
 export default async function RecipeDetailPage({
   params
@@ -20,7 +20,7 @@ export default async function RecipeDetailPage({
         <p className="text-sm font-medium text-farm-800">
           <Link href="/recipes" className="hover:underline">
             Farm Recipes
-          </Link> [modified]
+          </Link>
         </p>
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {recipe.title}

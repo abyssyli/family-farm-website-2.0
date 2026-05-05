@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -15,7 +13,7 @@ export function EmptyState({
     <Card>
       <CardBody>
         <div className="flex flex-col gap-3">
-          <div>
+          <div> [modified]
             <h2 className="text-lg font-semibold">{title}</h2>
             <p className="mt-1 text-sm text-zinc-600">{message}</p>
           </div>
@@ -25,4 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-

@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -25,7 +27,7 @@ export function CommentSection({
 
   async function fetchComments() {
     if (!supabase) return
-    let query = supabase [modified]
+    let query = supabase
       .from("comments")
       .select("*, profiles:user_id(email)") // Assuming a profiles view or just email
       .order("created_at", { ascending: false })

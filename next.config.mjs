@@ -1,5 +1,5 @@
 
-// task project adjust
+# minor content update
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {

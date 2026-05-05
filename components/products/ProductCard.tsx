@@ -13,14 +13,14 @@ export function ProductCard({
   return (
     <Card className="overflow-hidden">
       {product.imagePath ? (
-        <div className="relative h-48 w-full">
+        <div className="relative h-48 w-full"> [modified]
           <Image
             src={product.imagePath}
             alt={product.name}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
-          /> [modified]
+          />
         </div>
       ) : null}
       <div className="p-6">

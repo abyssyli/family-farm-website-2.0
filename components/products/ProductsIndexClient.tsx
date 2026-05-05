@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import Link from "next/link"
@@ -126,7 +124,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                   >
                     Browse {category.name} →
                   </a>
-                ) : (
+                ) : ( [modified]
                   <Link
                     href={`/products/${slug}`}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"

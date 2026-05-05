@@ -76,7 +76,7 @@ export function PreferencesForm({
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)
-                        )
+                        ) [modified]
                       }}
                       className="h-4 w-4 accent-farm-700"
                     />
@@ -108,6 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-
-// update log: auto edit 01

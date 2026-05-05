@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -95,7 +93,7 @@ export function SundayRSVP() {
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium">
                 Children
-                <input
+                <input [modified]
                   type="number"
                   min={0}
                   max={20}

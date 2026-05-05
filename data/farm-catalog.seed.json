@@ -1,3 +1,5 @@
+
+# minor content update
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -99,7 +101,7 @@
       "imagePath": "/photos/eat14.jpg",
       "imagePaths": ["/photos/eat14.jpg", "/photos/eat15.jpg"],
       "priceHint": "Sunday Gathering · Pre-order available",
-      "isActive": true [modified]
+      "isActive": true
     },
     {
       "id": "food-spam-fried-rice",

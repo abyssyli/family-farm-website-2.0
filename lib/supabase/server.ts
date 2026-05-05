@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js"
-import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared" [modified]
+import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
@@ -14,3 +14,6 @@ export function createServiceRoleSupabaseClient() {
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
+
+
+// task project adjust

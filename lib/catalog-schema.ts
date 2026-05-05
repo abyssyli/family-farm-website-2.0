@@ -29,7 +29,7 @@ export const JournalPostSchema = z.object({
   publishedAt: z.string().datetime().nullable().optional().default(null)
 })
 
-export const FarmRegionSchema = z.object({ [modified]
+export const FarmRegionSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   title: z.string().min(1),
@@ -65,3 +65,6 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
+
+
+/* minor adjust */

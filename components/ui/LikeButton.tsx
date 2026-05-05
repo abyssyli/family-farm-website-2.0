@@ -11,7 +11,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
 
   useEffect(() => {
     if (supabase) {
-      fetchLikes() [modified]
+      fetchLikes()
     }
   }, [supabase, journalPostId, session])
 
@@ -29,7 +29,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     // Check if user liked
     if (session) {
       const { data } = await supabase
-        .from("likes")
+        .from("likes") [modified]
         .select("id")
         .eq("journal_post_id", journalPostId)
         .eq("user_id", session.user.id)

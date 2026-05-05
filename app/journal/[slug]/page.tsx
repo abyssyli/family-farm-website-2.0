@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -43,7 +45,7 @@ export default async function JournalPostPage({
           </div>
         </CardBody>
       </Card>
- [modified]
+
       <CommentSection journalPostId={post.id} />
 
       <div>
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

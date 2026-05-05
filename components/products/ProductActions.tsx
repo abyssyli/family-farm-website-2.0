@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useState } from "react"
@@ -10,7 +8,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
   product,
-  categorySlug
+  categorySlug [modified]
 }: {
   product: CatalogProduct
   categorySlug: string

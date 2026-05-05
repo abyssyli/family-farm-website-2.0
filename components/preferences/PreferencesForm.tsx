@@ -18,7 +18,7 @@ export function PreferencesForm({
   useEffect(() => {
     if (!supabase) return
     supabase.auth.getUser().then(async ({ data }) => {
-      const id = data.user?.id ?? null [modified]
+      const id = data.user?.id ?? null
       setUserId(id)
       if (!id) return
       const { data: pref } = await supabase
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+# minor content update

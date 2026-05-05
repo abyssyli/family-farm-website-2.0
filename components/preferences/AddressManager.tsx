@@ -7,7 +7,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 
 type Address = Database["public"]["Tables"]["user_addresses"]["Row"]
-
+ [modified]
 export function AddressManager() {
   const { supabase, session } = useSupabaseAuth()
   const [addresses, setAddresses] = useState<Address[]>([])
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// optimize code detail

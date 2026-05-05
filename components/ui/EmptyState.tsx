@@ -12,7 +12,7 @@ export function EmptyState({
   return (
     <Card>
       <CardBody>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3"> [modified]
           <div>
             <h2 className="text-lg font-semibold">{title}</h2>
             <p className="mt-1 text-sm text-zinc-600">{message}</p>
@@ -23,4 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
- [modified]

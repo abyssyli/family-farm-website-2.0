@@ -12,6 +12,4 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-
-
-/* daily modify record */
+ [modified]

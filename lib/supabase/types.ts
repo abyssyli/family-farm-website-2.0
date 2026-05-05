@@ -119,7 +119,7 @@ export type Database = {
           cta_label?: string | null
           cta_href?: string | null
           x?: number
-          y?: number [modified]
+          y?: number
         }
         Relationships: []
       }
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+# minor content update

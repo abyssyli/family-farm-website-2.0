@@ -43,4 +43,4 @@ export async function GET(
 }
 
 
-# minor content update
+// optimize code detail

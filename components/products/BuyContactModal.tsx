@@ -138,7 +138,7 @@ export function BuyContactModal({
           </p>
         )}
 
-        <label className="text-sm font-medium">
+        <label className="text-sm font-medium"> [modified]
           Message
           <textarea
             value={message}
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-# minor content update

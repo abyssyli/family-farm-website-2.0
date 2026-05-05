@@ -9,4 +9,4 @@ export function createBrowserSupabaseClient() {
 }
 
 
-/* daily modify record */
+// optimize code detail

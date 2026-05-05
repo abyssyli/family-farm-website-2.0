@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -47,7 +45,7 @@ export default async function JournalPostPage({
       </Card>
 
       <CommentSection journalPostId={post.id} />
-
+ [modified]
       <div>
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal
@@ -56,4 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-

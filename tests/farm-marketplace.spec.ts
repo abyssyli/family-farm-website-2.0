@@ -1,5 +1,5 @@
 
-// task project adjust
+/* minor adjust */
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {

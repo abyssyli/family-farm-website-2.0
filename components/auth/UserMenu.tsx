@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useMemo, useState } from "react"
@@ -22,7 +24,7 @@ export function UserMenu() {
   if (!session) {
     return (
       <>
-        <Button variant="secondary" onClick={() => setOpen(true)}> [modified]
+        <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>

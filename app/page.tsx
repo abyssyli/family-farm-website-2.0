@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -56,7 +54,7 @@ export default async function HomePage() {
                 ) : (
                   <Link
                     href={`/products/${c.slug}`}
-                    className="text-sm font-medium text-farm-800 hover:text-farm-900"
+                    className="text-sm font-medium text-farm-800 hover:text-farm-900" [modified]
                   >
                     Browse {c.name} →
                   </Link>

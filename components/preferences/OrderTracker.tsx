@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth" [modified]
+import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
 
@@ -55,7 +55,7 @@ export function OrderTracker() {
         <div className="flex flex-col gap-4">
           {inquiries.length === 0 ? (
             <p className="text-sm text-zinc-500 italic">No inquiries found yet.</p>
-          ) : (
+          ) : ( [modified]
             <div className="overflow-hidden rounded-2xl border border-zinc-200">
               <table className="w-full text-left text-sm">
                 <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500">

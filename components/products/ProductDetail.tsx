@@ -160,4 +160,4 @@ export function ProductDetail({
 
 
 
-/* minor adjust */
+// update log: auto edit 01

@@ -34,4 +34,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   )
 }
 
-/* daily modify record */
+// update log: auto edit 01

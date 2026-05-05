@@ -60,8 +60,10 @@ export default function RootLayout({
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
             </div>
           </footer>
-        </div> [modified]
+        </div>
       </body>
     </html>
   )
 }
+
+/* daily modify record */

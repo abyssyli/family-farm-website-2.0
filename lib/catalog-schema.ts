@@ -51,7 +51,7 @@ export const RecipeSchema = z.object({
   imagePath: z.string().nullable().optional().default(null)
 })
 
-export const CatalogSchema = z.object({
+export const CatalogSchema = z.object({ [modified]
   categories: z.array(CategorySchema),
   products: z.array(ProductSchema),
   journalPosts: z.array(JournalPostSchema).default([]),
@@ -63,5 +63,5 @@ export type Catalog = z.infer<typeof CatalogSchema>
 export type CatalogCategory = z.infer<typeof CategorySchema>
 export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
-export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema> [modified]
+export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>

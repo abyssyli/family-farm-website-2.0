@@ -1,6 +1,8 @@
+
+// update log: auto edit 01
 import { test, expect } from "@playwright/test"
 
-test("homepage renders and navigation works", async ({ page }) => { [modified]
+test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 

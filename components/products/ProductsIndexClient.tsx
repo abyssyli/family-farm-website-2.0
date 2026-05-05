@@ -38,7 +38,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   useEffect(() => {
     if (!supabase) return
     const channel = supabase
-      .channel("catalog-changes") [modified]
+      .channel("catalog-changes")
       .on(
         "postgres_changes",
         { event: "*", schema: "public", table: "products" },
@@ -140,3 +140,5 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
+
+/* minor adjust */

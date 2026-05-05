@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
-import type { CatalogProduct } from "@/lib/catalog-schema" [modified]
+import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductCard({
   product,
@@ -60,3 +60,6 @@ export function ProductCard({
     </Card>
   )
 }
+
+
+/* minor adjust */

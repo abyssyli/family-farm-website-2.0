@@ -46,7 +46,7 @@ export type Database = {
         }
         Update: {
           category_slug?: string
-          slug?: string [modified]
+          slug?: string
           name?: string
           description?: string | null
           image_path?: string | null
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+/* minor adjust */

@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -58,7 +56,7 @@ export function PreferencesForm({
         ) : !userId ? (
           <p className="text-sm text-zinc-700">
             Sign in to save preferences to your account.
-          </p>
+          </p> [modified]
         ) : (
           <div className="flex flex-col gap-4">
             <div className="grid gap-3 sm:grid-cols-2">
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

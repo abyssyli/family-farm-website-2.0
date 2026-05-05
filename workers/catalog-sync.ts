@@ -39,7 +39,7 @@ async function runOnce() {
     id: j.id,
     slug: j.slug,
     title: j.title,
-    excerpt: j.excerpt,
+    excerpt: j.excerpt, [modified]
     body: j.body,
     published_at: j.publishedAt,
     updated_at: new Date().toISOString()
@@ -87,7 +87,7 @@ async function runOnce() {
       message
     })
     throw e
-  } [modified]
+  }
 }
 
 async function main() {

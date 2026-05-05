@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -14,7 +12,7 @@ export default async function ProductCategoryPage({
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
-  }
+  } [modified]
 
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)

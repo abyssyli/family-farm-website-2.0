@@ -1,3 +1,5 @@
+
+// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -189,7 +191,7 @@ export function AddressManager() {
                 </Button>
               </div>
             </div>
-          )} [modified]
+          )}
 
           <div className="grid gap-4 sm:grid-cols-2">
             {addresses.map((address) => (

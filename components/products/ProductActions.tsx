@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -24,7 +26,7 @@ export function ProductActions({
       </ButtonLink>
     )
   }
- [modified]
+
   return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>

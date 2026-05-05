@@ -53,4 +53,4 @@ export default async function RecipesPage() {
   )
 }
 
-// task project adjust
+// optimize code detail

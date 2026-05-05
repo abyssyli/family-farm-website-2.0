@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import { forwardRef } from "react"
 
@@ -49,7 +51,7 @@ export function ButtonLink({
         rel="noreferrer noopener"
         className={cn(base, variants[variant], className)}
       >
-        {children} [modified]
+        {children}
       </a>
     )
   }

@@ -5,7 +5,7 @@
       "DOM",
       "DOM.Iterable",
       "ES2022"
-    ], [modified]
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "strict": true,
@@ -39,3 +39,5 @@
     "node_modules"
   ]
 }
+
+// optimize code detail

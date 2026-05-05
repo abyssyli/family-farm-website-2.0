@@ -99,7 +99,7 @@ export function StoryHero() {
             </button>
             <button
               type="button"
-              onClick={goNext} [modified]
+              onClick={goNext}
               aria-label="Next slide"
               className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-zinc-950/45 text-white backdrop-blur transition hover:bg-zinc-950/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
@@ -121,7 +121,7 @@ export function StoryHero() {
         <div className="mt-6 flex flex-wrap gap-3">
           <ButtonLink href="/products">Browse products</ButtonLink>
           <ButtonLink href="/products/eggs" variant="secondary">
-            See today’s eggs
+            See today’s eggs [modified]
           </ButtonLink>
         </div>
       </div>

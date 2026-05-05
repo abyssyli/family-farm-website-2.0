@@ -12,7 +12,7 @@ async function runOnce() {
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
     )
   }
- [modified]
+
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 
   const categories = catalog.categories.map((c) => ({
@@ -94,7 +94,7 @@ async function main() {
   const once = process.env.SYNC_ONCE?.trim() === "1"
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
-  if (once) {
+  if (once) { [modified]
     await runOnce()
     return
   }

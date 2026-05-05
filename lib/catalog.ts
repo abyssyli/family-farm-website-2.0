@@ -23,7 +23,7 @@ export async function getCatalog(): Promise<Catalog> {
   if (
     categoriesRes.error ||
     productsRes.error ||
-    journalRes.error ||
+    journalRes.error || [modified]
     regionsRes.error ||
     recipesRes.error
   ) {
@@ -184,5 +184,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-
-# minor content update

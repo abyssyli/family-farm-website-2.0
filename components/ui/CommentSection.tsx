@@ -19,7 +19,7 @@ export function CommentSection({
 
   useEffect(() => {
     if (supabase) {
-      fetchComments() [modified]
+      fetchComments()
     }
   }, [supabase, productId, journalPostId])
 
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+/* daily modify record */

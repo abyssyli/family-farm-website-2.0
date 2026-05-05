@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useEffect, useState } from "react"
@@ -57,7 +59,7 @@ export function SundayRSVP() {
       .from("sunday_rsvps")
       .upsert(rsvpData, { onConflict: "user_id,event_date" })
 
-    if (!error) { [modified]
+    if (!error) {
       setStatus("saved")
       fetchRSVP()
       setTimeout(() => setStatus("idle"), 3000)

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -92,7 +94,7 @@ export function PreferencesForm({
                 disabled={status === "saving"}
               >
                 {status === "saved"
-                  ? "Saved" [modified]
+                  ? "Saved"
                   : status === "saving"
                     ? "Saving…"
                     : "Save preferences"}
@@ -108,3 +110,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect } from "react"
@@ -8,7 +10,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 
 export function Modal({
   open,
-  title, [modified]
+  title,
   children,
   onClose,
   className
@@ -61,3 +63,4 @@ export function Modal({
     </div>
   )
 }
+

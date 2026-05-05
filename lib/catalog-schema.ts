@@ -25,7 +25,7 @@ export const JournalPostSchema = z.object({
   slug: z.string().min(1),
   title: z.string().min(1),
   excerpt: z.string().nullable().optional().default(null),
-  body: z.string().min(1), [modified]
+  body: z.string().min(1),
   publishedAt: z.string().datetime().nullable().optional().default(null)
 })
 
@@ -34,7 +34,7 @@ export const FarmRegionSchema = z.object({
   slug: z.string().min(1),
   title: z.string().min(1),
   description: z.string().nullable().optional().default(null),
-  imagePath: z.string().nullable().optional().default(null),
+  imagePath: z.string().nullable().optional().default(null), [modified]
   ctaLabel: z.string().nullable().optional().default(null),
   ctaHref: z.string().nullable().optional().default(null),
   x: z.number().min(0).max(100),

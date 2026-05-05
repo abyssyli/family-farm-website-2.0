@@ -47,7 +47,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
       <label className="text-sm font-medium">
-        Email
+        Email [modified]
         <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -80,5 +80,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-/* minor adjust */

@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-/* minor adjust */

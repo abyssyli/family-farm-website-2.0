@@ -9,7 +9,7 @@ const config: Config = {
     extend: {
       colors: {
         farm: {
-          50: "#f7f7f2",
+          50: "#f7f7f2", [modified]
           100: "#eef0e3",
           200: "#d9dfbe",
           300: "#b9c98c",
@@ -23,7 +23,7 @@ const config: Config = {
       }
     }
   },
-  plugins: [] [modified]
+  plugins: []
 }
 
 export default config

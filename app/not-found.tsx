@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
@@ -13,3 +11,5 @@ export default function NotFound() {
   )
 }
 
+
+# minor content update

@@ -5,7 +5,7 @@ import { ButtonLink } from "@/components/ui/Button"
 import { LikeButton } from "@/components/ui/LikeButton"
 import { CommentSection } from "@/components/ui/CommentSection"
 import { getCatalog } from "@/lib/catalog"
- [modified]
+
 export default async function JournalPostPage({
   params
 }: {
@@ -51,6 +51,6 @@ export default async function JournalPostPage({
           ← Back to journal
         </ButtonLink>
       </div>
-    </div>
+    </div> [modified]
   )
 }

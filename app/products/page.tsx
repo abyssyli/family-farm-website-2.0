@@ -1,10 +1,7 @@
-
-// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 
 export default async function ProductsPage() {
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   return <ProductsIndexClient catalog={catalog} />
 }
-

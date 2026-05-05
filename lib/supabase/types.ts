@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -321,7 +323,7 @@ export type Database = {
           created_at?: string
         }
         Update: {
-          title?: string [modified]
+          title?: string
           slug?: string
           description?: string | null
           ingredients?: string[]

@@ -26,7 +26,7 @@ export function CardHeader({
   subtitle
 }: {
   title: string
-  subtitle?: string | null
+  subtitle?: string | null [modified]
 }) {
   return (
     <div className="px-6 pt-6">
@@ -39,6 +39,3 @@ export function CardHeader({
 export function CardBody({ children }: { children: React.ReactNode }) {
   return <div className="px-6 pb-6 pt-4">{children}</div>
 }
-
-
-/* minor adjust */

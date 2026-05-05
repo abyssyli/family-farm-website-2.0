@@ -1,3 +1,5 @@
+
+/* minor adjust */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -220,7 +222,7 @@
       "description": "Rustic wood signage for your kitchen, porch, or pantry. Custom text available.",
       "imagePath": "/photos/Wooden2.jpg",
       "priceHint": "Custom quotes via text",
-      "externalUrl": null, [modified]
+      "externalUrl": null,
       "isActive": true
     },
     {

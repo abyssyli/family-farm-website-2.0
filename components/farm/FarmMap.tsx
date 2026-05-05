@@ -91,6 +91,4 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
       </div>
     </section>
   )
-}
-
-// optimize code detail
+} [modified]
